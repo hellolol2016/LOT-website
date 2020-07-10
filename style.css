@@ -94,13 +94,25 @@ body::-webkit-scrollbar {
     height:100vh;
     background-color:#f0f5fc;
 }
+
+#whitebody p{
+    font-family: Calibri;
+    font-size:18px;
+}
+
 #whitebody .intro{
     background-color:#55BBC6;
     height:190px;
 }
 
-#whitebody p{
-    font-family: Calibri;
+#whitebody .intro h2{
+    font-family:Bahnschrift;
+    color:white;
+    text-align: center;
+    padding:20px 0;
+}
+
+#whitebody .intro p{
     text-align: center;
     position: absolute;
     left:50%;
@@ -113,18 +125,11 @@ body::-webkit-scrollbar {
     width:80%;
 }
 
-#whitebody h2{
-    font-family:Bahnschrift;
-    color:white;
-    text-align: center;
-    padding:20px 0;
-}
-
 #whitebody .events h2{
+    padding-top:80px;
+    padding-bottom:40px;
     color:#3d4b52;
     text-align:center;
-    position:relative;
-    top:3%;
     font-family:Calibri;
     font-weight:bold;
     font-size:60px;
