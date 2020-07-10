@@ -99,10 +99,6 @@ body::-webkit-scrollbar {
     height:190px;
 }
 
-#whitebody h2{
-    font-family:Bahnschrift;
-}
-
 #whitebody p{
     font-family: Calibri;
     text-align: center;
@@ -118,6 +114,7 @@ body::-webkit-scrollbar {
 }
 
 #whitebody h2{
+    font-family:Bahnschrift;
     color:white;
     text-align: center;
     padding:20px 0;
@@ -125,9 +122,8 @@ body::-webkit-scrollbar {
 
 #whitebody #events h2{
     color:black;
-    text-align:left;
+    text-align:center;
     position:relative;
-    left:200px;
     top:8px;
     font-family:Calibri;
     font-weight:bold;
