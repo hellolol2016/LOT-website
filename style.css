@@ -163,3 +163,7 @@ body::-webkit-scrollbar {
     padding:20px;
     color:#ffffff;
 }
+
+#whitebody .events .line{
+    background-color:#55BBC6;
+}
