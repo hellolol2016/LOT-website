@@ -96,7 +96,7 @@ body::-webkit-scrollbar {
 }
 #whitebody .intro{
     background-color:#55BBC6;
-    height:190px;
+    height:250px;
 }
 
 #whitebody p{
@@ -114,10 +114,12 @@ body::-webkit-scrollbar {
 }
 
 #whitebody h2{
+    font-size:50px;
     font-family:Bahnschrift;
     color:white;
     text-align: center;
     padding:20px 0;
+    font-weight: 300;
 }
 
 #whitebody .events h2{
@@ -126,30 +128,41 @@ body::-webkit-scrollbar {
     position:relative;
     top:3%;
     font-family:Calibri;
-    font-weight:bold;
+    font-weight:300;
     font-size:60px;
+    padding:20px;
 }
 
 #whitebody .events .row{
     height:500px;
-    width:95%;
+    width:100%;
     position: absolute;
-    left:50%;
-    transform: translate(-50%,0);
-    background-color:lightcoral;
+    
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(media/CrescentBayLaguna.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
 }
+
 #whitebody .events .row .one-of-three{
     width:33.33%;
     float:left;
     height:500px;
     position: relative;
     text-align: center;
+    
+    
+    
 }
 #whitebody .events .row .one-of-three h1{
+    
     font-size:30px;
     padding-top:20px;
     color:#e1f2fa;
 }
 #whitebody .events .row .one-of-three p{
+    
     color:#3d4b52;
 }
