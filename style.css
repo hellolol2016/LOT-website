@@ -120,12 +120,36 @@ body::-webkit-scrollbar {
     padding:20px 0;
 }
 
-#whitebody #events h2{
-    color:black;
+#whitebody .events h2{
+    color:#3d4b52;
     text-align:center;
     position:relative;
     top:3%;
     font-family:Calibri;
     font-weight:bold;
     font-size:60px;
+}
+
+#whitebody .events .row{
+    height:500px;
+    width:95%;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,0);
+    background-color:lightcoral;
+}
+#whitebody .events .row .one-of-three{
+    width:33.33%;
+    float:left;
+    height:500px;
+    position: relative;
+    text-align: center;
+}
+#whitebody .events .row .one-of-three h1{
+    font-size:30px;
+    padding-top:20px;
+    color:#e1f2fa;
+}
+#whitebody .events .row .one-of-three p{
+    color:#3d4b52;
 }
