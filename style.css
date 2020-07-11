@@ -14,36 +14,6 @@ a:hover{
     background-color:dimgrey;
 }
 
-footer{
-    background-color:darkgrey;           
-    margin-bottom:0;
-    height:150px;
-    
-}
-footer img{
-    width:40px;
-    padding:0 5px;
-}
-footer a:hover{
-    background-color:transparent;
-}
-footer p{
-    margin:0;
-    padding-top:10px;
-    padding-bottom:0;
-}
-
-footer h3{
-    margin-top:0;
-    padding-top:20px;
-    margin-right:10px;
-    margin-bottom:10px;
-}
-
-footer .textMargin{
-    margin-left:25px;
-}
-
 body::-webkit-scrollbar {
   display: none;
 }
@@ -174,4 +144,56 @@ header .navdock .catchphrase{
 #whitebody .events .row .one-of-three p{
     padding:20px;
     color:#ffffff;
+}
+
+
+/*---FOOTER---*/
+footer{
+    background-color:#e4e4e4;           
+    margin-bottom:0;
+    height:150px;
+    
+}
+footer img{
+    width:40px;
+    padding:0 5px;
+}
+footer a:hover{
+    background-color:transparent;
+}
+footer p{
+    margin:0;
+    padding-top:10px;
+    padding-bottom:0;
+}
+
+footer h3{
+    color:#3d4b52;
+    margin-top:0;
+    padding-top:20px;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+
+footer .textMargin{
+    margin-left:25px;
+}
+
+footer a{
+    font-size:20px;
+    color:#3d4b52;
+}
+
+footer .mediaIcons .rectangleIcons{
+    width:1.5%;
+}
+
+footer .mediaIcons .squareIcons{
+    width:1%;
+}
+
+footer .copyright{
+    font-size:12;
+    color:#3d4b52;
+    text-align:center;
 }
