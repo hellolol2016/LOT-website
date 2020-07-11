@@ -18,7 +18,9 @@ a:hover{
     height:1000px;
 }
 #footer{
-    height:100px;
+    
+    
+    
     background-color:darkgrey;           
     margin-bottom:0;
     height:130px;
@@ -50,9 +52,19 @@ body::-webkit-scrollbar {
     background-color:aliceblue;
     position: absolute;
     left:50%;
+    margin-bottom:30px;
     transform: translate(-50%,-200%);
 }
-
+.miniheader{
+    padding:40px;
+    padding-top:120px;
+    color:#3d4b52;
+    text-align:center;
+    font-family:Bahnschrift;
+    font-weight:bold;
+    font-size:60px;
+    padding-bottom:60px;
+}
 
 /*---INDEX PAGE HEADER---*/
 #header{
@@ -94,25 +106,23 @@ body::-webkit-scrollbar {
 
 /*---WHITEBODY---*/
 #whitebody{
-    height:100vh;
+    height:200vh;
     background-color:#f0f5fc;
 }
 
 #whitebody p{
     font-family: Calibri;
     font-size:18px;
+    display:block;
 }
 
 #whitebody .intro{
     background-color:#55BBC6;
-    height:180px;
+    height:500px;
 }
 
-#whitebody .intro h2{
-    font-family:Bahnschrift;
-    color:white;
-    text-align: center;
-    padding:20px 0;
+#whitebody .intro .miniheader{
+    color:lightcyan;
 }
 
 #whitebody .intro p{
@@ -123,19 +133,16 @@ body::-webkit-scrollbar {
     color:#C5FCF8;
     font-size:20px;
     line-height:1.4;
-    padding-bottom:20px;
-    padding-top:10px;
+    padding-bottom:60px;
+    padding-top:40px;
     width:80%;
 }
 
-#whitebody .events h2{
-    padding:40px;
-    padding-top:120px;
-    color:#3d4b52;
-    text-align:center;
-    font-family:Bahnschrift;
-    font-weight:bold;
-    font-size:60px;
+
+
+
+#whitebody .events .miniheader{
+    margin-bottom:60px;
 }
 
 #whitebody .events .row{
@@ -151,9 +158,9 @@ body::-webkit-scrollbar {
 }
 
 #whitebody .events .row .one-of-three{
-    float:left;
-    width:33.33333%;
+    width:33.33%;
     height:500px;
+    float:left;
     position: relative;
     text-align: center;
 }
