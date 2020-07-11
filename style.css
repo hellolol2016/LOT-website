@@ -60,6 +60,9 @@ body::-webkit-scrollbar {
     height:100vh;
     background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(media/CrescentBayLaguna.jpg);
     background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
 }
 #header .navdock .logo {
     width:30%;
@@ -149,8 +152,8 @@ body::-webkit-scrollbar {
 
 #whitebody .events .row .one-of-three{
     width:33.33%;
-    float:left;
     height:500px;
+    float:left;
     position: relative;
     text-align: center;
 }
