@@ -143,21 +143,14 @@ body::-webkit-scrollbar {
 }
 
 #whitebody .events .row{
-    height:500px;
-    width:100%;
-    position: absolute;
     
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(media/CrescentBayLaguna.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
 }
 
 #whitebody .events .row .one-of-three{
-    width:33.33%;
-    height:500px;
     float:left;
+    border:5px solid #55BBC6;
+    width:calc(33.33333%);
+    height:500px;
     position: relative;
     text-align: center;
 }
