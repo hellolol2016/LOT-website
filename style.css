@@ -14,31 +14,25 @@ a:hover{
     background-color:dimgrey;
 }
 
-.spreader1{
-    height:1000px;
-}
-#footer{
-    
-    
-    
+footer{
     background-color:darkgrey;           
     margin-bottom:0;
     height:130px;
 }
-#footer p{
+footer p{
     margin:0;
     padding-top:20px;
     padding-bottom:0;
 }
 
-#footer h3{
+footer h3{
     margin-top:0;
     padding-top:20px;
     margin-right:10px;
     margin-bottom:10px;
 }
 
-#footer .textMargin{
+footer .textMargin{
     margin-left:25px;
 }
 
@@ -67,7 +61,7 @@ body::-webkit-scrollbar {
 }
 
 /*---INDEX PAGE HEADER---*/
-#header{
+header{
     background-color:darkgray;
     height:100vh;
     background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(media/CrescentBayLaguna.jpg);
@@ -76,7 +70,7 @@ body::-webkit-scrollbar {
     background-position:center;
     background-repeat:no-repeat;
 }
-#header .navdock .logo {
+header .navdock .logo {
     width:30%;
     margin-top:20px;
     margin-left:10px;
@@ -84,18 +78,18 @@ body::-webkit-scrollbar {
     left:0;
     top:0;
 }
-#header .navdock .navbar{
+header .navdock .navbar{
     position: absolute;
     top:100%;
     right:3%;
     transform: translate(0,-40px);
 }
-#header .navdock .navbar .navlink{
+header .navdock .navbar .navlink{
     font-size: 18px;
     font-family: Bahnschrift;
     margin-right:30px;
 }
-#header .navdock .catchphrase{
+header .navdock .catchphrase{
     font-family: Bahnschrift;
     position: absolute;
     left:50%;
@@ -130,9 +124,9 @@ body::-webkit-scrollbar {
     position: absolute;
     left:50%;
     transform: translate(-50%,0);
-    color:#C5FCF8;
-    font-size:20px;
-    line-height:1.4;
+    color:#d6fffc;
+    font-size:25px;
+    line-height:1.5;
     padding-bottom:60px;
     padding-top:40px;
     width:80%;
