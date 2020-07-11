@@ -52,7 +52,16 @@ body::-webkit-scrollbar {
     left:50%;
     transform: translate(-50%,-200%);
 }
-
+.miniheader{
+    padding:40px;
+    padding-top:120px;
+    color:#3d4b52;
+    text-align:center;
+    font-family:Bahnschrift;
+    font-weight:bold;
+    font-size:60px;
+    padding-bottom:120px;
+}
 
 /*---INDEX PAGE HEADER---*/
 #header{
@@ -105,7 +114,7 @@ body::-webkit-scrollbar {
 
 #whitebody .intro{
     background-color:#55BBC6;
-    height:180px;
+    height:300px;
 }
 
 #whitebody .intro h2{
@@ -113,6 +122,7 @@ body::-webkit-scrollbar {
     color:white;
     text-align: center;
     padding:20px 0;
+    font-size:60px;
 }
 
 #whitebody .intro p{
@@ -123,19 +133,13 @@ body::-webkit-scrollbar {
     color:#C5FCF8;
     font-size:20px;
     line-height:1.4;
-    padding-bottom:20px;
+    padding-bottom:60px;
     padding-top:10px;
     width:80%;
 }
 
 #whitebody .events h2{
-    padding:40px;
-    padding-top:120px;
-    color:#3d4b52;
-    text-align:center;
-    font-family:Bahnschrift;
-    font-weight:bold;
-    font-size:60px;
+    
 }
 
 #whitebody .events .row{
