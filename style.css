@@ -30,15 +30,17 @@ body::-webkit-scrollbar {
 .miniheader{
     padding:40px;
     padding-top:120px;
+    padding-bottom:60px;
     color:#3d4b52;
     text-align:center;
     font-family:Bahnschrift;
     font-weight:bold;
     font-size:60px;
-    padding-bottom:60px;
 }
 
-/*---INDEX PAGE HEADER---*/
+
+
+/*---HEADER---*/
 header{
     background-color:darkgray;
     height:100vh;
@@ -76,7 +78,9 @@ header .navdock .catchphrase{
     text-align: center;
 }
 
-/*---WHITEBODY---*/
+
+
+/*---INDEX BODY---*/
 #indexBody{
     height:200vh;
     background-color:#f0f5fc;
@@ -109,7 +113,6 @@ p{
     padding-top:40px;
     width:80%;
 }
-
 
 
 
@@ -148,20 +151,31 @@ p{
     color:#ffffff;
 }
 
+
+
+/*---ABOUT US BODY---*/
 #aboutusBody{
     height:100vh;
     background-color:#f0f5fc;
 }
 
+
+
+/*---DONATE BODY---*/
 #donateBody{
-    height:50vh;
+    height:40vh;
     background-color:#f0f5fc;
 }
 
+
+
+/*---GET INVOLVED BODY---*/
 #getinvolvedBody{
     height:100vh;
     background-color:#f0f5fc;
 }
+
+
 
 /*---FOOTER---*/
 footer{
