@@ -77,27 +77,27 @@ header .navdock .catchphrase{
 }
 
 /*---WHITEBODY---*/
-#whitebody{
+#indexBody{
     height:200vh;
     background-color:#f0f5fc;
 }
 
-#whitebody p{
+p{
     font-family: Calibri;
     font-size:18px;
     display:block;
 }
 
-#whitebody .intro{
+#indexBody .intro{
     background-color:#55BBC6;
     height:500px;
 }
 
-#whitebody .intro .miniheader{
+#indexBody .intro .miniheader{
     color:lightcyan;
 }
 
-#whitebody .intro p{
+#indexBody .intro p{
     text-align: center;
     position: absolute;
     left:50%;
@@ -113,12 +113,12 @@ header .navdock .catchphrase{
 
 
 
-#whitebody .events .miniheader{
+#indexBody .events .miniheader{
     margin-bottom:60px;
 }
 
-#whitebody .events .row{
-    height:500px;
+#indexBody .events .row{
+    height:700px;
     width:100%;
     position: absolute;
     
@@ -129,23 +129,39 @@ header .navdock .catchphrase{
     background-size:cover;
 }
 
-#whitebody .events .row .one-of-three{
+#indexBody .events .row .one-of-three{
     width:33.33%;
     height:500px;
     float:left;
     position: relative;
     text-align: center;
 }
-#whitebody .events .row .one-of-three h3{
+
+#indexBody .events .row .one-of-three h3{
     font-size:30px;
     padding-top:20px;
     color:#55BBC6;
 }
-#whitebody .events .row .one-of-three p{
+
+#indexBody .events .row .one-of-three p{
     padding:20px;
     color:#ffffff;
 }
 
+#aboutusBody{
+    height:100vh;
+    background-color:#f0f5fc;
+}
+
+#donateBody{
+    height:50vh;
+    background-color:#f0f5fc;
+}
+
+#getinvolvedBody{
+    height:100vh;
+    background-color:#f0f5fc;
+}
 
 /*---FOOTER---*/
 footer{
@@ -177,13 +193,13 @@ footer h3{
 
 footer .textMargin{
     text-align:center;
-    margin-left:25px;
 }
 
 footer a{
     font-size:20px;
     color:#3d4b52;
-    padding-right:30px;
+    padding-left:15px;
+    padding-right:15px;
 }
 
 footer .mediaIcons .rectangleIcons{
@@ -200,7 +216,7 @@ footer .copyright{
 }
 
 footer .line{
-    width:800px;
+    width:35%;
     background-color:#55BBC6;
     margin-top:10px;
 }
