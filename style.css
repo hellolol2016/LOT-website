@@ -27,6 +27,7 @@ body::-webkit-scrollbar {
     margin-bottom:30px;
     transform: translate(-50%,-200%);
 }
+
 .miniheader{
     padding:40px;
     padding-top:120px;
@@ -38,6 +39,17 @@ body::-webkit-scrollbar {
     font-size:60px;
 }
 
+.one-of-three{
+    width:33.33%;
+    float:left;
+    text-align: center;
+}
+
+.one-of-two{
+    width:50%;
+    float:left;
+    text-align: center;
+}
 
 
 /*---HEADER---*/
@@ -121,7 +133,7 @@ p{
 }
 
 #indexBody .events .row{
-    height:700px;
+    height:50%;
     width:100%;
     position: absolute;
     
@@ -134,7 +146,7 @@ p{
 
 #indexBody .events .row .one-of-three{
     width:33.33%;
-    height:500px;
+    height:40%;
     float:left;
     position: relative;
     text-align: center;
@@ -153,11 +165,30 @@ p{
 
 
 
-/*---ABOUT US BODY---*/
-#aboutusBody{
-    height:100vh;
+/*---ABOUT US PAGE ---*/
+#our-team{
+    height:200vh;
     background-color:#f0f5fc;
 }
+
+#our-team .line{
+    background-color:#55BBC6;
+}
+
+#our-team .row{
+    margin-top:30px;
+    width:90%;
+    height:30%;
+    background-color:lightsteelblue;
+    position: relative;
+    left:50%;
+    transform: translate(-50%,0);
+    
+}
+#our-team .one-of-two{
+    display:block;
+}
+
 
 
 
