@@ -166,9 +166,42 @@ p{
 
 
 /*---ABOUT US PAGE ---*/
-#our-team{
-    height:200vh;
+#information{
+    height:120vh;
     background-color:#f0f5fc;
+}
+
+#information .mission{
+    width:40%;
+    padding-right:5%;
+    padding-left:5%;
+}
+
+#information .mission .miniheader {
+    position:relative;
+    transform:translate(-25%, 0);
+}
+
+#information .mission p{
+    color:#3d4b52;
+    font-size:22px;
+}
+
+#information img{
+    width:50%;
+    position:relative;
+    transform:translate(95%,-50%);
+}
+
+
+
+#our-team{
+    height:120vh;
+    background-color:#55BBC6;
+}
+
+#our-team .miniheader{
+    color:lightcyan;
 }
 
 #our-team .line{
