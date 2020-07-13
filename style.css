@@ -126,8 +126,9 @@ p{
     position: absolute;
     
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(media/events_background.jpg);
-    background-position-x: center;
-    background-position-y: -200px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
     background-size:cover;
 }
 
