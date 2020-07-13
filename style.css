@@ -62,7 +62,7 @@ header{
     background-position:center;
     background-repeat:no-repeat;
 }
-header .navdock .logo {
+.navdock .logo {
     width:30%;
     margin-top:20px;
     margin-left:10px;
@@ -70,18 +70,18 @@ header .navdock .logo {
     left:0;
     top:0;
 }
-header .navdock .navbar{
+.navdock .navbar{
     position: absolute;
     top:100%;
     right:3%;
     transform: translate(0,-40px);
 }
-header .navdock .navbar .navlink{
+.navdock .navbar .navlink{
     font-size: 18px;
     font-family: Bahnschrift;
     margin-right:30px;
 }
-header .navdock .catchphrase{
+.navdock .catchphrase{
     font-family: Bahnschrift;
     position: absolute;
     left:50%;
@@ -90,10 +90,38 @@ header .navdock .catchphrase{
     text-align: center;
 }
 
+#not-main-header{
+    background-color:#55BBC6;
+    height:20vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(media/header_background.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+#not-main-header .navdock .logo {
+    width:30%;
+    margin-top:20px;
+    margin-left:10px;
+    position: relative;
+    left:0;
+    top:0;
+}
+#not-main-header .navdock .navbar{
+    position: absolute;
+    top:20%;
+    right:3%;
+    transform: translate(0,-40px);
+}
+#not-main-header .navdock .navbar .navlink{
+    font-size: 18px;
+    font-family: Bahnschrift;
+    margin-right:30px;
+}
 
 
 /*---INDEX BODY---*/
-#indexBody{
+#index-body{
     height:200vh;
     background-color:#f0f5fc;
 }
@@ -104,16 +132,16 @@ p{
     display:block;
 }
 
-#indexBody .intro{
+#index-body .intro{
     background-color:#55BBC6;
     height:500px;
 }
 
-#indexBody .intro .miniheader{
+#index-body .intro .miniheader{
     color:lightcyan;
 }
 
-#indexBody .intro p{
+#index-body .intro p{
     text-align: center;
     position: absolute;
     left:50%;
@@ -126,13 +154,18 @@ p{
     width:80%;
 }
 
+#index-body .diagram{
+    height:75vh;
+}
 
 
-#indexBody .events .miniheader{
+
+
+#index-body .events .miniheader{
     margin-bottom:60px;
 }
 
-#indexBody .events .row{
+#index-body .events .row{
     height:50%;
     width:100%;
     position: absolute;
@@ -144,7 +177,7 @@ p{
     background-size:cover;
 }
 
-#indexBody .events .row .one-of-three{
+#index-body .events .row .one-of-three{
     width:33.33%;
     height:40%;
     float:left;
@@ -152,13 +185,13 @@ p{
     text-align: center;
 }
 
-#indexBody .events .row .one-of-three h3{
+#index-body .events .row .one-of-three h3{
     font-size:30px;
     padding-top:20px;
     color:#55BBC6;
 }
 
-#indexBody .events .row .one-of-three p{
+#index-body .events .row .one-of-three p{
     padding:20px;
     color:#ffffff;
 }
@@ -167,7 +200,7 @@ p{
 
 /*---ABOUT US PAGE ---*/
 #information{
-    height:120vh;
+    height:150vh;
     background-color:#f0f5fc;
 }
 
@@ -182,18 +215,24 @@ p{
     transform:translate(-25%, 0);
 }
 
-#information .mission p{
+#information p{
     color:#3d4b52;
     font-size:22px;
+    padding:0 5vw;
 }
 
-#information img{
-    width:50%;
-    position:relative;
-    transform:translate(95%,-50%);
+#information {
+    padding-left:10px;
+    padding-right:10px;
 }
 
-
+#information .diagram img{
+    width:95%;
+    position: relative;
+    left:50%;
+    
+    transform: translate(-50%,20%);
+}
 
 #our-team{
     height:120vh;
