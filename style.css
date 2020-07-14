@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
 
 .miniheader{
     padding:40px;
-    padding-top:120px;
+    padding-top:60px;
     padding-bottom:60px;
     color:#3d4b52;
     text-align:center;
@@ -161,9 +161,7 @@ p{
 
 
 
-#index-body .events .miniheader{
-    margin-bottom:60px;
-}
+
 
 #index-body .events .row{
     height:50%;
@@ -200,8 +198,12 @@ p{
 
 /*---ABOUT US PAGE ---*/
 #information{
-    height:150vh;
+    max-height:150vh;
     background-color:#f0f5fc;
+    
+    padding-left:10px;
+    padding-right:10px;
+    overflow:hidden;
 }
 
 #information .mission{
@@ -219,19 +221,18 @@ p{
     color:#3d4b52;
     font-size:22px;
     padding:0 5vw;
+    margin-bottom:50px;
 }
 
-#information {
-    padding-left:10px;
-    padding-right:10px;
-}
-
-#information .diagram img{
-    width:95%;
+#information .row{
+    height:60vh;
     position: relative;
-    left:50%;
+}
+
+#information .one-of-two img{
+    width:90%;
+    margin:40px 0;
     
-    transform: translate(-50%,20%);
 }
 
 #our-team{
@@ -259,6 +260,7 @@ p{
 }
 #our-team .one-of-two{
     display:block;
+    overflow:hidden;
 }
 
 
