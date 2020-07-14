@@ -199,7 +199,7 @@ header{
 /*---ABOUT US PAGE ---*/
 #information{
     width:cover;
-    height:calc(2200px - calc(100vw * 0.45));
+    height:calc(2000px - calc(100vw * 0.45));
     background-color:#f0f5fc;
 
     display:flex;
