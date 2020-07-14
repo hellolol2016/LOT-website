@@ -199,7 +199,7 @@ header{
 /*---ABOUT US PAGE ---*/
 #information{
     width:cover;
-    height:calc(2100px - calc(100vw * 0.45));
+    height:calc(2200px - calc(100vw * 0.45));
     background-color:#f0f5fc;
 
     display:flex;
@@ -210,7 +210,7 @@ header{
 
 #information p{
     color:#3d4b52;
-    font-size:25px;
+    font-size:22px;
 }
 
 #information .mission{
