@@ -222,6 +222,7 @@ header{
 
 #information .process{
     float:right;
+    transform:translate(-7%, 0);
     margin:50px;
     padding-top:50px;
     width:800px;
