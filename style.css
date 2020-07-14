@@ -214,7 +214,7 @@ header{
 }
 
 #information .mission{
-    width:45%;
+    width:40%;
     padding-left:5%;
     padding-right:5%;
     height:auto;
@@ -224,7 +224,7 @@ header{
     float:right;
     margin:50px;
     padding-top:50px;
-    width:850px;
+    width:800px;
     height:auto;
 }
 
