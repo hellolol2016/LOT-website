@@ -14,9 +14,11 @@ a:hover{
     background-color:dimgrey;
 }
 
-body::-webkit-scrollbar {
+* ::-webkit-scrollbar {
   display: none;
 }
+
+
 
 .line{
     width:100px;
@@ -289,6 +291,12 @@ header{
 
 
 /*---GET INVOLVED BODY---*/
+#getinvolvedBody iframe{
+    position: relative;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,0);
+}
 #getinvolvedBody{
     height:100vh;
     background-color:#f0f5fc;
