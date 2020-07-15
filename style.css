@@ -208,6 +208,7 @@ header{
     overflow:hidden;
 }
 
+
 #information p{
     color:#3d4b52;
     font-size:22px;
@@ -245,11 +246,27 @@ header{
     background-color:#55BBC6;
 }
 
+#our-team h3{
+    font-weight: 300;
+}
+
+#our-team p{
+    font-size:15px;
+}
+
+#our-team img{
+    height:250px;
+    margin-top:20px;
+    border:5px solid #297a83;
+    border-radius: 3%;
+}
+
+
 #our-team .row{
     margin-top:30px;
     width:90%;
     height:30%;
-    background-color:lightsteelblue;
+    
     position: relative;
     left:50%;
     transform: translate(-50%,0);
