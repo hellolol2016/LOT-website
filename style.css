@@ -10,6 +10,14 @@
     text-decoration: none;
 }
 
+p a:link{
+    color:#0645AD;
+}
+
+p a:visited{
+    color:#663366;
+}
+
 a:hover{                
     background-color:dimgrey;
 }
@@ -31,7 +39,6 @@ a:hover{
 }
 
 .miniheader{
-    padding:40px;
     padding-top:60px;
     padding-bottom:60px;
     color:#3d4b52;
@@ -111,9 +118,6 @@ header{
     width:30%;
     margin-top:20px;
     margin-left:10px;
-    position: relative;
-    left:0;
-    top:0;
 }
 #not-main-header .navdock .navbar{
     position: absolute;
@@ -130,7 +134,7 @@ header{
 
 /*---INDEX BODY---*/
 #index-body{
-    height:140vh;
+    height:150vh;
     background-color:#f0f5fc;
 }
 
@@ -181,7 +185,6 @@ header{
     width:33.33%;
     height:40%;
     float:left;
-    position: relative;
     text-align: center;
 }
 
@@ -303,9 +306,49 @@ header{
 
 
 /*---DONATE BODY---*/
-#donateBody{
+#donate-body{
     height:80vh;
     background-color:#f0f5fc;
+}
+
+#donate-body .supporting{
+    width:50%;
+    height:100%;
+}
+
+@media (min-width:1800px){
+    #donate-body .supporting{
+        margin-left:auto;
+        margin-right:auto;
+        width:50%;
+        height:100%;
+    }
+}
+
+@media (max-width:1799px){
+    #donate-body .supporting{
+        margin-left:auto;
+        margin-right:auto;
+        width:90%;
+        height:100%;
+    }
+}
+
+#donate-body .supporting p{
+    color:#3d4b52;
+    font-size:22px;
+}
+
+#donate-body .supporting img{
+    display:block;
+    margin-top:25px;
+    margin-left:auto;
+    margin-right:auto;
+    width:15%;
+}
+
+#donate-body .supporting .blue-text{
+    color:#075aad;
 }
 
 
@@ -329,15 +372,17 @@ footer{
     background-color:#e4e4e4;           
     margin-bottom:0;
     height:150px;
-    
 }
+
 footer img{
     width:40px;
     padding:0 5px;
 }
+
 footer a:hover{
     background-color:transparent;
 }
+
 footer p{
     margin:0;
     padding-top:10px;
@@ -357,7 +402,8 @@ footer .textMargin{
 }
 
 footer a{
-    font-size:20px;
+    font-family:Bahnschrift;
+    font-size:18px;
     color:#3d4b52;
     padding-left:15px;
     padding-right:15px;
