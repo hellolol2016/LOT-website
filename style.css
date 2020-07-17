@@ -130,7 +130,7 @@ header{
 
 /*---INDEX BODY---*/
 #index-body{
-    height:200vh;
+    height:140vh;
     background-color:#f0f5fc;
 }
 
@@ -265,7 +265,7 @@ header{
 }
 
 #our-team .line{
-    background-color:#55BBC6;
+    background-color:aliceblue;
 }
 
 #our-team h3{
