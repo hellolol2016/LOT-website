@@ -201,7 +201,6 @@ header{
 /*---ABOUT US PAGE ---*/
 #information{
     width:cover;
-    height:calc(2050px - calc(100vw * 0.45));
     background-color:#f0f5fc;
 
     display:flex;
@@ -216,11 +215,32 @@ header{
     font-size:22px;
 }
 
-#information .mission{
-    width:40%;
-    padding-left:5%;
-    padding-right:5%;
+
+@media (min-width:1800px){
+    #information{
+        height:80%;
+    }
+
+    #information .mission{
+        transform:translate(-8%, 0%);
+        width:40%;
+        padding-left:5%;
+        padding-right:5%;
+        height:auto;
+    }
+}
+
+@media (max-width:1799px){
+    #information{
+        height:calc(2050px - calc(100vw * 0.45));
+    }
+
+    #information .mission{
+    width:86%;
+    padding-left:7%;
+    padding-right:7%;
     height:auto;
+    }
 }
 
 #information .process{
