@@ -336,15 +336,20 @@ header{
 
 #donate-body .supporting p{
     color:#3d4b52;
+    padding-bottom:25px;
     font-size:22px;
 }
 
-#donate-body .supporting img{
+#donate-body .donate-button{
+    width:15%;
+    height:9.375%;
     display:block;
-    margin-top:25px;
     margin-left:auto;
     margin-right:auto;
-    width:15%;
+}
+
+#donate-body .donate-button img{
+    width:100%;
 }
 
 #donate-body .supporting .blue-text{
