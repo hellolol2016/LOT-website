@@ -218,33 +218,11 @@ header{
     font-size:22px;
 }
 
-
-@media (min-width:1800px){
-    #information{
-        height:80%;
-    }
-
-    #information .mission{
-        transform:translate(-8%, 0%);
-        width:40%;
-        padding-left:5%;
-        padding-right:5%;
-        height:auto;
-    }
+#informtion .mission{
+    display: block;
+    overflow: visible;
 }
 
-@media (max-width:1799px){
-    #information{
-        height:calc(2050px - calc(100vw * 0.45));
-    }
-
-    #information .mission{
-    width:86%;
-    padding-left:7%;
-    padding-right:7%;
-    height:auto;
-    }
-}
 
 #information .process{
     transform:translate(-7%, 0);
@@ -254,7 +232,7 @@ header{
     height:auto;
 }
 
-#information .process img{
+#information img{
     width:900px;
 }
 
@@ -316,23 +294,6 @@ header{
     height:100%;
 }
 
-@media (min-width:1800px){
-    #donate-body .supporting{
-        margin-left:auto;
-        margin-right:auto;
-        width:50%;
-        height:100%;
-    }
-}
-
-@media (max-width:1799px){
-    #donate-body .supporting{
-        margin-left:auto;
-        margin-right:auto;
-        width:90%;
-        height:100%;
-    }
-}
 
 #donate-body .supporting p{
     color:#3d4b52;
@@ -432,3 +393,99 @@ footer .line{
     background-color:#55BBC6;
     margin-top:10px;
 }
+
+
+/*--- MEDIA QUERIES --- */
+
+/*---HOME---*/
+
+
+/*---ABOUT US---*/
+
+@media only screen and (max-width: 550px){
+    #information .process{
+        height:600px;
+    }
+
+    #information .process img{
+        position: relative;
+        left:50%;
+        transform: translate(-45%,40%);
+    }
+}
+
+@media only screen and (max-width: 950px){
+    #information .mission{
+        height:500px;
+        padding:0 40px;
+    }
+    #information img{
+        width:100%;
+        margin:0;
+        padding:0;
+        position: relative;
+        left:50%;
+        transform: translate(-45%,0);
+    }
+}
+
+@media only screen and (min-width:1800px){
+    #information .process {
+        height:80%;
+        left:50%;
+        transform: translate(-50%,0);
+        
+    }
+
+    #information .process img{
+        position: relative;
+        left:50%;
+        transform: translate(-50%,0);
+    }
+
+    #information .mission{
+        transform:translate(-8%, 0%);
+        width:40%;
+        padding-left:5%;
+        padding-right:5%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:700px){
+
+    #our-team {
+        height:210vh;
+    }
+
+    #our-team .one-of-three{
+        width:100%;
+    }
+
+    #our-team .one-of-two{
+        width:100%;
+    }
+}
+
+
+/*---DONATE---*/
+
+@media only screen and (min-width:1800px){
+    #donate-body .supporting{
+        margin-left:auto;
+        margin-right:auto;
+        width:50%;
+        height:100%;
+    }
+}
+
+@media only screen and (max-width:1799px){
+    #donate-body .supporting{
+        margin-left:auto;
+        margin-right:auto;
+        width:90%;
+        height:100%;
+    }
+}
+
+/*---GET INVOLVED---*/
