@@ -211,33 +211,28 @@ header{
 #information{
     width:cover;
     background-color:#f0f5fc;
+}
 
+#information .row{
+    width:100%;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
     overflow:hidden;
 }
 
+#information .one-of-two{
+    width:50%;
+    margin:40px 0;
+    display: block;
+    overflow: visible;
+}
 
 #information p{
     color:#3d4b52;
     font-size:22px;
     padding: 0 40px;
     padding-bottom:40px;
-}
-
-#informtion .mission{
-    display: block;
-    overflow: visible;
-}
-
-
-#information .process{
-    transform:translate(-7%, 0);
-    margin:50px;
-    padding-top:50px;
-    width:800px;
-    height:auto;
 }
 
 #information img{
@@ -411,30 +406,24 @@ footer .line{
 
 /*---ABOUT US---*/
 
-@media only screen and (max-width: 550px){
+@media only screen and (min-width: 1900px){
     
-    #information .process{
-        height:600px;
+    #information{
+        height:900px;
     }
 
-    #information .process img{
-        position: relative;
-        left:50%;
-        transform: translate(-45%,40%);
+    #information img{
+        width:900px;
     }
 }
 
-@media only screen and (max-width: 950px){
-    #information .one-of-two{
-        width:100%;
-        margin:40px 0;
-    }
+@media only screen and (max-width: 1899px){
 
-    #information .mission{
-        height:500px;
-        padding:0 40px;
+    #information .one-of-two{
+        width:85%;
+        padding:0 30px;
     }
-    #information img{
+    #information .img{
         width:100%;
         margin:0;
         padding:0;
