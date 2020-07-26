@@ -26,7 +26,13 @@ a:hover{
   display: none;
 }
 
+.row{
+    width:80%;
+}
 
+.one-of-three{
+    width:50%;
+}
 
 .line{
     width:100px;
@@ -216,6 +222,8 @@ header{
 #information p{
     color:#3d4b52;
     font-size:22px;
+    padding: 0 40px;
+    padding-bottom:40px;
 }
 
 #informtion .mission{
@@ -233,7 +241,8 @@ header{
 }
 
 #information img{
-    width:900px;
+    width:90%;
+    padding:50px;
 }
 
 #our-team{
@@ -403,6 +412,7 @@ footer .line{
 /*---ABOUT US---*/
 
 @media only screen and (max-width: 550px){
+    
     #information .process{
         height:600px;
     }
@@ -415,6 +425,11 @@ footer .line{
 }
 
 @media only screen and (max-width: 950px){
+    #information .one-of-two{
+        width:100%;
+        margin:40px 0;
+    }
+
     #information .mission{
         height:500px;
         padding:0 40px;
@@ -429,28 +444,7 @@ footer .line{
     }
 }
 
-@media only screen and (min-width:1800px){
-    #information .process {
-        height:80%;
-        left:50%;
-        transform: translate(-50%,0);
-        
-    }
 
-    #information .process img{
-        position: relative;
-        left:50%;
-        transform: translate(-50%,0);
-    }
-
-    #information .mission{
-        transform:translate(-8%, 0%);
-        width:40%;
-        padding-left:5%;
-        padding-right:5%;
-        text-align: center;
-    }
-}
 
 @media only screen and (max-width:700px){
 
