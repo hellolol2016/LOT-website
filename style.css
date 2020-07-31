@@ -196,15 +196,24 @@ header{
 
 #index-body .events .row .one-of-three h3{
     font-size:30px;
-    padding-top:20px;
-    color:#55BBC6;
-}
-
-#index-body .events .row .one-of-three p{
-    padding:20px;
+    padding-top:50px;
     color:#ffffff;
 }
 
+#index-body .events .row .one-of-three p{
+    padding-top:20px;
+    color:#ffffff;
+}
+
+#index-body .events .row .one-of-three .line{
+    background-color:#55BBC6;
+    width:150px;
+}
+
+#index-body .events .row .one-of-three img{
+    padding-top:70px;
+    width:100%;
+}
 
 
 /*---ABOUT US PAGE ---*/
@@ -390,12 +399,6 @@ footer .mediaIcons .squareIcons{
 footer .copyright{
     font-size:12;
     color:#3d4b52;
-}
-
-footer .line{
-    width:35%;
-    background-color:#55BBC6;
-    margin-top:10px;
 }
 
 
