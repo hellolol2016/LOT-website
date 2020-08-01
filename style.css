@@ -19,7 +19,8 @@ p a:visited{
 }
 
 a:hover{                
-    background-color:dimgrey;
+    background-color:#3d4b52;
+    transition: background-color 1s;
 }
 
 * ::-webkit-scrollbar {
@@ -140,7 +141,7 @@ header{
 
 /*---INDEX BODY---*/
 #index-body{
-    height:150vh;
+    height:140vh;
     background-color:#f0f5fc;
 }
 
@@ -170,11 +171,6 @@ header{
     height:75vh;
 }
 
-
-
-
-
-
 #index-body .events .row{
     height:70%;
     width:100%;
@@ -187,32 +183,42 @@ header{
     background-size:cover;
 }
 
-#index-body .events .row .one-of-three{
-    width:33.33%;
+#index-body .events .row .event-container{
+    width:60%;
     height:40%;
-    float:left;
+    position: relative;
+    left:50%;
+    transform: translate(-50%,0);
     text-align: center;
 }
 
-#index-body .events .row .one-of-three h3{
+#index-body .events .row .event-container h3{
     font-size:30px;
     padding-top:50px;
     color:#ffffff;
 }
 
-#index-body .events .row .one-of-three p{
+#index-body .events .row .event-container p{
     padding-top:20px;
     color:#ffffff;
 }
 
-#index-body .events .row .one-of-three .line{
-    background-color:#55BBC6;
-    width:150px;
+#index-body .event-container a:hover{
+    background-color:transparent;
+
 }
 
-#index-body .events .row .one-of-three img{
+#index-body .events .row .event-container .line{
+    background-color:#55BBC6;
+    width:150px;
+    margin:30px 0;
+}
+
+#index-body .events .row .event-container img{
     padding-top:70px;
-    width:100%;
+    width:60%;
+    height:auto;
+    
 }
 
 
@@ -344,12 +350,25 @@ header{
     background-color:#f0f5fc;
 }
 
+/*---EVENT BODY ---*/
+#event-body .info-container{
+    width:70%;
+    margin: 0 auto;
+}
+#event-body p{
+    color:#3d4b52;
+}
+#event-body .line{
+    background-color:#55BBC6;
+    margin:10px 0;
+    transform:translate(0,-20px);
+}
 
 
 /*---FOOTER---*/
 footer{
     background-color:#e4e4e4;           
-    margin-bottom:0;
+    
     height:150px;
 }
 
@@ -370,7 +389,7 @@ footer p{
 
 footer h3{
     color:#3d4b52;
-    margin-top:0;
+    margin-top:20px;
     padding-top:20px;
     margin-right:10px;
     margin-bottom:10px;
