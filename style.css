@@ -248,7 +248,7 @@ header{
     font-size:22px;
     padding: 0 40px;
     padding-bottom:40px;
-}
+ }
 
 #information img{
     width:90%;
@@ -351,17 +351,37 @@ header{
 }
 
 /*---EVENT BODY ---*/
-#event-body .info-container{
-    width:70%;
-    margin: 0 auto;
-}
 #event-body p{
     color:#3d4b52;
 }
 #event-body .line{
     background-color:#55BBC6;
-    
-    
+}
+
+#event-body .info-container{
+    width:70%;
+    margin: 0 auto;
+}
+
+#event-body .info-container .miniheader{
+    padding-bottom:0px;
+}
+
+#event-body .info-container .flyer{
+    display:block;
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left:auto;
+    margin-right:auto;
+    width:70%
+}
+
+#event-body .info-container img{
+    width:100%;
+}
+
+#event-body .info-container p{
+    padding-top:25px;
 }
 
 
