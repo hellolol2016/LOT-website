@@ -85,7 +85,8 @@ header{
     background-repeat:no-repeat;
 }
 .navdock .logo {
-    width:30%;
+    min-width:200px;
+    width:20%;
     margin-top:20px;
     margin-left:10px;
     position: relative;
@@ -99,7 +100,7 @@ header{
     transform: translate(0,-40px);
 }
 .navdock .navbar .navlink{
-    font-size: 18px;
+    font-size: 20px;
     font-family: Bahnschrift;
     margin-right:30px;
 }
@@ -110,6 +111,7 @@ header{
     top:50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    font-size:60px;
 }
 
 #not-main-header{
@@ -141,13 +143,13 @@ header{
 
 /*---INDEX BODY---*/
 #index-body{
-    height:140vh;
+    
     background-color:#f0f5fc;
 }
 
 #index-body .intro{
     background-color:#55BBC6;
-    height:500px;
+    
 }
 
 #index-body .intro .miniheader{
@@ -156,7 +158,7 @@ header{
 
 #index-body .intro p{
     text-align: center;
-    position: absolute;
+    position: relative;
     left:50%;
     transform: translate(-50%,0);
     color:#d6fffc;
@@ -167,14 +169,12 @@ header{
     width:80%;
 }
 
-#index-body .diagram{
-    height:75vh;
-}
 
 #index-body .events .row{
-    height:70%;
+    
     width:100%;
-    position: absolute;
+    min-height:400px;
+    height:70%;
     
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(media/events_background.jpg);
     background-position:center;
@@ -185,7 +185,7 @@ header{
 
 #index-body .events .row .event-container{
     width:60%;
-    height:40%;
+
     position: relative;
     left:50%;
     transform: translate(-50%,0);
@@ -195,11 +195,13 @@ header{
 #index-body .events .row .event-container h3{
     font-size:30px;
     padding-top:50px;
+    padding-bottom:20px;
     color:#ffffff;
 }
 
 #index-body .events .row .event-container p{
     padding-top:20px;
+    padding-bottom:20px;
     color:#ffffff;
 }
 
@@ -217,7 +219,7 @@ header{
 #index-body .events .row .event-container img{
     padding-top:70px;
     width:60%;
-    height:auto;
+    
     
 }
 
@@ -368,7 +370,7 @@ header{
 }
 
 #event-body .info-container .flyer{
-    display:block;
+    display:inline-block;
     margin-top:50px;
     margin-bottom:50px;
     margin-left:auto;
@@ -388,8 +390,9 @@ header{
 /*---FOOTER---*/
 footer{
     background-color:#e4e4e4;           
+    display:inline-block;
     
-    height:150px;
+    
 }
 
 footer img{
@@ -417,6 +420,10 @@ footer h3{
 
 footer .textMargin{
     text-align:center;
+}
+
+#foooter .line{
+    margin:20px auto;
 }
 
 footer a{
