@@ -50,7 +50,7 @@ a:hover{
     padding-bottom:60px;
     color:#3d4b52;
     text-align:center;
-    font-family:Bahnschrift;
+    font-family:Bahnschrift, Arial, Helvetica, sans-serif;
     font-weight:bold;
     font-size:60px;
 }
@@ -442,6 +442,7 @@ footer .mediaIcons .squareIcons{
 }
 
 footer .copyright{
+    margin-bottom:16px;
     font-size:12;
     color:#3d4b52;
 }
