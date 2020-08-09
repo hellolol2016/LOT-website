@@ -370,7 +370,7 @@ header{
 }
 
 #event-body .info-container .flyer{
-    display:inline-block;
+    display:block;
     margin-top:50px;
     margin-bottom:50px;
     margin-left:auto;
@@ -384,6 +384,7 @@ header{
 
 #event-body .info-container p{
     padding-top:25px;
+    font-size:20px;
 }
 
 
@@ -517,12 +518,6 @@ footer .copyright{
         margin-right:auto;
         width:90%;
         height:100%;
-    }
-}
-
-@media only screen and (max-width:800px){
-    #donate-body .supporting p{
-        font-size:calc(2vw + 1.7vh);
     }
 }
 
