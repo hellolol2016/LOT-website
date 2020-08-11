@@ -41,6 +41,7 @@ a:hover{
     background-color:aliceblue;
     position: absolute;
     left:50%;
+    margin-top:10px;
     margin-bottom:30px;
     transform: translate(-50%,-200%);
 }
@@ -101,11 +102,11 @@ header{
 }
 .navdock .navbar .navlink{
     font-size: 20px;
-    font-family: Bahnschrift;
+    font-family: Bahnschrift, helvetica, arial, sans-serif;
     margin-right:30px;
 }
 .navdock .catchphrase{
-    font-family: Bahnschrift;
+    font-family: Bahnschrift, helvetica, arial, sans-serif;
     position: absolute;
     left:50%;
     top:50%;
@@ -136,7 +137,7 @@ header{
 }
 #not-main-header .navdock .navbar .navlink{
     font-size: 18px;
-    font-family: Bahnschrift;
+    font-family: Bahnschrift, helvetica, arial, sans-serif;
     margin-right:30px;
 }
 
@@ -247,8 +248,8 @@ header{
 
 #information p{
     color:#3d4b52;
+    text-align:left;
     font-size:22px;
-    padding: 0 40px;
     padding-bottom:40px;
  }
 
@@ -346,15 +347,31 @@ header{
 
 
 /*---GET INVOLVED BODY---*/
-#getinvolvedBody iframe{
+#getinvolved-body iframe{
     position: relative;
     left:50%;
     top:50%;
     transform: translate(-50%,0);
 }
-#getinvolvedBody{
+#getinvolved-body{
     height:100vh;
     background-color:#f0f5fc;
+}
+
+#getinvolved-body .miniheader{
+    padding-bottom:0px;
+}
+
+#getinvolved-body .line{
+    background-color:#55BBC6;
+}
+
+#getinvolved-body p{
+    padding-top:30px;
+    color:#3d4b52;
+    text-align:center;
+    font-size:22px;
+    padding-bottom:50px;
 }
 
 /*---EVENT BODY ---*/
@@ -433,7 +450,7 @@ footer .text-margin{
 }
 
 footer a{
-    font-family:Bahnschrift;
+    font-family:Bahnschrift, helvetica, arial, sans-serif;
     font-size:18px;
     color:#3d4b52;
     padding-left:15px;
@@ -471,6 +488,10 @@ footer .copyright{
     #information img{
         width:900px;
     }
+
+    #information p{
+        padding-left:40px;
+    }
 }
 
 @media only screen and (max-width: 1899px){
@@ -479,6 +500,7 @@ footer .copyright{
         width:85%;
         padding:0 30px;
     }
+
     #information .img{
         width:100%;
         margin:0;
@@ -486,6 +508,10 @@ footer .copyright{
         position: relative;
         left:50%;
         transform: translate(-50%,0);
+    }
+
+    #information p{
+        padding-left:0px;
     }
 }
 
