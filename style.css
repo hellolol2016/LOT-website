@@ -494,7 +494,7 @@ footer .copyright{
     }
 }
 
-@media only screen and (max-width: 1899px){
+@media only screen and (min-width: 1899px){
 
     #information .one-of-two{
         width:85%;
@@ -522,7 +522,7 @@ footer .copyright{
 
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:1300px){
 
     
 
