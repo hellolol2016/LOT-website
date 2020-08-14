@@ -251,7 +251,6 @@ header{
     text-align:left;
     font-size:22px;
     padding-bottom:40px;
-    padding-left:40px;
  }
 
 #information img{
@@ -490,6 +489,10 @@ footer .copyright{
     #information img{
         width:900px;
     }
+
+    #information p{
+        padding-left:40px;
+    }    
 }
 
 @media only screen and (max-width: 1899px){
@@ -507,6 +510,10 @@ footer .copyright{
         left:50%;
         transform: translate(-50%,0);
     }
+    
+    #information p{
+        padding-left:0px;
+    } 
 }
 
 
