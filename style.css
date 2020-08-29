@@ -245,7 +245,11 @@ header{
     display: block;
     overflow: visible;
 }
-
+#information summary{
+    color:#3d4b52;
+    font-size:25px;
+    margin-bottom:20px;
+}
 #information p{
     color:#3d4b52;
     text-align:left;
