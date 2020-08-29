@@ -227,6 +227,35 @@ header{
     
 }
 
+#index-body .how-you-can-help .one-of-three h2{
+    color:#55BBC6;
+}
+
+#index-body .how-you-can-help .row{
+    display:inline-block;
+    position: relative;
+    left:50%;
+    transform: translate(-50%,0);
+    margin-bottom:20px;
+}
+
+
+
+#index-body .how-you-can-help p{
+    font-size:20px;
+    color:#3d4b52;
+    margin-bottom:20px;
+    padding:10px;
+}
+
+#index-body .button{
+    color:#3d4b52;
+    width:50px;
+    height:30px;
+    font-size:25px;
+    
+}
+
 
 /*---ABOUT US PAGE ---*/
 #aboutus-info{
@@ -489,11 +518,11 @@ footer .copyright{
 /*---ABOUT US---*/
 
 @media only screen and (max-width:1300px){
-    #our-team .one-of-three{
+    .one-of-three{
         width:100%;
     }
 
-    #our-team .one-of-two{
+    .one-of-two{
         width:100%;
     }
 }
