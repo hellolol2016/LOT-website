@@ -240,7 +240,9 @@ header{
     width:50%;
     margin:40px 0;
 }
+
 #aboutus-info summary{
+    cursor:pointer;
     text-align:center;
     color:#2b2b2b;
     outline:none;
@@ -248,6 +250,12 @@ header{
     font-size:25px;
     margin-bottom:20px;
 }
+
+#aboutus-info summary p:hover{
+    background-color:#3d4b52;
+    transition:background-color 1s;
+}
+
 #aboutus-info p{
     color:#3d4b52;
     text-align:left;
@@ -255,7 +263,7 @@ header{
     padding-bottom:40px;
     padding-left:20%;
     padding-right:20%;
- }
+}
 
 #aboutus-info img{
     display:block;
@@ -339,7 +347,6 @@ header{
 
 #donate-body .donate-button{
     width:15%;
-    height:9.375%;
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -356,15 +363,29 @@ header{
 
 
 /*---GET INVOLVED BODY---*/
+#getinvolved-body{
+    height:160vh;
+    background-color:#f0f5fc;
+}
+
+#getinvolved-body .row{
+    width:100%;
+    height:80vh;
+}
+
+#getinvolved-body .one-of-two{
+    height:50vh;
+}
+
 #getinvolved-body iframe{
+    height:40vh;
+    padding-left:5%;
+    padding-right:5%;
+    width:90%;
     position: relative;
     left:50%;
     top:50%;
     transform: translate(-50%,0);
-}
-#getinvolved-body{
-    height:100vh;
-    background-color:#f0f5fc;
 }
 
 #getinvolved-body .miniheader{
@@ -376,11 +397,42 @@ header{
 }
 
 #getinvolved-body p{
+    margin-right:5%;
+    margin-left:5%;
     padding-top:30px;
     color:#3d4b52;
     text-align:center;
     font-size:22px;
     padding-bottom:50px;
+}
+
+#getinvolved-body .donate-button{
+    width:15%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#getinvolved-body .donate-button img{
+    width:100%;
+}
+
+#getinvolved-body .row .event-container{
+    width:60%;
+    position: relative;
+    left:50%;
+    transform: translate(-50%,0);
+    text-align: center;
+}
+
+#getinvolved-body .event-container a:hover{
+    background-color:transparent;
+
+}
+
+#getinvolved-body .row .event-container img{
+    padding-top:70px;
+    width:60%;
 }
 
 /*---EVENT BODY ---*/
