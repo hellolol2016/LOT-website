@@ -393,21 +393,19 @@ header{
 
 /*---GET INVOLVED BODY---*/
 #getinvolved-body{
-    height:160vh;
     background-color:#f0f5fc;
 }
 
 #getinvolved-body .row{
     width:100%;
-    height:80vh;
 }
 
 #getinvolved-body .one-of-two{
-    height:50vh;
+    height:100%;
 }
 
 #getinvolved-body iframe{
-    height:40vh;
+    height:45%;
     padding-left:5%;
     padding-right:5%;
     width:90%;
@@ -460,7 +458,11 @@ header{
 }
 
 #getinvolved-body .row .event-container img{
-    width:60%;
+    width:70%;
+}
+
+#getinvolved-body .row .creativity-lot img{
+    width:30%;
 }
 
 /*---EVENT BODY ---*/
@@ -600,3 +602,27 @@ footer .copyright{
 }
 
 /*---GET INVOLVED---*/
+
+@media only screen and (min-width:1301px){
+    #getinvolved-body{
+        height:120vh;
+        background-color:#f0f5fc;
+    }
+
+    #getinvolved-body .row{
+        height:60vh;
+    }
+    
+}
+
+@media only screen and (max-width:1300px){
+    #getinvolved-body{
+        height:320vh;
+        background-color:#f0f5fc;
+    }
+
+    #getinvolved-body .row{
+        height:80vh;
+    }
+    
+}
