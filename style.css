@@ -35,6 +35,11 @@ a:hover{
     width:50%;
 }
 
+.break{
+    height:20vh;
+    background-color:#55BBC6;
+}
+
 .line{
     width:100px;
     height:2px;
@@ -232,6 +237,7 @@ header{
 
 #index-body .how-you-can-help .one-of-three h2{
     color:#55BBC6;
+    margin-bottom:40px;
 }
 
 #index-body .how-you-can-help .row{
@@ -239,7 +245,7 @@ header{
     position: relative;
     left:50%;
     transform: translate(-50%,0);
-    margin-bottom:20px;
+    margin-bottom:100px;
 }
 
 
@@ -249,6 +255,8 @@ header{
     color:#3d4b52;
     margin-bottom:20px;
     padding:10px;
+    padding-left:25px;
+    padding-right:25px;
 }
 
 #index-body .button{
