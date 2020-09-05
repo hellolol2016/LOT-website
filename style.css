@@ -61,6 +61,16 @@ a:hover{
     font-size:60px;
 }
 
+.subheader{
+    padding-top:25px;
+    padding-bottom:15px;
+    color:#3d4b52;
+    text-align:left;
+    font-family:Bahnschrift, Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:30px;
+}
+
 .one-of-three{
     width:33.33%;
     float:left;
@@ -142,9 +152,9 @@ header{
     margin-left:10px;
 }
 #not-main-header .navdock .navbar{
-    position: relative;
-    margin-left:65%;
-    transform:translate(0px, 1px);
+    position: absolute;
+    top:200px;
+    right:4%;
 
 }
 #not-main-header .navdock .navbar .navlink{
@@ -305,6 +315,11 @@ header{
     padding-right:20%;
 }
 
+#aboutus-info .subheader{
+    padding-left:20%;
+    padding-right:20%;
+}
+
 #aboutus-info img{
     display:block;
     width:55%;
@@ -369,7 +384,7 @@ header{
 
 /*---DONATE BODY---*/
 #donate-body{
-    height:80vh;
+    height:650px;
     background-color:#f0f5fc;
 }
 
