@@ -515,7 +515,7 @@ header{
     margin-bottom:50px;
     margin-left:auto;
     margin-right:auto;
-    width:70%
+    width:60%
 }
 
 #event-body .info-container img{
@@ -527,6 +527,15 @@ header{
     font-size:20px;
 }
 
+#event-body .info-container a:link{
+    color:#0645AD;
+    font-size:25px;
+}
+
+#event-body .info-container a:visited{
+    color:#663366;
+    font-size:25px;
+}
 
 /*---FOOTER---*/
 footer{
