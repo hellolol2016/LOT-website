@@ -644,14 +644,14 @@ footer .copyright{
 
 @media only screen and (min-width:1301px){
     #getinvolved-body{
-        height:1400px;
+        height:1250px;
         background-color:#f0f5fc;
     }
 }
 
 @media only screen and (max-width:1300px){
     #getinvolved-body{
-        height:2400px;
+        height:2500px;
         background-color:#f0f5fc;
     }  
 }
