@@ -166,13 +166,12 @@ header{
 
 /*---INDEX BODY---*/
 #index-body{
-    
     background-color:#f0f5fc;
 }
 
 #index-body .intro{
     background-color:#55BBC6;
-    
+    padding-bottom:20px;
 }
 
 #index-body .intro .miniheader{
@@ -192,6 +191,15 @@ header{
     width:80%;
 }
 
+#index-body .intro .button{
+    position:relative;
+    left:50%;
+    display:block;
+    width:250px;
+    transform: translate(-50%,0);
+    text-align:center;
+    margin-bottom:40px;
+}
 
 #index-body .events .row{
     
@@ -294,16 +302,6 @@ header{
     margin:40px 0;
 }
 
-#aboutus-info summary{
-    cursor:pointer;
-    text-align:center;
-    color:#2b2b2b;
-    outline:none;
-    user-select:none;
-    font-size:25px;
-    margin-bottom:20px;
-}
-
 #aboutus-info summary p:hover{
     background-color:#3d4b52;
     transition:background-color 1s;
@@ -318,18 +316,30 @@ header{
     padding-right:20%;
 }
 
-#aboutus-info .subheader{
+#aboutus-info h3{
+    font-size:30px;
+}
+.subheader{
     padding-left:20%;
     padding-right:20%;
 }
 
-#aboutus-info img{
+#how-we-help img{
     display:block;
     width:55%;
     padding:50px;
     padding-top:100px;
     margin-left:auto;
     margin-right:auto;
+}
+
+#our-vision p{
+    color:#3d4b52;
+    text-align:left;
+    font-size:22px;
+    padding-bottom:40px;
+    padding-left:20%;
+    padding-right:20%;
 }
 
 #our-team{
@@ -382,7 +392,14 @@ header{
     display:inline-block;
 }
 
-
+#how-we-help p{
+    color:#3d4b52;
+    text-align:left;
+    font-size:22px;
+    padding-bottom:40px;
+    padding-left:20%;
+    padding-right:20%;
+}
 
 
 /*---DONATE BODY---*/
