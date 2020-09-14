@@ -512,50 +512,109 @@ header{
     width:30%;
 }
 
-/*---EVENT BODY ---*/
-#event-body p{
-    color:#3d4b52;
+/*---ABOUT US PAGE ---*/
+#aboutus-info{
+    width:cover;
+    background-color:#f0f5fc;
 }
-#event-body .line{
+
+#aboutus-info .one-of-two{
+    display: block;
+    overflow: visible;
+    width:50%;
+    margin:40px 0;
+}
+
+#aboutus-info summary{
+    cursor:pointer;
+    text-align:center;
+    color:#2b2b2b;
+    outline:none;
+    user-select:none;
+    font-size:25px;
+    margin-bottom:20px;
+}
+
+#aboutus-info summary p:hover{
+    background-color:#3d4b52;
+    transition:background-color 1s;
+}
+
+#aboutus-info p{
+    color:#3d4b52;
+    text-align:left;
+    font-size:22px;
+    padding-bottom:40px;
+    padding-left:20%;
+    padding-right:20%;
+}
+
+#aboutus-info .subheader{
+    padding-left:20%;
+    padding-right:20%;
+}
+
+#aboutus-info img{
+    display:block;
+    width:55%;
+    padding:50px;
+    padding-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#our-team{
+    
     background-color:#55BBC6;
 }
 
-#event-body .info-container{
-    width:70%;
-    margin: 0 auto;
+#our-team .miniheader{
+    color:lightcyan;
 }
 
-#event-body .info-container .miniheader{
-    padding-bottom:0px;
+#our-team .line{
+    background-color:aliceblue;
 }
 
-#event-body .info-container .flyer{
-    display:block;
-    margin-top:50px;
-    margin-bottom:50px;
-    margin-left:auto;
-    margin-right:auto;
-    width:60%
+#our-team h3{
+    font-weight: 300;
 }
 
-#event-body .info-container img{
-    width:100%;
+#our-team p{
+    font-size:15px;
+    padding-bottom:40px;
+    
 }
 
-#event-body .info-container p{
-    padding-top:25px;
-    font-size:20px;
+#our-team img{
+    position:relative;
+    height:500px;
+    margin-top:20px;
+    border:5px solid #297a83;
+    border-radius: 3%;
 }
 
-#event-body .info-container a:link{
-    color:#0645AD;
-    font-size:25px;
+#our-team .row{
+    margin-top:30px;
+    position: relative;
+    left:50%;
+    transform: translate(-50%,0);
+    width:90%;
+    background-color:#55BBC6;    
+    display:inline-block;
 }
 
-#event-body .info-container a:visited{
-    color:#663366;
-    font-size:25px;
+#our-team .one-of-three{
+    display:inline-block;
+
 }
+
+#our-team .one-of-two{
+    display:inline-block;
+}
+
+
+
 
 /*---FOOTER---*/
 footer{
