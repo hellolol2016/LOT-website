@@ -93,6 +93,10 @@ p{
     color:#55BBC6;
 }
 
+.bold-text{
+    font-weight:bold;
+}
+
 
 /*---HEADER---*/
 header{
@@ -613,7 +617,50 @@ header{
     display:inline-block;
 }
 
+#event-body p{
+    color:#3d4b52;
+}
 
+#event-body .line{
+    background-color:#55BBC6;
+}
+
+#event-body .info-container{
+    width:70%;
+    margin: 0 auto;
+}
+
+#event-body .info-container .miniheader{
+    padding-bottom:0px;
+}
+
+#event-body .info-container .flyer{
+    display:block;
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%
+}
+
+#event-body .info-container img{
+    width:100%;
+}
+
+#event-body .info-container p{
+    padding-top:25px;
+    font-size:20px;
+}
+
+#event-body .info-container a:link{
+    color:#0645AD;
+    font-size:20px;
+}
+
+#event-body .info-container a:visited{
+    color:#663366;
+    font-size:20px;
+}
 
 
 /*---FOOTER---*/
@@ -720,14 +767,14 @@ footer .copyright{
 
 @media only screen and (min-width:1301px){
     #getinvolved-body{
-        height:1400px;
+        height:1200px;
         background-color:#f0f5fc;
     }
 }
 
 @media only screen and (max-width:1300px){
     #getinvolved-body{
-        height:2400px;
+        height:2500px;
         background-color:#f0f5fc;
     }  
 }
