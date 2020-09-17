@@ -39,7 +39,7 @@ a:hover{
 }
 
 .break{
-    height:20vh;
+    height:200px;
     background-color:#55BBC6;
 }
 
@@ -100,6 +100,18 @@ p{
 
 .aqua-text{
     color:#55BBC6;
+}
+
+.blue-text{
+    color:#075aad;
+}
+
+.white-text{
+    color:#ffffff;
+}
+
+.aqua-background{
+    background-color:#55BBC6;
 }
 
 .bold-text{
@@ -329,8 +341,8 @@ header{
     text-align:left;
     font-size:22px;
     padding-bottom:40px;
-    padding-left:20%;
-    padding-right:20%;
+    padding-left:5%;
+    padding-right:5%;
 }
 
 #aboutus-info h3{
@@ -444,10 +456,6 @@ header{
 
 #donate-body .donate-button img{
     width:100%;
-}
-
-#donate-body .supporting .blue-text{
-    color:#075aad;
 }
 
 
@@ -752,15 +760,30 @@ footer .copyright{
 
 /*---ABOUT US---*/
 
+@media only screen and (min-width:1301px){
+    #our-mission .row{
+        height:500px;
+    }
+    
+    #student-run .row{
+        height:700px;
+    }
+
+    #our-vision .row{
+        height:600px;
+    }
+}
+
 @media only screen and (max-width:1300px){
-    .one-of-three{
+    #our-team .one-of-two{
         width:100%;
     }
 
-    .one-of-two{
+    #our-team .one-of-three{
         width:100%;
     }
 }
+
 
 
 /*---DONATE---*/
