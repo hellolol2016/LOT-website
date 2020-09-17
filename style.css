@@ -29,6 +29,9 @@ a:hover{
 
 .row{
     width:80%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .one-of-three{
@@ -68,7 +71,7 @@ a:hover{
     text-align:left;
     font-family:Bahnschrift, Arial, Helvetica, sans-serif;
     font-weight:bold;
-    font-size:30px;
+    font-size:35px;
 }
 
 .one-of-three{
@@ -81,6 +84,12 @@ a:hover{
     width:50%;
     float:left;
     text-align: center;
+}
+
+.two-of-three{
+    width:66.66%;
+    float:left;
+    text-align:center;
 }
 
 p{
@@ -97,6 +106,10 @@ p{
     font-weight:bold;
 }
 
+.subheader{
+    padding-left:20%;
+    padding-right:20%;
+}
 
 /*---HEADER---*/
 header{
@@ -321,12 +334,10 @@ header{
 }
 
 #aboutus-info h3{
-    font-size:30px;
+    font-size:35px;
 }
-.subheader{
-    padding-left:20%;
-    padding-right:20%;
-}
+
+
 
 #how-we-help img{
     display:block;
@@ -565,6 +576,15 @@ header{
     padding-top:100px;
     margin-left:auto;
     margin-right:auto;
+}
+
+#aboutus-info .row{
+    height:1000px;
+}
+
+#aboutus-info .row img{
+    width:80%;
+    text-align:center;
 }
 
 #our-team{
