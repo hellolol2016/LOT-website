@@ -775,12 +775,20 @@ footer .copyright{
 }
 
 @media only screen and (max-width:1300px){
-    #our-team .one-of-two{
+    .two-of-three{
+        width:100%;
+    }
+    
+    .one-of-two{
         width:100%;
     }
 
-    #our-team .one-of-three{
+    .one-of-three{
         width:100%;
+    }
+
+    #aboutus-info .{
+        
     }
 }
 
