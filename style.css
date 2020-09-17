@@ -40,7 +40,6 @@ a:hover{
 
 .break{
     height:200px;
-    background-color:#55BBC6;
 }
 
 .line{
@@ -67,7 +66,7 @@ a:hover{
 .subheader{
     padding-top:25px;
     padding-bottom:15px;
-    color:#3d4b52;
+    color:#455055;
     text-align:left;
     font-family:Bahnschrift, Arial, Helvetica, sans-serif;
     font-weight:bold;
@@ -118,11 +117,6 @@ p{
     font-weight:bold;
 }
 
-.subheader{
-    padding-left:20%;
-    padding-right:20%;
-}
-
 /*---HEADER---*/
 header{
     background-color:#55BBC6;
@@ -136,6 +130,7 @@ header{
 .navdock a:hover{                
     background-color:transparent;
 }
+
 .navdock .logo {
     min-width:200px;
     width:20%;
@@ -145,17 +140,20 @@ header{
     left:0;
     top:0;
 }
+
 .navdock .navbar{
     position: absolute;
     top:100%;
     right:3%;
     transform: translate(0,-40px);
 }
+
 .navdock .navbar .navlink{
     font-size: 20px;
     font-family: Bahnschrift, helvetica, arial, sans-serif;
     margin-right:30px;
 }
+
 .navdock .catchphrase{
     font-family: Bahnschrift, helvetica, arial, sans-serif;
     position: absolute;
@@ -164,6 +162,17 @@ header{
     transform: translate(-50%,-50%);
     text-align: center;
     font-size:60px;
+}
+
+.navdock .see-covid {
+    min-width:200px;
+    width:20%;
+    margin-top:20px;
+    margin-left:50%;
+    background-color:#ffffff;
+    border-radius:5px;
+    font-size:25px;
+    padding:25px;
 }
 
 #not-main-header{
@@ -228,9 +237,10 @@ header{
     transform: translate(-50%,0);
     text-align:center;
     margin-bottom:40px;
+    color:#ffffff;
 }
 
-#index-body .events .row{
+#index-body #events .row{
     
     width:100%;
     min-height:400px;
@@ -243,7 +253,7 @@ header{
     background-size:cover;
 }
 
-#index-body .events .row .event-container{
+#index-body #events .row .event-container{
     width:60%;
     position: relative;
     left:50%;
@@ -251,14 +261,14 @@ header{
     text-align: center;
 }
 
-#index-body .events .row .event-container h3{
+#index-body #events .row .event-container h3{
     font-size:30px;
     padding-top:50px;
     padding-bottom:20px;
     color:#ffffff;
 }
 
-#index-body .events .row .event-container p{
+#index-body #events .row .event-container p{
     padding-top:20px;
     padding-bottom:20px;
     color:#ffffff;
@@ -269,27 +279,27 @@ header{
 
 }
 
-#index-body .events .row .event-container .line{
+#index-body #events .row .event-container .line{
     background-color:#55BBC6;
     width:150px;
     margin:30px 0;
 }
 
-#index-body .events .row .event-container img{
+#index-body #events .row .event-container img{
     padding-top:70px;
     width:60%;
     
     
 }
 
-#index-body .how-you-can-help .one-of-three h2{
+#index-body #how-you-can-help .one-of-three h2{
     color:#55BBC6;
     margin-top:20px;
     margin-bottom:5px;
     font-size:30px;
 }
 
-#index-body .how-you-can-help .row{
+#index-body #how-you-can-help  .row{
     display:inline-block;
     position: relative;
     left:50%;
@@ -299,7 +309,7 @@ header{
 
 
 
-#index-body .how-you-can-help p{
+#index-body #how-you-can-help  p{
     font-size:20px;
     color:#3d4b52;
     margin-bottom:10px;
@@ -311,11 +321,55 @@ header{
 #index-body .button{
     color:#3d4b52;
     width:50px;
-    
     font-size:25px;
-   
-    
 }
+
+#index-body #covid-response{
+    height:400px;
+}
+
+#index-body #covid-response .miniheader{
+    border-radius:10px;
+}
+
+#index-body #covid-response p{
+    font-size:20px;
+    color:#3d4b52;
+    margin-bottom:10px;
+    padding:10px;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+#index-body #covid-response .row .donate-button{
+    width:15%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#index-body #covid-response .row .donate-button img{
+    width:100%;
+}
+
+#index-body #covid-response #what-you-can-do{
+    background-color:#f0f5fc;
+}
+
+#index-body #covid-response #what-you-can-do .row{
+    width:100%;
+    height:600px;
+}
+
+#index-body #covid-response #what-you-can-do .one-of-two{
+    height:100%;
+}
+
+#index-body #covid-response #what-you-can-do p{
+    margin-left:10%;
+    margin-right:10%;
+}
+
 
 
 /*---ABOUT US PAGE ---*/
@@ -348,8 +402,6 @@ header{
 #aboutus-info h3{
     font-size:35px;
 }
-
-
 
 #how-we-help img{
     display:block;
@@ -755,8 +807,20 @@ footer .copyright{
 
 /*--- MEDIA QUERIES --- */
 
-/*---HOME---*/
+/*---INDEX---*/
+@media only screen and (min-width:1301px){
+    #index-body #covid-response #what-you-can-do{
+        height:1200px;
+        background-color:#f0f5fc;
+    }
+}
 
+@media only screen and (max-width:1300px){
+    #index-body #covid-response #what-you-can-do{
+        height:2500px;
+        background-color:#f0f5fc;
+    }  
+}
 
 /*---ABOUT US---*/
 
@@ -775,24 +839,14 @@ footer .copyright{
 }
 
 @media only screen and (max-width:1300px){
-    .two-of-three{
-        width:100%;
-    }
-    
-    .one-of-two{
+    #our-team .one-of-two{
         width:100%;
     }
 
-    .one-of-three{
+    #our-team .one-of-three{
         width:100%;
-    }
-
-    #aboutus-info .{
-        
     }
 }
-
-
 
 /*---DONATE---*/
 
