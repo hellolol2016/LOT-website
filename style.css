@@ -8,6 +8,7 @@
     padding:0;
     color:white;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 p a:link{
@@ -31,9 +32,10 @@ a:hover{
     width:80%;
     display:inline-block;
     position:relative;
-    left:50%;
-    transform:translate(-50%,0);
+    
 }
+
+
 
 .one-of-three{
     width:50%;
@@ -326,8 +328,10 @@ header{
 }
 
 #index-body #covid-response{
-    height:400px;
+    display:inline-block;
+    
 }
+
 
 #index-body #covid-response .miniheader{
     border-radius:10px;
@@ -336,10 +340,9 @@ header{
 #index-body #covid-response p{
     font-size:20px;
     color:#3d4b52;
-    margin-bottom:10px;
-    padding:10px;
-    padding-left:25px;
-    padding-right:25px;
+    margin:10px 0;
+    
+    padding:10px 100px;
 }
 
 #index-body #covid-response .row .donate-button{
@@ -357,9 +360,25 @@ header{
     background-color:#f0f5fc;
 }
 
+#index-body #covid-response .row{
+    width:80%;
+    display:inline-block;
+    position:relative;
+    left:50%;
+    transform:translate(-50%,0);
+}
+
+#index-body #covid-response .subheader{
+    text-align: center;
+}
+
 #index-body #covid-response #what-you-can-do .row{
     width:100%;
-    height:600px;
+    display:inline-block;
+    position:relative;
+    left:50%;
+    transform:translate(-50%,0);
+
 }
 
 #index-body #covid-response #what-you-can-do .one-of-two{
@@ -370,6 +389,7 @@ header{
     margin-left:10%;
     margin-right:10%;
 }
+
 
 
 
@@ -473,7 +493,13 @@ header{
     margin-right:auto;
 }
 
-
+#aboutus-info .row{
+    width:80%;
+    display:inline-block;
+    position:relative;
+    left:50%;
+    transform:translate(-50%,0);
+}
 
 #aboutus-info .row img{
     width:80%;
@@ -661,13 +687,11 @@ header{
 
 
 /*---GET INVOLVED BODY---*/
-#getinvolved-body{
-    background-color:#f0f5fc;
-}
 
 #getinvolved-body .row{
+    background-color:#f0f5fc;
     width:100%;
-    height:600px;
+    display:inline-block;
 }
 
 #getinvolved-body .one-of-two{
@@ -735,7 +759,6 @@ header{
     width:30%;
 }
 
-/*---ABOUT US PAGE ---*/
 
 
 /*---FOOTER---*/
@@ -861,8 +884,8 @@ footer .copyright{
 }
 
 @media only screen and (max-width:1300px){
-    #getinvolved-body{
-        height:2500px;
+    #getinvolved-body .one-of-two{
+        width:100%;
         background-color:#f0f5fc;
     }  
 }
