@@ -8,6 +8,7 @@
     padding:0;
     color:white;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 p a:link{
@@ -29,10 +30,12 @@ a:hover{
 
 .row{
     width:80%;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+    display:inline-block;
+    position:relative;
+    
 }
+
+
 
 .one-of-three{
     width:50%;
@@ -333,8 +336,10 @@ header{
 }
 
 #index-body #covid-response{
-    height:400px;
+    display:inline-block;
+    
 }
+
 
 #index-body #covid-response .miniheader{
     border-radius:10px;
@@ -343,10 +348,9 @@ header{
 #index-body #covid-response p{
     font-size:20px;
     color:#3d4b52;
-    margin-bottom:10px;
-    padding:10px;
-    padding-left:25px;
-    padding-right:25px;
+    margin:10px 0;
+    
+    padding:10px 100px;
 }
 
 #index-body #covid-response .row .donate-button{
@@ -364,9 +368,25 @@ header{
     background-color:#f0f5fc;
 }
 
+#index-body #covid-response .row{
+    width:80%;
+    display:inline-block;
+    position:relative;
+    left:50%;
+    transform:translate(-50%,0);
+}
+
+#index-body #covid-response .subheader{
+    text-align: center;
+}
+
 #index-body #covid-response #what-you-can-do .row{
     width:100%;
-    height:600px;
+    display:inline-block;
+    position:relative;
+    left:50%;
+    transform:translate(-50%,0);
+
 }
 
 #index-body #covid-response #what-you-can-do .one-of-two{
@@ -380,6 +400,7 @@ header{
 
 
 
+
 /*---ABOUT US PAGE ---*/
 #aboutus-info{
     width:cover;
@@ -390,7 +411,16 @@ header{
     display: block;
     overflow: visible;
     width:50%;
-    margin:40px 0;
+    margin:20px 0;
+}
+
+#aboutus-info img{
+    display:block;
+    width:55%;
+    padding:50px;
+    padding-top:100px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 #aboutus-info summary p:hover{
@@ -409,9 +439,60 @@ header{
 
 #aboutus-info h3{
     font-size:35px;
+    display:block;
 }
 
-#how-we-help img{
+#aboutus-info{
+    width:cover;
+    background-color:#f0f5fc;
+}
+
+#aboutus-info .one-of-two{
+    display: block;
+    overflow: visible;
+    width:50%;
+    margin:20px 0;
+}
+
+#aboutus-info summary{
+    cursor:pointer;
+    text-align:center;
+    color:#2b2b2b;
+    outline:none;
+    user-select:none;
+    font-size:25px;
+    margin-bottom:20px;
+}
+
+#aboutus-info summary p:hover{
+    background-color:#3d4b52;
+    transition:background-color 1s;
+}
+
+#aboutus-info .long{
+    color:#3d4b52;
+    text-align:left;
+    font-size:18px;
+    padding-bottom:40px;
+    padding-left:20%;
+    padding-right:20%;
+}
+
+#aboutus-info p{
+    color:#3d4b52;
+    text-align:left;
+    font-size:22px;
+    padding-bottom:40px;
+    padding-left:20%;
+    padding-right:20%;
+}
+
+#aboutus-info .subheader{
+    padding-left:20%;
+    padding-right:20%;
+}
+
+#aboutus-info img{
     display:block;
     width:55%;
     padding:50px;
@@ -420,13 +501,17 @@ header{
     margin-right:auto;
 }
 
-#our-vision p{
-    color:#3d4b52;
-    text-align:left;
-    font-size:22px;
-    padding-bottom:40px;
-    padding-left:20%;
-    padding-right:20%;
+#aboutus-info .row{
+    width:80%;
+    display:inline-block;
+    position:relative;
+    left:50%;
+    transform:translate(-50%,0);
+}
+
+#aboutus-info .row img{
+    width:80%;
+    text-align:center;
 }
 
 #our-team{
@@ -479,13 +564,102 @@ header{
     display:inline-block;
 }
 
-#how-we-help p{
-    color:#3d4b52;
-    text-align:left;
-    font-size:22px;
+
+
+#our-team{
+    
+    background-color:#55BBC6;
+}
+
+#our-team .miniheader{
+    color:lightcyan;
+}
+
+#our-team .line{
+    background-color:aliceblue;
+}
+
+#our-team h3{
+    font-weight: 300;
+}
+
+#our-team p{
+    font-size:15px;
     padding-bottom:40px;
-    padding-left:20%;
-    padding-right:20%;
+    
+}
+
+#our-team img{
+    position:relative;
+    height:400px;
+    margin-top:20px;
+    border:5px solid #297a83;
+    border-radius: 3%;
+}
+
+#our-team .row{
+    margin-top:30px;
+    position: relative;
+    left:50%;
+    transform: translate(-50%,0);
+    width:90%;
+    background-color:#55BBC6;    
+    display:inline-block;
+}
+
+#our-team .one-of-three{
+    display:inline-block;
+
+}
+
+#our-team .one-of-two{
+    display:inline-block;
+}
+
+
+#event-body p{
+    color:#3d4b52;
+}
+
+#event-body .line{
+    background-color:#55BBC6;
+}
+
+#event-body .info-container{
+    width:70%;
+    margin: 0 auto;
+}
+
+#event-body .info-container .miniheader{
+    padding-bottom:0px;
+}
+
+#event-body .info-container .flyer{
+    display:block;
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%
+}
+
+#event-body .info-container img{
+    width:100%;
+}
+
+#event-body .info-container p{
+    padding-top:25px;
+    font-size:20px;
+}
+
+#event-body .info-container a:link{
+    color:#0645AD;
+    font-size:20px;
+}
+
+#event-body .info-container a:visited{
+    color:#663366;
+    font-size:20px;
 }
 
 
@@ -521,13 +695,11 @@ header{
 
 
 /*---GET INVOLVED BODY---*/
-#getinvolved-body{
-    background-color:#f0f5fc;
-}
 
 #getinvolved-body .row{
+    background-color:#f0f5fc;
     width:100%;
-    height:600px;
+    display:inline-block;
 }
 
 #getinvolved-body .one-of-two{
@@ -595,160 +767,6 @@ header{
     width:30%;
 }
 
-/*---ABOUT US PAGE ---*/
-#aboutus-info{
-    width:cover;
-    background-color:#f0f5fc;
-}
-
-#aboutus-info .one-of-two{
-    display: block;
-    overflow: visible;
-    width:50%;
-    margin:40px 0;
-}
-
-#aboutus-info summary{
-    cursor:pointer;
-    text-align:center;
-    color:#2b2b2b;
-    outline:none;
-    user-select:none;
-    font-size:25px;
-    margin-bottom:20px;
-}
-
-#aboutus-info summary p:hover{
-    background-color:#3d4b52;
-    transition:background-color 1s;
-}
-
-#aboutus-info p{
-    color:#3d4b52;
-    text-align:left;
-    font-size:22px;
-    padding-bottom:40px;
-    padding-left:20%;
-    padding-right:20%;
-}
-
-#aboutus-info .subheader{
-    padding-left:20%;
-    padding-right:20%;
-}
-
-#aboutus-info img{
-    display:block;
-    width:55%;
-    padding:50px;
-    padding-top:100px;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-#aboutus-info .row{
-    height:1000px;
-}
-
-#aboutus-info .row img{
-    width:80%;
-    text-align:center;
-}
-
-#our-team{
-    
-    background-color:#55BBC6;
-}
-
-#our-team .miniheader{
-    color:lightcyan;
-}
-
-#our-team .line{
-    background-color:aliceblue;
-}
-
-#our-team h3{
-    font-weight: 300;
-}
-
-#our-team p{
-    font-size:15px;
-    padding-bottom:40px;
-    
-}
-
-#our-team img{
-    position:relative;
-    height:500px;
-    margin-top:20px;
-    border:5px solid #297a83;
-    border-radius: 3%;
-}
-
-#our-team .row{
-    margin-top:30px;
-    position: relative;
-    left:50%;
-    transform: translate(-50%,0);
-    width:90%;
-    background-color:#55BBC6;    
-    display:inline-block;
-}
-
-#our-team .one-of-three{
-    display:inline-block;
-
-}
-
-#our-team .one-of-two{
-    display:inline-block;
-}
-
-#event-body p{
-    color:#3d4b52;
-}
-
-#event-body .line{
-    background-color:#55BBC6;
-}
-
-#event-body .info-container{
-    width:70%;
-    margin: 0 auto;
-}
-
-#event-body .info-container .miniheader{
-    padding-bottom:0px;
-}
-
-#event-body .info-container .flyer{
-    display:block;
-    margin-top:50px;
-    margin-bottom:50px;
-    margin-left:auto;
-    margin-right:auto;
-    width:60%
-}
-
-#event-body .info-container img{
-    width:100%;
-}
-
-#event-body .info-container p{
-    padding-top:25px;
-    font-size:20px;
-}
-
-#event-body .info-container a:link{
-    color:#0645AD;
-    font-size:20px;
-}
-
-#event-body .info-container a:visited{
-    color:#663366;
-    font-size:20px;
-}
 
 
 /*---FOOTER---*/
@@ -831,30 +849,18 @@ footer .copyright{
 }
 
 /*---ABOUT US---*/
-
-@media only screen and (min-width:1301px){
-    #our-mission .row{
-        height:500px;
-    }
-    
-    #student-run .row{
-        height:700px;
-    }
-
-    #our-vision .row{
-        height:600px;
-    }
-}
-
-@media only screen and (max-width:1300px){
-    #our-team .one-of-two{
-        width:100%;
-    }
-
-    #our-team .one-of-three{
+@media only screen and (max-width:1200px) {
+    #aboutus-info .one-of-two {
         width:100%;
     }
 }
+
+@media only screen and (max-width:1200px) {
+    #our-team .one-of-three {
+        width:100%;
+    }
+}
+
 
 /*---DONATE---*/
 
@@ -886,8 +892,8 @@ footer .copyright{
 }
 
 @media only screen and (max-width:1300px){
-    #getinvolved-body{
-        height:2500px;
+    #getinvolved-body .one-of-two{
+        width:100%;
         background-color:#f0f5fc;
     }  
 }
