@@ -164,7 +164,7 @@ header{
     font-size:60px;
 }
 
-.navdock .see-covid {
+.navdock .see-covid{
     min-width:200px;
     width:20%;
     margin-top:20px;
@@ -172,7 +172,15 @@ header{
     background-color:#ffffff;
     border-radius:5px;
     font-size:25px;
+    font-weight:bold;
+    font-family:Bahnschrift, helvetica, arial, sans-serif;
+    color:#55BBC6;
     padding:25px;
+}
+
+.navdock .see-covid:hover{
+    background-color:#55BBC6;
+    color:#ffffff;
 }
 
 #not-main-header{
