@@ -842,8 +842,8 @@ footer .copyright{
 }
 
 @media only screen and (max-width:1300px){
-    #index-body #covid-response #what-you-can-do{
-        height:2500px;
+    #index-body #covid-response .one-of-two{
+        width:100%;
         background-color:#f0f5fc;
     }  
 }
