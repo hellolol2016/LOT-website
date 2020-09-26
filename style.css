@@ -354,10 +354,12 @@ header{
 }
 
 #index-body #covid-response .row .donate-button{
+    min-width:100px;
     width:15%;
     display:block;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom:25px;
 }
 
 #index-body #covid-response .row .donate-button img{
@@ -393,11 +395,14 @@ header{
     height:100%;
 }
 
-#index-body #covid-response #what-you-can-do p{
-    margin-left:10%;
-    margin-right:10%;
+#index-body #covid-response #what-you-can-do .miniheader{
+    padding-bottom:0px;
 }
 
+#index-body #covid-response #what-you-can-do .graphics{
+    min-width:200px;
+    width:50%;
+}
 
 
 
