@@ -12,11 +12,11 @@
 }
 
 p a:link{
-    color:#0645AD;
+    color:#4da1c9;
 }
 
 p a:visited{
-    color:#663366;
+    color:#b65ab6;
 }
 
 a:hover{                
@@ -42,7 +42,9 @@ a:hover{
 }
 
 .break{
-    height:200px;
+    min-height:75px;
+    max-height:200px;
+    height:15vh;
 }
 
 .line{
@@ -168,17 +170,17 @@ header{
 }
 
 .navdock .see-covid{
-    min-width:200px;
-    width:20%;
-    margin-top:20px;
-    margin-left:50%;
+    position: absolute;
+    top:13%;
+    right:3%;
+    transform: translate(0,-40px);
     background-color:#ffffff;
     border-radius:5px;
-    font-size:25px;
+    font-size:20px;
     font-weight:bold;
     font-family:Bahnschrift, helvetica, arial, sans-serif;
     color:#55BBC6;
-    padding:25px;
+    padding:20px;
 }
 
 .navdock .see-covid:hover{
@@ -259,8 +261,6 @@ header{
     
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(media/events_background.jpg);
     background-position:center;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
     background-size:cover;
 }
 
@@ -658,19 +658,21 @@ header{
 }
 
 #event-body .info-container a:link{
-    color:#0645AD;
+    color:#4da1c9;
     font-size:20px;
 }
 
 #event-body .info-container a:visited{
-    color:#663366;
+    color:#b65ab6;
     font-size:20px;
 }
 
 
 /*---DONATE BODY---*/
 #donate-body{
-    height:650px;
+    margin-right:auto;
+    margin-left:auto;
+    height:900px;
     background-color:#f0f5fc;
 }
 
@@ -682,6 +684,8 @@ header{
 
 #donate-body .supporting p{
     color:#3d4b52;
+    padding-left:8%;
+    padding-right:8%;
     padding-bottom:25px;
     font-size:22px;
 }
@@ -695,6 +699,15 @@ header{
 
 #donate-body .donate-button img{
     width:100%;
+}
+
+#donate-body .supporting{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#donate-body .supporting .row{
+    margin:auto;
 }
 
 
@@ -871,8 +884,6 @@ footer .copyright{
 
 @media only screen and (min-width:1800px){
     #donate-body .supporting{
-        margin-left:auto;
-        margin-right:auto;
         width:50%;
         height:100%;
     }
@@ -880,8 +891,6 @@ footer .copyright{
 
 @media only screen and (max-width:1799px){
     #donate-body .supporting{
-        margin-left:auto;
-        margin-right:auto;
         width:75%;
         height:100%;
     }
