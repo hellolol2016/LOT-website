@@ -672,7 +672,7 @@ header{
 #donate-body{
     margin-right:auto;
     margin-left:auto;
-    height:900px;
+    height:calc(1200 - 1vh)px;
     background-color:#f0f5fc;
 }
 
