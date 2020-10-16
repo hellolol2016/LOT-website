@@ -100,7 +100,7 @@ p{
     display:block;
 }
 
-.aqua-text{
+.turquoise-text{
     color:#55BBC6;
 }
 
@@ -113,11 +113,19 @@ p{
 }
 
 .white-text{
-    color:#a12569;
+    color:#ffffff;
 }
 
-.aqua-background{
+.aqua-text{
+    color:#73ffe8;
+}
+
+.turquoise-background{
     background-color:#55BBC6;
+}
+
+.blue-background{
+    background-color:#5f85d8;
 }
 
 .bold-text{
@@ -216,20 +224,14 @@ header{
     margin-right:30px;
 }
 
-#default-background{
-    background-color:#f0f5fc;
-}
-
 /*---INDEX BODY---*/
 #index-body{
+    padding-bottom:40px;
+    display:block;
     background-color:#f0f5fc;
 }
 
 #index-body .intro{
-    margin-left:5%;
-    margin-right:5%;
-    margin-top:40px;
-    border-radius:45px;
     background-color:#55BBC6;
     padding-bottom:20px;
 }
@@ -393,7 +395,6 @@ header{
 
 #index-body #covid-response{
     display:inline-block;
-    
 }
 
 
