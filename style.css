@@ -116,16 +116,12 @@ p{
     color:#ffffff;
 }
 
-.aqua-text{
-    color:#73ffe8;
+.lightcyan-text{
+    color:lightcyan;
 }
 
 .turquoise-background{
     background-color:#55BBC6;
-}
-
-.blue-background{
-    background-color:#5f85d8;
 }
 
 .bold-text{
@@ -287,13 +283,11 @@ header{
     font-size:30px;
     padding-top:50px;
     padding-bottom:20px;
-    color:#ffffff;
 }
 
 #index-body #events .row .event-container p{
     padding-top:20px;
     padding-bottom:20px;
-    color:#ffffff;
 }
 
 #index-body .event-container a:hover{
