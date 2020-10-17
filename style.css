@@ -42,7 +42,7 @@ a:hover{
 .break{
     min-height:75px;
     max-height:200px;
-    height:15vh;
+    height:5vh;
 }
 
 .line{
@@ -222,21 +222,21 @@ header{
 
 /*---INDEX BODY---*/
 #index-body{
+    padding-top:40px;
     padding-bottom:40px;
     display:block;
     background-color:#f0f5fc;
 }
 
-#index-body .intro{
+#index-body #intro{
+    margin-left:7%;
+    margin-right:7%;
+    border-radius:25px;
     background-color:#55BBC6;
     padding-bottom:20px;
 }
 
-#index-body .intro .miniheader{
-    color:lightcyan;
-}
-
-#index-body .intro p{
+#index-body #intro p{
     text-align: center;
     position: relative;
     left:50%;
@@ -249,7 +249,7 @@ header{
     width:80%;
 }
 
-#index-body .intro .button{
+#index-body #intro .button{
     position:relative;
     left:50%;
     display:block;
@@ -324,7 +324,7 @@ header{
 }
 
 #index-body #instagram-embed{
-    background-color:#55BBC6;
+    background-color:#f0f5fc;
     height:600px;
     width:100%;
 }
@@ -347,6 +347,11 @@ header{
     width:100%;
     height:100%;
     background-color:#f0f5fc;
+}
+
+#index-body #instagram-embed .instagram:hover{
+    border-color:#ff792c;
+    transition:border-color 0.3s;
 }
 
 #index-body #instagram-embed .instagram .subheader
@@ -575,10 +580,6 @@ header{
     background-color:#55BBC6;
 }
 
-#our-team .miniheader{
-    color:lightcyan;
-}
-
 #our-team .line{
     background-color:aliceblue;
 }
@@ -625,10 +626,6 @@ header{
 #our-team{
     
     background-color:#55BBC6;
-}
-
-#our-team .miniheader{
-    color:lightcyan;
 }
 
 #our-team .line{
