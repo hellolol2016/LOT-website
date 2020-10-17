@@ -1,6 +1,6 @@
 /*---Applies to ALL---*/
 * {
-    font-family:Calibri, helvetica, arial, sans-serif;
+    font-family:Comfortaa, Calibri, helvetica, arial, sans-serif;
     margin-left:0;
     margin-right:0;
     margin-top:0;
@@ -20,8 +20,8 @@
 
 @keyframes come-in {
     0% {
-        padding-right:50px;
-        opacity: 0%;
+        padding-bottom:50px;
+        opacity:0%;
     }
 
     100%{
@@ -39,8 +39,8 @@ p a:visited{
 }
 
 a:hover{                
-    background-color:#3d4b52;
-    transition: background-color 1s;
+    background-color:#6d8488;
+    transition:background-color 1s;
 }
 
 * ::-webkit-scrollbar {
@@ -119,6 +119,11 @@ p{
     display:block;
 }
 
+.paragraph{
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+
 .turquoise-text{
     color:#55BBC6;
 }
@@ -180,12 +185,12 @@ header{
 
 .navdock .navbar .navlink{
     font-size: 20px;
-    font-family: Bahnschrift, helvetica, arial, sans-serif;
+    font-family: Bahnschrift, Comfortaa, helvetica, arial, sans-serif;
     margin-right:30px;
 }
 
 .navdock .catchphrase{
-    font-family: Bahnschrift, helvetica, arial, sans-serif;
+    font-family: Bahnschrift, Comfortaa, helvetica, arial, sans-serif;
     position: absolute;
     left:50%;
     top:50%;
@@ -194,23 +199,29 @@ header{
     font-size:60px;
 }
 
+.navdock em{
+    font-family: Bahnschrift, Comfortaa, helvetica, arial, sans-serif;
+}
+
 .navdock .see-covid{
     position: absolute;
     top:13%;
     right:3%;
     transform: translate(0,-40px);
-    background-color:#ffffff;
+    background-color:lightcyan;
+    color:#55BBC6;
+    transition:background-color 0.5s;
     border-radius:5px;
     font-size:20px;
     font-weight:bold;
     font-family:Bahnschrift, helvetica, arial, sans-serif;
-    color:#55BBC6;
     padding:20px;
 }
 
 .navdock .see-covid:hover{
     background-color:#55BBC6;
-    color:#ffffff;
+    transition:background-color 0.5s;
+    color:lightcyan;
 }
 
 #not-main-header{
@@ -222,17 +233,20 @@ header{
     background-position:center;
     background-repeat:no-repeat;
 }
+
 #not-main-header .navdock .logo {
     width:30%;
     margin-top:20px;
     margin-left:10px;
 }
+
 #not-main-header .navdock .navbar{
     position: absolute;
     top:200px;
     right:4%;
 
 }
+
 #not-main-header .navdock .navbar .navlink{
     font-size: 18px;
     font-family: Bahnschrift, helvetica, arial, sans-serif;
@@ -327,19 +341,36 @@ header{
     
 }
 
-#index-body #how-you-can-help .one-of-three h2{
+#index-body #how-can-you-help .one-of-three h2{
     color:#55BBC6;
     margin-top:20px;
     margin-bottom:5px;
     font-size:30px;
 }
 
-#index-body #how-you-can-help .row{
+#index-body #how-can-you-help .row{
     display:inline-block;
     position: relative;
     left:50%;
     transform: translate(-50%,0);
-    margin-bottom:100px;
+}
+
+#index-body #how-can-you-help .row .one-of-three{
+    margin-bottom:12vh;
+    margin-left:auto;
+    margin-right:auto;
+    min-width:350px;
+    display:block;
+}
+
+#index-body #how-can-you-help p{
+    text-align:left;
+    font-size:20px;
+    color:#3d4b52;
+    margin-bottom:10px;
+    padding:10px;
+    padding-left:25px;
+    padding-right:25px;
 }
 
 #index-body #instagram-embed{
@@ -361,6 +392,7 @@ header{
 #index-body #instagram-embed .instagram{
     border-style:solid;
     border-color:#5a889e;
+    transition:border-color 0.5s;
     border-width:10px;
     border-radius:25px;
     width:100%;
@@ -370,7 +402,7 @@ header{
 
 #index-body #instagram-embed .instagram:hover{
     border-color:#ff792c;
-    transition:border-color 0.3s;
+    transition:border-color 0.5s;
 }
 
 #index-body #instagram-embed .instagram .subheader
@@ -396,19 +428,10 @@ header{
     padding-top:15px;
 }
 
-#index-body #how-you-can-help p{
-    font-size:20px;
-    color:#3d4b52;
-    margin-bottom:10px;
-    padding:10px;
-    padding-left:25px;
-    padding-right:25px;
-}
-
 #index-body .button{
     color:#3d4b52;
     width:50px;
-    font-size:25px;
+    font-size:22px;
 }
 
 #index-body #covid-response{
@@ -424,8 +447,13 @@ header{
     font-size:20px;
     color:#3d4b52;
     margin:10px 0;
-    
+    text-align:left;
     padding:10px 100px;
+}
+
+#index-body #covid-response .row p{
+    padding-left:7vw;
+    padding-right:7vw;
 }
 
 #index-body #covid-response .row .donate-button{
@@ -503,95 +531,38 @@ header{
     margin-right:auto;
 }
 
-#aboutus-info summary p:hover{
-    background-color:#3d4b52;
-    transition:background-color 1s;
-}
-
 #aboutus-info p{
     color:#3d4b52;
     text-align:left;
     font-size:22px;
     padding-bottom:40px;
-    padding-left:5%;
-    padding-right:5%;
+    padding-left:10vw;
+    padding-right:10vw;
 }
 
 #aboutus-info h3{
     font-size:35px;
     display:block;
 }
-
-#aboutus-info{
-    width:cover;
-    background-color:#f0f5fc;
-}
-
-#aboutus-info .one-of-two{
-    display: block;
-    overflow: visible;
-    width:50%;
-    margin:20px 0;
-}
-
-#aboutus-info summary{
-    cursor:pointer;
-    text-align:center;
-    color:#2b2b2b;
-    outline:none;
-    user-select:none;
-    font-size:25px;
-    margin-bottom:20px;
-}
-
-#aboutus-info summary p:hover{
-    background-color:#3d4b52;
-    transition:background-color 1s;
-}
-
-#aboutus-info .long{
-    color:#3d4b52;
-    text-align:left;
-    font-size:18px;
-    padding-bottom:40px;
-    padding-left:20%;
-    padding-right:20%;
-}
-
-#aboutus-info p{
-    color:#3d4b52;
-    text-align:left;
-    font-size:22px;
-    padding-bottom:40px;
-    padding-left:20%;
-    padding-right:20%;
-}
-
 #aboutus-info .subheader{
-    padding-left:20%;
-    padding-right:20%;
+    padding-left:10vw;
+    padding-right:10vw;
 }
 
 #aboutus-info img{
     display:block;
-    width:55%;
-    padding:50px;
-    padding-top:100px;
+    width:70%;
+    min-width:300px;
     margin-left:auto;
     margin-right:auto;
 }
 
 #aboutus-info .row{
-    width:80%;
+    width:90%;
     display:inline-block;
     position:relative;
     left:50%;
     transform:translate(-50%,0);
-}
-
-#aboutus-info .row img{
-    width:80%;
-    text-align:center;
 }
 
 #our-team{
@@ -919,6 +890,15 @@ footer .copyright{
 /*--- MEDIA QUERIES --- */
 
 /*---INDEX---*/
+@media only screen and (max-width:1312px){
+    #index-body #how-can-you-help .row .one-of-three{
+        width:80%;
+        padding-left:2vw;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
 @media only screen and (min-width:1301px){
     #index-body #covid-response #what-you-can-do{
         height:1200px;
