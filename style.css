@@ -11,6 +11,25 @@
     scroll-behavior: smooth;
 }
 
+/*--- ANIMATION ---*/
+
+* {
+    animation-name:come-in;
+    animation-duration: 2s;
+}
+
+@keyframes come-in {
+    0% {
+        padding-right:50px;
+        opacity: 0%;
+    }
+
+    100%{
+        
+        opacity: 100%;
+    }
+}
+
 p a:link{
     color:#4da1c9;
 }
