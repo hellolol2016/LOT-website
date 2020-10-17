@@ -351,8 +351,9 @@ header{
 #index-body #how-can-you-help .row{
     display:inline-block;
     position: relative;
+    width:80%;
     left:50%;
-    transform: translate(-50%,0);
+    transform:translate(-50%,0);
 }
 
 #index-body #how-can-you-help .row .one-of-three{
@@ -891,6 +892,10 @@ footer .copyright{
 
 /*---INDEX---*/
 @media only screen and (max-width:1312px){
+    #index-body #how-can-you-help .row{
+        transform:translate(-42%,0)
+    }
+
     #index-body #how-can-you-help .row .one-of-three{
         width:80%;
         padding-left:2vw;
