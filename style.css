@@ -379,7 +379,7 @@ header{
 
 #index-body #instagram-embed{
     background-color:#f0f5fc;
-    height:600px;
+    height:500px; /* 500px - square; 600px - rectangle */
     width:100%;
 }
 
@@ -767,7 +767,7 @@ header{
 }
 
 #getinvolved-body iframe{
-    height:45%;
+    height:60%;
     padding-left:5%;
     padding-right:5%;
     width:90%;
