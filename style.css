@@ -379,7 +379,7 @@ header{
 
 #index-body #instagram-embed{
     background-color:#f0f5fc;
-    height:500px; /* 500px - square; 600px - rectangle */
+    height:540px; /* 540px - square; 640px - rectangle */
     width:100%;
 }
 
