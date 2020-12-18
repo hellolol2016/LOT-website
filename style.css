@@ -379,8 +379,13 @@ header{
 
 #index-body #instagram-embed{
     background-color:#f0f5fc;
-    height:540px; /* 540px - square; 640px - rectangle */
+    height:780px; /* 540px - square; 640px - rectangle */
     width:100%;
+}
+
+#index-body #instagram-embed .instagram:hover{
+    border-color:#d63939;
+    transition:border-color 0.5s;
 }
 
 #index-body #instagram-embed .center{
@@ -402,11 +407,6 @@ header{
     width:100%;
     height:100%;
     background-color:#f0f5fc;
-}
-
-#index-body #instagram-embed .instagram:hover{
-    border-color:#ff792c;
-    transition:border-color 0.5s;
 }
 
 #index-body #instagram-embed .instagram .subheader
