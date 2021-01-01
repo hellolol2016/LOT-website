@@ -464,12 +464,14 @@ body {
 .board-picture img {
     position:relative;
     height:500px;
+    margin-left:auto;
+    margin-right:auto;
     margin-top:20px;
     border:5px solid #297a83;
     border-radius: 3%;
 }
 
-@media only screen and (min-width:1400px){
+@media only screen and (min-width:1350px){
     .board-picture {
         display:inline-block;
         text-align: center;
@@ -483,7 +485,7 @@ body {
     }
 }
 
-@media only screen and (max-width:1399px){
+@media only screen and (max-width:1349px){
     .board-picture {
         display:inline-block;
         text-align: center;
@@ -497,4 +499,75 @@ body {
         width:75%;
         height:75%;
     }
+}
+
+/* get-involved */
+
+.involve-block {
+    color:lightcyan;
+    background-color:#55bbc6;
+    padding:30px;
+}
+
+#getinvolved {
+    margin-left:12%;
+    margin-right:12%;
+    display:block;
+    background-color:lightcyan;
+}
+
+#getinvolved p {
+    font-size:25px;
+    color:#455055;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#getinvolved .miniheader {
+    margin-bottom:3vh;
+}
+
+#application h2 {
+    margin:15px;
+    text-align:center;
+    color:#4da1c9;
+}
+
+#application iframe {
+    width:50%;
+    height:300px;
+    position:relative;
+    transform:translate(50%, 0);
+}
+
+#donate {
+    background-color:lightgray;
+}
+
+#donate p {
+    color:#627177;
+}
+
+.donate-button {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5%;
+    width:15%;
+    min-width:200px;
+}
+
+.donate-button img {
+    width:100%;
+}
+
+#creativity-image {
+    width:35%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#creativity-lot img {
+    margin-top:5vh;
+    width:100%;
 }
