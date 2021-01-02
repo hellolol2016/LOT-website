@@ -70,7 +70,7 @@ a:hover{
 .miniheader{
     color:#3d4b52;
     text-align:center;
-    font-family:Bahnschrift, Arial, Helvetica, sans-serif;
+    font-family:Bahnschrift, Calibri, Arial, Helvetica, sans-serif;
     font-weight:bold;
     font-size:60px;
 }
@@ -80,7 +80,7 @@ a:hover{
     padding-bottom:15px;
     color:#455055;
     text-align:left;
-    font-family:Bahnschrift, Arial, Helvetica, sans-serif;
+    font-family:Bahnschrift, Calibri, Arial, Helvetica, sans-serif;
     font-weight:bold;
     font-size:35px;
 }
@@ -582,7 +582,7 @@ body {
 }
 
 .upcoming-note {
-    font-family: Bahnschrift, Arial, Helvetica, sans-serif;
+    font-family: Bahnschrift, Calibri, Arial, Helvetica, sans-serif;
     text-align:center;
     font-size:35px;
     margin-top:45px;
@@ -618,7 +618,7 @@ body {
     font-weight:450;
     color:#86b0e6;
     font-size:35px;
-    font-family:Bahnschrift, Arial, Helvetica, sans-serif;
+    font-family:Bahnschrift, Calibri, Arial, Helvetica, sans-serif;
     text-align:center;
 }
 
