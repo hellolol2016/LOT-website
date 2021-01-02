@@ -73,6 +73,8 @@ a:hover{
     font-family:Bahnschrift, Arial, Helvetica, sans-serif;
     font-weight:bold;
     font-size:60px;
+    background-color:#55BBC6;
+    
 }
 
 .subheader{
@@ -114,6 +116,7 @@ p{
 
 .lightcyan-text{
     color:lightcyan;
+    
 }
 
 .lightcyan-background{
@@ -305,3 +308,70 @@ footer .copyright{
 
 /* dennis css */
 
+#intro{
+    background-color:#55BBC6;
+}
+
+#intro h2{
+    padding:10px 30px;
+}
+
+#intro p{
+    padding: 0 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#intro .button{
+    display:inline-block;
+    position:relative;
+    left:50%;
+    transform: translate(-50%, 0);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#instagram-embed img{
+    padding:20px 0;
+    display:block;
+    position:relative;
+    width: 50%;
+    max-width:400px;
+    left:50%;
+    transform:translate(-50%,0);
+}
+
+#instagram-embed p{
+    text-align:center;
+    color:#3d4b52;
+}
+
+#events .miniheader{
+    width: 80%;
+    position:relative;
+    border-radius: 5px;
+    background-color:#974197;
+    left:50%;
+    transform: translate(-50%,0);
+}
+.row{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#events .row h2, p, h3, h4{
+    padding:10px 0;
+    text-align:center;
+    color:#3d4b52;
+}
+
+#how-can-you-help .miniheader{
+    width: 80%;
+    position:relative;
+    border-radius: 5px;
+    background-color:#974197;
+    left:50%;
+    transform: translate(-50%,0);
+}
