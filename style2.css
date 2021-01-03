@@ -436,3 +436,12 @@ footer .copyright{
     left:50%;
     transform: translate(-50%,0);
 }
+
+#donate-body .miniheader {
+    padding:20px;
+    background-color:#974197;
+}
+
+#donate-body img{
+    width:200px;
+}
