@@ -444,4 +444,15 @@ footer .copyright{
 
 #donate-body img{
     width:200px;
+    position:relative;
+    left:50%;
+    transform: translate(-50%,0);
+}
+
+#donate-body p{
+    font-size:20px;
+    padding: 20px;
+}
+#donate-body a{                
+    background-color:transparent;
 }
