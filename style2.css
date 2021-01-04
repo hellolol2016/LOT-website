@@ -425,6 +425,7 @@ footer .copyright{
 
 #covid-response .miniheader{
     background-color:#974197;
+    border-radius: 5px;
     
 }
 
@@ -455,4 +456,60 @@ footer .copyright{
 }
 #donate-body a{                
     background-color:transparent;
+}
+
+#process-body .miniheader{
+    background-color:#974197;
+}
+
+#process-body .miniheader h2{
+    font-size:60px;
+}
+
+#process-body p{
+    font-size:25px;
+    padding:20px;
+}
+
+#process-body span{
+    color:#55BBC6;
+    font-weight: bold;
+    font-size:25px;
+}
+
+#process-body img{
+    position:relative;
+    left:50%;
+    transform:translate(-50%,0);
+    width:100%;
+    max-width:200px;
+    padding:20px 0;
+}
+
+#process-body .square{
+    width:20%;
+    float:left;
+}
+
+#process-body .rectangle{
+    width:80%;
+    float:left;
+}
+
+#process-body .rectangle p{
+    position:relative;
+    
+}
+
+@media only screen and (max-width: 950px){
+    #process-body .square{
+        width:100%;
+    }
+    #process-body .square img{
+        max-width:400px;
+        
+    }
+    #process-body .rectangle{
+        width:100%;
+    }
 }
