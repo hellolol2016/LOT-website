@@ -423,10 +423,29 @@ footer .copyright{
     font-size:24px;
 }
 
-#covid-response .miniheader{
+#covid-response .row .miniheader{
     background-color:#974197;
-    border-radius: 5px;
-    
+}
+
+#covid-response .one-of-two .miniheader{
+    background-color:#974197;
+    border-radius: 5px  ;
+    left:50%;
+    position:relative;
+    transform: translate(-50%,0);
+    width:90%;
+    font-size:30px;
+}
+
+#covid-response .one-of-two{
+    display:inline-block;
+}
+
+#covid-response .row{
+    display:inline-block;
+    position: relative;
+    left:50%;
+    transform: translate(-50%,0);
 }
 
 #covid-response img{
