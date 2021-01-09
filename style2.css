@@ -435,6 +435,7 @@ footer .copyright{
     transform: translate(-50%,0);
     width:90%;
     font-size:30px;
+    margin-top:20px;
 }
 
 #covid-response .one-of-two{
@@ -455,6 +456,7 @@ footer .copyright{
     position: relative;
     left:50%;
     transform: translate(-50%,0);
+    margin-bottom:20px;
 }
 
 #donate-body .miniheader {
@@ -479,6 +481,7 @@ footer .copyright{
 
 #process-body .miniheader{
     background-color:#974197;
+    border-radius: 5px;
 }
 
 #process-body .miniheader h2{
@@ -502,7 +505,18 @@ footer .copyright{
     transform:translate(-50%,0);
     width:100%;
     max-width:200px;
-    padding:20px 0;
+    padding:40px 0;
+}
+
+#process-body .ach-intro{
+    padding-bottom:50px;
+}
+
+#process-body .row{
+    position:relative;
+    display:inline-block;
+    left:50%;
+    transform: translate(-50%,0);
 }
 
 #process-body .square{
@@ -517,6 +531,64 @@ footer .copyright{
 
 #process-body .rectangle p{
     position:relative;
+}
+
+#process-body .timeline .tl-icons *{
+    animation-name:none;
+    animation-duration: 2s;
+}
+
+#process-body .timeline .spine{
+    margin-top:20px;
+    display:block;
+    background-color:#55BBC6;
+    position:relative;
+    left:50%;
+    transform: translate(-50%,0);
+    height:1000px;
+    width:10px;
+}
+
+
+
+#process-body .timeline img{
+    width:50px;
+}
+
+#process-body .timeline .tl-icons{
+    position:relative;
+    transform: translate(0,-1050px);
+    display: block;
+}
+
+#process-body .timeline .tl-icons img{
+    padding:0;
+}
+
+#process-body .timeline .tl-icons p{
+    display:block;
+    width:300px;
+    position: relative;
+    left:60%;
+    transform: translate(0,-90px);
+}
+
+#process-body .timeline .tl-icons img:hover ~ p{
+    
+}
+
+#process-body .timeline .tl-icons .t2{
+    position:relative;
+    display:block;
+    transform: translate(0,300px);
+}
+
+#process-body .timeline .tl-icons .t2 p{
+    left:;
+    
+}
+
+#process-body .timeline .tl-icons img:hover ~ p{
     
 }
 
