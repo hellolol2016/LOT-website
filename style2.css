@@ -371,7 +371,7 @@ footer .copyright{
     width: 80%;
     position:relative;
     border-radius: 5px;
-    background-color:#974197;
+    background-color:#55BBC6;
     left:50%;
     transform: translate(-50%,0);
 }
@@ -391,7 +391,7 @@ footer .copyright{
     width: 80%;
     position:relative;
     border-radius: 5px;
-    background-color:#974197;
+    background-color#55BBC6;
     left:50%;
     transform: translate(-50%,0);
 }
@@ -434,11 +434,11 @@ footer .copyright{
 }
 
 #covid-response .row .miniheader{
-    background-color:#974197;
+    background-color:#55BBC6;
 }
 
 #covid-response .one-of-two .miniheader{
-    background-color:#974197;
+    background-color:#55BBC6;
     border-radius: 5px  ;
     left:50%;
     position:relative;
@@ -471,7 +471,7 @@ footer .copyright{
 
 #donate-body .miniheader {
     padding:20px;
-    background-color:#974197;
+    background-color:#55BBC6;
 }
 
 #donate-body img{
@@ -490,7 +490,7 @@ footer .copyright{
 }
 
 #process-body .miniheader{
-    background-color:#974197;
+    background-color:#55BBC6;
     border-radius: 5px;
 }
 
@@ -548,26 +548,36 @@ footer .copyright{
     animation-duration: 2s;
 }
 
+#process-body .tl-desc{
+    font-size:20px;
+    text-decoration: underline;
+    color:#55BBC6;
+}
+
 #process-body .timeline .spine{
     margin-top:40px;
     display:block;
     background-color:#55BBC6;
-    position:relative;
+    position:absolute;
     left:50%;
     transform: translate(-50%,0);
     height:1000px;
     width:10px;
 }
 
-
+#process-body .tl-icons{
+    height:1000px; /*--NOTE: HAS TO BE SIMILAR TO SPINE HEIGHT--*/
+}
 
 #process-body .timeline img{
     width:50px;
 }
 
+
+
 #process-body .timeline .tl-icons{
     position:relative;
-    transform: translate(0,-1050px);
+    transform: translate(0,-0px);
     display: block;
 }
 
@@ -577,25 +587,22 @@ footer .copyright{
 
 #process-body .timeline .tl-icons p{
     display:block;
-    width:300px;
+    width:400px;
     position: relative;
     
     transform: translate(0,-90px);
-}
-
-#process-body .timeline .tl-icons img:hover ~ p{
-    
 }
 
 #process-body .timeline .tl-icons .t1 p{
     position: relative;
     left:60%;
     color:transparent;
+    user-select: none;
 }
 
 #process-body .timeline .tl-icons .t2{
     position:relative;
-    transform: translate(0,200px);
+    transform: translate(0,-100px);
 }
 
 #process-body .timeline .tl-icons .t2 p{
@@ -604,17 +611,33 @@ footer .copyright{
     float:right;
     transform: translate(0,-30px);
     color:transparent;
+    user-select: none;
 }
 
 #process-body .timeline .tl-icons .t3{
     position:relative;
-    transform: translate(0,500px);
+    transform: translate(0,200px);
 }
 
 #process-body .timeline .tl-icons .t3 p{
     position:relative;
     left:60%;
     color:transparent;
+    user-select: none;
+}
+
+#process-body .timeline .tl-icons .t4{
+    position: relative;
+    transform: translate(0,0);
+}
+
+#process-body .timeline .tl-icons .t4 p{
+    top:50px;
+    position: relative;
+    right:60%;
+    float:right;
+    color:transparent;
+    user-select: none;
 }
 
 #process-body .timeline .tl-icons .t1 img:hover ~ p{
@@ -633,6 +656,21 @@ footer .copyright{
     color:#3d4b52;
     animation-name: invisnt;
     animation-duration:1s;
+}
+
+#process-body .timeline .tl-icons .t4 img:hover ~ p{
+    color:#3d4b52;
+    animation-name: invisnt;
+    animation-duration:1s;
+}
+
+#process-body .miniheader{
+    position: relative;
+    left:50%;
+    width:50%;
+    transform: translate(-50%,0);
+    margin:40px 0;
+    padding:10px;
 }
 
 @media only screen and (max-width: 950px){
