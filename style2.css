@@ -18,6 +18,16 @@
     animation-duration: 2s;
 }
 
+@keyframes invisnt{
+    0%{
+        color:transparent;
+    }
+
+    100%{
+        color:#3d4b52;
+    }
+}
+
 @keyframes come-in {
     0% {
         margin-bottom:50px;
@@ -539,7 +549,7 @@ footer .copyright{
 }
 
 #process-body .timeline .spine{
-    margin-top:20px;
+    margin-top:40px;
     display:block;
     background-color:#55BBC6;
     position:relative;
@@ -569,7 +579,7 @@ footer .copyright{
     display:block;
     width:300px;
     position: relative;
-    left:60%;
+    
     transform: translate(0,-90px);
 }
 
@@ -577,19 +587,52 @@ footer .copyright{
     
 }
 
+#process-body .timeline .tl-icons .t1 p{
+    position: relative;
+    left:60%;
+    color:transparent;
+}
+
 #process-body .timeline .tl-icons .t2{
     position:relative;
-    display:block;
-    transform: translate(0,300px);
+    transform: translate(0,200px);
 }
 
 #process-body .timeline .tl-icons .t2 p{
-    left:;
-    
+    position: relative;
+    right:60%;
+    float:right;
+    transform: translate(0,-30px);
+    color:transparent;
 }
 
-#process-body .timeline .tl-icons img:hover ~ p{
-    
+#process-body .timeline .tl-icons .t3{
+    position:relative;
+    transform: translate(0,500px);
+}
+
+#process-body .timeline .tl-icons .t3 p{
+    position:relative;
+    left:60%;
+    color:transparent;
+}
+
+#process-body .timeline .tl-icons .t1 img:hover ~ p{
+    color:#3d4b52;
+    animation-name: invisnt;
+    animation-duration:1s;
+}
+
+#process-body .timeline .tl-icons .t2 img:hover ~ p{
+    color:#3d4b52;
+    animation-name: invisnt;
+    animation-duration:1s;
+}
+
+#process-body .timeline .tl-icons .t3 img:hover ~ p{
+    color:#3d4b52;
+    animation-name: invisnt;
+    animation-duration:1s;
 }
 
 @media only screen and (max-width: 950px){
