@@ -535,12 +535,18 @@ body {
     color:#4da1c9;
 }
 
-#application iframe {
+iframe {
     width:50%;
     height:300px;
     position:relative;
     transform:translate(50%, 0);
+    border:none;
+    overflow: hidden; 
 }
+
+iframe ::-webkit-scrollbar {
+    display: none;
+  }
 
 #donate {
     background-color:lightgray;
@@ -572,6 +578,8 @@ body {
     margin-top:5vh;
     width:100%;
 }
+
+
 
 /* event */
 
