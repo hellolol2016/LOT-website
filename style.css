@@ -901,8 +901,12 @@ body {
     width:100%;
 }
 
-#newsletter {
+#creativity-lot {
     background-color:lightgray;
+}
+
+#newsletter {
+    background-color:lightcyan;
 }
 
 #newsletter p {
