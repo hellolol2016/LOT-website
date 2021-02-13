@@ -394,6 +394,13 @@ body {
     padding:10px;
 }
 
+#event-text .prep{
+    margin:0px;
+    border-radius:0px;
+    padding:0px;
+    color:#be4747;
+}
+
 #event-text p{
     text-align: center;
     margin-top:20px;
