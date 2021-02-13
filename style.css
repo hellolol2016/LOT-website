@@ -388,6 +388,22 @@ body {
 
 }
 
+#event-text a{
+    margin:20px;
+    border-radius:5px;
+    padding:10px;
+}
+
+#event-text p{
+    text-align: center;
+    margin-top:20px;
+}
+
+#event-text p b{
+    color:#be4747;
+    position:relative;
+}
+
 @media only screen and (min-width:1201px) {
     .event-box {
         display:inline-table;
