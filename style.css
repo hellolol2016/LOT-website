@@ -63,12 +63,10 @@ a:hover{
 .line{
     width:100px;
     height:2px;
-    position:relative;
     margin-left:auto;
     margin-right:auto;
     margin-top:10px;
     margin-bottom:30px;
-    transform: translate(0,-200%);
 }
 
 .miniheader{
@@ -181,7 +179,7 @@ header{
 .navdock .logo {
     max-height:50vh;
     min-width:200px;
-    width:21%;
+    width:30%;
     margin-top:20px;
     margin-left:10px;
     position: relative;
@@ -191,30 +189,31 @@ header{
 }
 
 .navdock .logo:hover {
-    width:20%;
+    width:29%;
     transition:0.5s;
 }
 
-.navdock .navbar{
-    position: absolute;
-    top:100%;
-    right:3%;
-    transform: translate(0,-40px);
+.navbar{
+    float:right;
+    margin-right:1%;
+    border-radius:10px;
+    padding-right:1%;
+    transform:translateY(-140%);
     color:lightcyan;
 }
 
-.navdock .navbar .navlink{
-    font-size: 20px;
+.navbar .navlink{
+    font-size:20px;
     font-family: Bahnschrift, Comfortaa, helvetica, arial, sans-serif;
-    margin-right:30px;
-    transition-duration:0.5s;
+    margin-left:30px;
+    transition-duration:0.3s;
 }
 
-.navdock .navbar .navlink:hover{
+.navbar .navlink:hover{
+    background-color:transparent;
     color:#55BBC6;
     font-weight:bold;
-    font-size: 24px;
-    transition-duration:0.5s;
+    transition-duration:0.3s;
 }
 
 .current-page {
@@ -394,23 +393,20 @@ body {
 
 #introduction #about-button {
     padding-bottom:17px;
+    border:solid;
+    border-width:6px;
+    border-color:#43736F;
     padding-top:17px;
     background-color:#B7EDFC;
-    transition-duration:0.5s;
-    border-radius:5px;
+    border-radius:10px;
     color:#147178;
     font-weight:bold;
     text-align:center;
 }
 
 #introduction #about-button:hover {
-    border-radius:10px;
-    margin-bottom:-4px;
-    padding-bottom:19px;
-    padding-top:19px;
-    background-color:#CF4A03;; 
+    background-color:#CF4A03;
     color:lightcyan;   
-    transition-duration:0.5s;
 }
 
 #index {
@@ -446,12 +442,16 @@ body {
     padding-bottom:1%;
 }
 
+#upcoming-events .index-heading{
+    margin-top:-0.8%;
+}
+
 .event-box h1{
     font-family:Bahnschrift;
     text-align:center;
     color:#F4F4D5;
     font-size:35px;
-    margin-bottom:25px;
+    margin-top:15%;
 }
 
 .event-box {
@@ -459,24 +459,22 @@ body {
     padding-top:1%;
     height:450px;
     background-color:rgba(199, 178, 74, 0.5);
-    transition-duration:0.5s;
+    transition-duration:0.3s;
 }
 
 .event-box:hover {
-    border-radius:20px;
     background-color:rgba(199, 178, 74, 1);
-    transition-duration:0.5s;
+    transition-duration:0.3s;
 }
 
 .event-box img{
-    margin-top:20%;
+    margin-top:10%;
     width:80%;
     margin-left:10%;
     margin-right:10%;
 }
 
 #event-one {
-    margin-left:0.8%;
 }
 
 #event-two {
@@ -498,6 +496,10 @@ body {
         display:inline-table;
         width:49%;
     }
+
+    #event-one {
+        margin-left:0.8%;
+    }
 }
 
 @media only screen and (max-width:1200px) {
@@ -506,6 +508,10 @@ body {
         margin-left:auto;
         margin-right:auto;
         width:85%;
+    }
+
+    #event-one {
+        margin-bottom:5%;
     }
 }
 
@@ -603,6 +609,7 @@ body {
 
 #more-info:hover {
     border-radius:5px;
+    margin-bottom:6px;
     padding-top:12px;
     padding-bottom:12px;
     width:95%;
