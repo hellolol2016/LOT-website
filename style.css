@@ -267,18 +267,6 @@ header{
 
 }
 
-#not-main-header .navdock .navbar .navlink{
-    font-size: 20px;
-    font-family: Bahnschrift, helvetica, arial, sans-serif;
-    margin-right:30px;
-    transition-duration:0.5s;
-}
-
-#not-main-header .navdock .navbar .navlink:hover{
-    font-size: 24px;
-    transition-duration:0.5s;
-}
-
 .block{
     clear:both;
     width:100%;
@@ -719,7 +707,7 @@ body {
     color:#455055;
 }
 
-@media only screen and (min-width:1337px){
+@media only screen and (min-width:1453px){
     #intro-text {
         height:450px;
         padding-bottom:0px;
@@ -742,7 +730,7 @@ body {
     }
 }
 
-@media only screen and (max-width:1336px){
+@media only screen and (max-width:1452px){
     #intro-text {
         height:;
         padding-bottom:30px;
