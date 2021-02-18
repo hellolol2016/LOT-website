@@ -445,7 +445,6 @@ body {
 .event-box {
     border-radius:5px;
     padding-top:1%;
-    height:450px;
     background-color:rgba(199, 178, 74, 0.5);
     transition-duration:0.3s;
 }
@@ -457,9 +456,9 @@ body {
 
 .event-box img{
     margin-top:10%;
-    width:80%;
-    margin-left:10%;
-    margin-right:10%;
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
 }
 
 #event-one {
@@ -481,6 +480,7 @@ body {
 
 @media only screen and (min-width:1201px) {
     .event-box {
+        height:40vw;
         display:inline-table;
         width:49%;
     }
@@ -492,6 +492,7 @@ body {
 
 @media only screen and (max-width:1200px) {
     .event-box {
+        height:70vw;
         display:block;
         margin-left:auto;
         margin-right:auto;
