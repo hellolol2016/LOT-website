@@ -1,12 +1,11 @@
 /*---Applies to ALL---*/
 * {
-    font-family:Comfortaa, Calibri, helvetica, arial, sans-serif;
+    color:white;
     margin-left:0;
     margin-right:0;
     margin-top:0;
     margin-bottom:0;
     padding:0;
-    color:white;
     text-decoration: none;
     scroll-behavior: smooth;
 }
@@ -29,6 +28,20 @@
     }
 }
 
+p {
+    color:white;
+}
+
+h1 {
+    color:white;
+    font-family:Bahnschrift, Calibri, Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color:white;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
 p a:link{
     color:#4da1c9;
 }
@@ -37,8 +50,12 @@ p a:visited{
     color:#b65ab6;
 }
 
+a{
+    transition:background-color 1s;
+}
+
 a:hover{                
-    background-color:#6d8488;
+    background-color:#D1C7B5;
     transition:background-color 1s;
 }
 
@@ -90,7 +107,6 @@ a:hover{
 p{
     font-family: Calibri, Arial, Helvetica, sans-serif;
     font-size:18px;
-    display:block;
 }
 
 .paragraph{
@@ -135,6 +151,7 @@ p{
 }
 
 .form-link {
+    font-family:Comfortaa, Calibri, helvetica, arial, sans-serif;
     margin-left:auto;
     margin-right:auto;
     width:100%;
@@ -200,6 +217,7 @@ header{
     padding-right:1%;
     transform:translateY(-140%);
     color:lightcyan;
+    color:white;
 }
 
 .navbar .navlink{
@@ -217,6 +235,7 @@ header{
 }
 
 .current-page {
+    font-size:22px;
     color:#FACD79;
     font-weight:bold;
 }
@@ -380,6 +399,7 @@ body {
 }
 
 #introduction #about-button {
+    font-family:Comfortaa, Bahnschrift, Calibri, Arial, Helvetica, sans-serif;
     padding-bottom:17px;
     border:solid;
     border-width:6px;
@@ -617,7 +637,8 @@ body {
     transition-duration:0.5s;
 }
 
-#more-info h3 {
+#more-info h2 {
+    font-family:Comfortaa, Bahnschrift, Calibri, Arial, Helvetica, sans-serif;
     font-weight:bold;
     font-size:24px;
     color:#147178;
@@ -997,7 +1018,7 @@ body {
 }
 
 .event .form-link {
-    margin-top:20%;
+    margin-top:4%;
 }
 
 .upcoming-note {
@@ -1023,11 +1044,19 @@ body {
 }
 
 .event-text p {
+    margin-top:20px;
     font-size:25px;
     color:#455055;
     width:80%;
     margin-left:auto;
     margin-right:auto;
+}
+
+#event-text span{
+    font-family:Arial;
+    font-size:25px;
+    color:black;
+    font-weight:bold;
 }
 
 .event-image {
@@ -1059,7 +1088,7 @@ body {
     }
 
     .event-image img {
-        width:85%;
+        width:calc(7vh + calc(80% - 5vw));
         margin:auto;
     }
 }
