@@ -221,7 +221,7 @@ header{
 }
 
 .navbar .navlink{
-    font-size:20px;
+    font-size:23px;
     font-family: Bahnschrift, Comfortaa, helvetica, arial, sans-serif;
     margin-left:30px;
     transition-duration:0.3s;
@@ -500,7 +500,7 @@ body {
 
 @media only screen and (min-width:1201px) {
     .event-box {
-        height:40vw;
+        height:37vw;
         display:inline-table;
         width:49%;
     }
@@ -783,12 +783,9 @@ body {
     padding-bottom:50px;
 }
 
-#board-row {
+.board-row {
     padding-top:30px;
-    margin-left:auto;
-    margin-right:auto;
-    width:100%;
-    background-color:#85e0eb;
+    width:88%;
     display:inline-block;
 }
 
@@ -799,7 +796,6 @@ body {
 
 .board-picture img {
     position:relative;
-    height:380px;
     margin-left:auto;
     margin-right:auto;
     margin-top:20px;
@@ -811,13 +807,21 @@ body {
     .board-picture {
         display:inline-block;
         text-align: center;
-        width:25%;
-        margin-left:4%;
-        margin-right:4%;
+        width:14%;
+        margin-left:5%;
+        margin-right:5%;
     }
     
     .board-picture img {
-        height:380px;
+        height:300px;
+    }
+
+    #board-row-1 {
+    margin-left:5%;
+    }
+
+    #board-row-2 {
+        margin-left:15.5%;
     }
 }
 
@@ -834,6 +838,10 @@ body {
     .board-picture img {
         width:75%;
         height:75%;
+    }
+
+    .board-picture {
+        margin-left: 39%;
     }
 }
 
