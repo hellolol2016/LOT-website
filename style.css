@@ -10,6 +10,11 @@
     scroll-behavior: smooth;
 }
 
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 /*--- ANIMATION ---*/
 
 * {
@@ -365,7 +370,7 @@ body {
 
 /* index */
 #index {
-    background-color: #F2EDD3;
+    background-color:#F2EDD3;
     margin-left: 12%;
     margin-right: 12%;
 }
@@ -679,7 +684,7 @@ body {
 /* about us */
 #aboutus {
     display:block;
-    background-color:#C7DFE3;
+    background-color:#F2EDD3;
     margin-left:12%;
     margin-right:12%;
 }
