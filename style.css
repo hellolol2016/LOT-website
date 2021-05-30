@@ -414,6 +414,21 @@ body {
 
 
 /* index */
+.row {
+    width:100%;
+    display:block;
+}
+
+.half-text {
+    display:inline-block;
+    width:49.5%;
+}
+
+.half-image {
+    display:inline-block;
+    width:49.5%;
+}
+
 #index {
     background-color:#F2EDD3;
     margin-left: 12%;
@@ -433,7 +448,7 @@ body {
         min-height:375px;
         height:calc(600px - 35vw);
         float:left;
-        width:49%;
+        width:100%;
     }
 
     #different {
@@ -441,7 +456,7 @@ body {
         min-height:375px;
         float:right;
         height:calc(600px - 35vw);
-        width:49%;
+        width:100%;
     }
 }
 
@@ -461,6 +476,7 @@ body {
 
 .introduction .subheader {
     font-size:37px;
+    margin-bottom:5px;
     text-align:center;
     color:#455055;
 }
