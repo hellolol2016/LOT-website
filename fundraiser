@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <link rel="icon" type="image/png" href="media/favicon.png">
+        <title>Project Schoology - LOT Foundation</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="navdock">
+                <a href="index.html"><img class="logo" src="media/header_logo_white.png"></a>
+                <h1 class="catchphrase">A LITTLE FROM YOU, A <em>LOT</em>&nbsp; FOR THE WORLD!</h1>
+            </div>
+        </header>
+        <div class="navbar">
+            <a class="navlink" href="index">Home</a>
+            <a class="navlink" href="about-us">About Us</a>
+            <a class="navlink" href="donate">Donate</a>
+            <a class="navlink" href="get-involved">Get Involved</a>
+            <a class="navlink current-page" href="event">Events</a>
+            <!--<a class="navlink" href="achievements.html">Achievements</a>-->
+        </div>
+
+        <div id="fundraiser" ><img src="media/project_scoo.png"></div>
+
+        <section id="fundraiser-intro">
+            <div class="mini-what-box">
+                <h1 class="cancel centered-text header v2font">WHAT IS <img class="scoo" src="media/scoo_logo.png">?</h1>  
+            </div>
+
+            <div class="big-what-box">
+                <h1 class="centered-text caption v2font black-text">WHY SCHOOL SUPPLIES?</h1>
+                <div class="mini-box"><p>15 million students in the US lack the money to purchase basic school supplies.</p></div>
+                <div class="mini-box"><p>Students that have their own school supplies are more excited about their learning, have improved grades, and better attendance.</p></div>
+                <div class="mini-box"><p>Over 90% of teachers have to spend money buying supplies for their students. On average, teachers spend nearly $500 a year in out of pocket expenses for classroom supplies.</p></div>
+            </div>
+        </section>
+
+        <section id="testimony">
+            <div class="biggest-box">
+                <div class="text-area"></div>
+                <div class="img-box"></div>
+            </div>
+        </section>
+
+
+        <section id="fundraiser-help">
+            <h1 class="centered-text header v2font white-font">How YOU can help us!</h1>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoHZ-4ri4LTvdwNnzhzAsTWTlytE0ZnGZ7Cj2xTLkWgkpdWQ/viewform?usp=sf_link" target="_blank" class="button">
+                <div class="help-box">
+                    <h2>Volunteer</h2>
+                    <div class="line turquoise-background"></div>
+                    <p>Our project relies upon the work done by our kind volunteers! We would love to have you as a volunteer to further advance and expand our cause!
+                    </p>
+                </div>
+            </a>
+
+            <a href="" target="_blank" class="button">
+                <div class="help-box">
+                    <h2>Donate</h2>
+                    <div class="line turquoise-background"></div>
+                    <p>Aid us in providing children with the necessary school supplies they need! School supplies are costly and we need your support to make Project Schoology happen!</p>
+                </div>
+            </a>
+
+            <a href="" target="_blank" class="button">
+                <div class="help-box">
+                    <h2>Sponsor Us</h2>
+                    <div class="line turquoise-background"></div>
+                    <p>We would love for you to join us as we take the first step in returning our kindness to the community. If you and your business would be so kind as to join us on our mission, we would very much appreciate it. </p>
+                </div>
+            </a>
+        </section>
+
+        <section id="fundraiser-faq">
+            <a class="transparent" href="https://docs.google.com/document/d/1xNbWpeynnnpQPS4pvxMJi7k-6ZYpROkLfoCOX1n0YdM/edit?usp=sharing" target="_blank">
+                <div class="form-link">
+                    <h2>Got any questions? View our FAQ here!</h2>
+                </div>
+                </a>
+        </section>
+
+
+        <div class="block"></div>
+
+        <footer>
+            <div class="text-margin">
+                <h3>Feel free to contact us, we would love to hear from you!</h3>
+                
+                <div class="mediaIcons">
+                    <a href="mailto:LaughOutTogether@gmail.com"><img class="rectangleIcons" src="media/email-icon.png" title="Sign up for our email updates!">Email</a>
+                    <a href="https://www.twitch.tv/lot_foundation"><img class="squareIcons" src="media/twitch-icon.png" title="Twitch">Twitch</a>
+                    <a href="https://www.instagram.com/LOT_Foundation/"><img img class="squareIcons" src="media/instagram-icon.png" title="Instagram">Instagram</a>
+                    <a href="https://www.youtube.com/channel/UC5mPknkbUlmVXcvPJm7Ofwg"><img class="rectangleIcons" src="media/youtube-icon.png" title="YouTube">Youtube</a>
+                    <a href="https://twitter.com/lot_foundation"><img class="rectangleIcons"src="media/twitter-icon.png" title="Twitter">Twitter</a>
+                </div>
+                
+                <br><p class="copyright">© 2020 Laugh Out Together Foundation. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <link rel="icon" type="image/png" href="media/favicon.png">
+        <title>Events - LOT Foundation</title>
+    </head>
+
+    <body>
+        <header id="not-main-header">
+
+            <div class="navdock">
+                <a href="index.html"><img class="logo" src="media/header_logo_white.png"></a>
+                <div class="navbar">
+                    <a class="navlink" href="index">Home</a>
+                    <a class="navlink" href="about-us">About Us</a>
+                    <a class="navlink" href="donate">Donate</a>
+                    <a class="navlink" href="get-involved">Get Involved</a>
+                    <a class="navlink current-page" href="event">Events</a>
+                    <!--<a class="navlink" href="achievements.html">Achievements</a>-->
+                </div>
+            </div>
+            
+        </header>
+        <!-- REMOVE UPCOMING NOTE WHEN EVENT IS NOT UPCOMING <h2 class="upcoming-note">UPCOMING</h2> -->
+
+        <div id="podcast" class="block"></div>
+
+        <!-- Podcast -->
+        <div class="date-banner"><h2 class="subheader">3/30/2021</h2></div>
+        <div class="event">
+
+            <section class="event-text">
+                <h1 class="miniheader">The Mental LOTline</h1>
+
+
+                <!-- USE event-links CLASS FOR LINKS IN THE PARAGRAPH -->
+                <p>Did you know that 80% of your thoughts in a day are negative? It might be the time for you to take a break and listen to that little guy inside your head. From simple headaches to severe depression, there’s so much that you are yet to know about your mental health. Each month, our hosts will be joined by an expert in the mental health field to tackle different aspects of mental health, so sit back, relax, and let your mind drift as you join our journey to #breakthestigma.
+                </p>
+
+                <!-- ONLY HAVE FORM LINK FOR EVENTS THAT NEED IT-->
+                <a class="transparent" href="https://www.youtube.com/watch?v=Z1YabhwccfA&t=320s" target="_blank">
+                <div class="form-link">
+                    <h2>EPISODE 1 ON YOUTUBE</h2>
+                </div>
+                </a>
+
+                <a class="transparent" href="https://open.spotify.com/episode/0Ip50LrfysFl5wKJ1UUYhw?si=IziqWERRRIiguBlzlaMM6w" target="_blank">
+                <div class="form-link">
+                    <h2>LISTEN ON SPOTIFY</h2>
+                </div>
+                </a>
+            </section>
+
+            <section class="event-image">
+                <img src="media/event/podcast_icon.png">
+            </section>
+        </div>
+
+
+        <div id="workshop" class="block"></div>
+
+        <div id="merch" class="block"></div>
+
+        <!-- Merch -->
+        <div class="date-banner"><h2 class="subheader">UPCOMING</h2></div>
+        <div class="event">
+
+            <section class="event-text">
+                <h1 class="miniheader">LOT Merchandise</h1>
+                <h2 class="upcoming-note">UPCOMING</h2>
+
+                <!-- USE event-links CLASS FOR LINKS IN THE PARAGRAPH -->
+                <p>Check back later to see what we offer!
+                </p>
+
+                <!-- ONLY HAVE FORM LINK FOR EVENTS THAT NEED IT-->
+            </section>
+
+            <section class="event-image">
+                <img src="media/logo7.png">
+            </section>
+        </div>
+
+        <div class="block"></div>
+
+
+        <h1 class="miniheader banner-block">PAST EVENTS</h1>
+        <div class="lightcyan-background">
+
+            <div id="esports" class="lightcyan-block"></div>
+
+
+            <!-- esports -->
+            <div class="date-banner"><h2 class="subheader">9/30/2020</h2></div>
+            <div class="event">
+
+                <section class="event-text">
+                    <h1 class="miniheader">eSports Tournament</h1>
+
+                    <!-- USE event-links CLASS FOR LINKS IN THE PARAGRAPH -->
+                    <p>Our first event! We hosted an online VALORANT and chess tournament to raise money for CHOC, successfully raising $500. Click on the link below to see some highlights.
+                    </p>
+
+                    <!-- ONLY HAVE FORM LINK FOR NON UPCOMING EVENTS-->
+                    <a class="transparent" href="https://www.youtube.com/watch?v=sokcAmxoiTE&t=31s" target="_blank">
+                    <div class="form-link">
+                        <h2>VALORANT Highlights</h2>
+                    </div>
+                    </a>
+                </section>
+
+                <section class="event-image">
+                    <img src="media/event/workshop_icon.png">
+                </section>
+            </div>
+
+            <div id="esports" class="lightcyan-block"></div>
+        </div>
+        
+        <footer>
+            <div class="text-margin">
+                <h3>Feel free to contact us, we would love to hear from you!</h3>
+                <div class="mediaIcons">
+                    <a href="mailto:LaughOutTogether@gmail.com"><img class="rectangleIcons" src="media/email-icon.png" title="Sign up for our email updates!">Email</a>
+                    <a href="https://www.twitch.tv/lot_foundation"><img class="squareIcons" src="media/twitch-icon.png" title="Twitch">Twitch</a>
+                    <a href="https://www.instagram.com/LOT_Foundation/"><img img class="squareIcons" src="media/instagram-icon.png" title="Instagram">Instagram</a>
+                    <a href="https://www.youtube.com/channel/UC5mPknkbUlmVXcvPJm7Ofwg"><img class="rectangleIcons" src="media/youtube-icon.png" title="YouTube">Youtube</a>
+                    <a href="https://twitter.com/lot_foundation"><img class="rectangleIcons"src="media/twitter-icon.png" title="Twitter">Twitter</a>
+                </div>
+                <br><p class="copyright">© 2020 Laugh Out Together Foundation. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>

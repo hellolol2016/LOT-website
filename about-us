@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <link rel="icon" type="image/png" href="media/favicon.png">
+        <title>About Us - LOT Foundation</title>
+    </head>
+
+    <body>
+        <header id="not-main-header">
+
+            <div class="navdock">
+                <a href="index.html"><img class="logo" src="media/header_logo_white.png"></a>
+                <div class="navbar">
+                    <a class="navlink" href="index">Home</a>
+                    <a class="navlink current-page" href="about-us">About Us</a>
+                    <a class="navlink" href="donate">Donate</a>
+                    <a class="navlink" href="get-involved">Get Involved</a>
+                    <a class="navlink" href="event">Events</a>
+                    <!--<a class="navlink" href="achievements.html">Achievements</a>-->
+                </div>
+            </div>
+        </header>
+        
+        <div class="block"></div>
+
+        <section id="aboutus"> 
+            <div class="break"></div>
+            
+            <section id="intro">
+                <section id="intro-text">
+                    <h1 class="miniheader black-text">WHO ARE WE?</h1>
+                    <div class="line"></div>
+                    <p class="black-text">We are a student run foundation working around OC, aiming to bring 
+                        resources to all members of the community. Through our connections 
+                        to various organizations, we hope to provide a chance for everyone 
+                        to explore their passion regardless of their background.</p>
+                </section> 
+
+                <img src="media/how_projects_work.png">
+            </section>
+
+
+            <div class="break"></div>
+            <div class="break lightgray-background"></div>
+
+
+            <section id="mission">
+                <section id="mission-text">
+                    <h3 class="subheader">Our Mission</h3>
+                    <p>
+                        We utilize <span class="turquoise-text paragraph">YOUR</span> skills to benefit the community
+                        <br><br>
+                        Our mission is to empower and inspire the community to do good by utilizing the skills of compassionate students. 
+                        Here at Laugh Out Together Foundation, we believe every member of our community is unique in their own way, and 
+                        we strive to bring out the best of our community. As our name suggests, we envision a world where everyone can
+                        showcase the best of themselves, and our community can truly <span class="turquoise-text paragraph">"laugh out together"</span>.
+                    </p>
+                </section>
+
+                <img src="media/connect.png">
+            </section>
+
+
+            <div class="break lightgray-background"></div>
+            <div class="break"></div>
+
+
+            <section id="vision">
+                <h2 class="subheader">Our Vision</h2>
+                <p>As our name suggests, we envision a world where 
+                    everyone can showcase the best of themselves, and 
+                    our community can truly “laugh out together”.
+                    Today, we live in an age where incentive and 
+                    peer-pressure dominates our passion. In the midst 
+                    of stereotypes and prejudice, the society seems to 
+                    be setting a definition for what is useful and who 
+                    can be useful. With a set definition, many around 
+                    the community are left behind.
+                    <br><br>
+                    Laugh Out Together foundation is here to change 
+                    this definition. We believe that everyone, no 
+                    matter their age and status, has an unique passion 
+                    that can impact the community. Through unconventional 
+                    volunteer projects, we hope to create a platform that
+                    showcases the unique skills and talents of our 
+                    community. With the platform we create, we also hope
+                    to raise resources to empower individuals in 
+                    combating their physical and mental challenges.
+                    <br><br>
+                    A little from you, a lot for the world! 
+                    Together, we will make a difference.
+                </p>
+            </section>
+
+
+            <div class="block"></div>
+        </section>
+
+        <section id="board">
+            <h2 class="miniheader lightcyan-text">BOARD</h2>
+            <div class="line"></div>
+            <div class="board-row" id="board-row-1">
+                <div class="board-picture">
+                    
+                        <img src="media/team-members/jack-chen.jpg">
+                        <h3>Jack Chen</h3>
+                        <p>President / Founder</p>
+                    
+                </div>
+
+                <div class="board-picture">
+                    
+                    <img src="media/team-members/brian-cheng.jpeg">
+                    <h3>Brian Cheng</h3>
+                    <p>Vice President</p>
+                
+                </div>
+
+                <div class="board-picture">
+                    
+                        <img src="media/team-members/andrew-chen.jpg">
+                        <h3>Andrew Chen</h3>
+                        <p>Chief Operating Officer</p>
+                    
+                </div>
+
+                <div class="board-picture">
+                    
+                    <img src="media/team-members/dennis-wang.png">
+                    <h3>Dennis Wang</h3>
+                    <p>Chief Financial Officer</p>
+                
+                </div>
+                
+            </div>
+
+            <div class="board-row" id="board-row-2">
+                
+
+                <div class="board-picture">
+
+                        <img src="media/team-members/brandon-xu.jpg">
+                        <h3>Brandon Xu</h3>
+                        <p>Secretary</p>
+                    
+                </div>
+
+                <div class="board-picture">
+                    
+                        <img src="media/team-members/charles-ou-yang.png">
+                        <h3>Charles Ou-Yang</h3>
+                        <p>Advisor</p>
+                    
+                </div>
+
+                <div class="board-picture">
+                    
+                        <img src="media/team-members/darsh-verma.png">
+                        <h3>Darsh Verma</h3>
+                        <p>PR Director</p>
+                    
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="text-margin">
+                <h3>Feel free to contact us, we would love to hear from you!</h3>
+                
+                <div class="mediaIcons">
+                    <a href="mailto:LaughOutTogether@gmail.com"><img class="rectangleIcons" src="media/email-icon.png" title="Sign up for our email updates!">Email</a>
+                    <a href="https://www.twitch.tv/lot_foundation"><img class="squareIcons" src="media/twitch-icon.png" title="Twitch">Twitch</a>
+                    <a href="https://www.instagram.com/LOT_Foundation/"><img img class="squareIcons" src="media/instagram-icon.png" title="Instagram">Instagram</a>
+                    <a href="https://www.youtube.com/channel/UC5mPknkbUlmVXcvPJm7Ofwg"><img class="rectangleIcons" src="media/youtube-icon.png" title="YouTube">Youtube</a>
+                    <a href="https://twitter.com/lot_foundation"><img class="rectangleIcons"src="media/twitter-icon.png" title="Twitter">Twitter</a>
+                </div>
+                
+                <br><p class="copyright">© 2021 Laugh Out Together Foundation. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
