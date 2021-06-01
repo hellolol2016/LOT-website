@@ -330,7 +330,7 @@ header{
     background-color:white;
     clear:both;
     width:100%;
-    height:9.5vh;
+    height:8.5vh;
 }
 
 .lightcyan-block{
@@ -451,19 +451,24 @@ body {
 
 .introduction p {
     font-color:#455055;
-    font-size:20px;
+    font-size:1.4vw;
     margin-left:7%;
     margin-right:7%;    
 }
 
-.introduction #container{
-    margin-top:4%;
+#who-are-we p {
+    text-align:center;
+    font-size:1.8vw;
+}
+
+#container{
     width:50%;
     margin-left:25%;
     margin-right:25%;
+    margin-bottom:3%;
 }
 
-.introduction #about-button {
+#about-button {
     font-family:Comfortaa, Bahnschrift, Calibri, Arial, Helvetica, sans-serif;
     padding-bottom:17px;
     border:solid;
@@ -477,7 +482,11 @@ body {
     text-align:center;
 }
 
-.introduction #about-button:hover {
+.introduction .subheader {
+    font-size:2.5vw;
+}
+
+#about-button:hover {
     background-color:#CF4A03;
     color:lightcyan;   
 }
@@ -597,26 +606,26 @@ body {
 
 
 @media only screen and (min-width:1301px) {
-    .help-box {
+    #how-can-you-help .help-box {
         transition-duration:0.5s;
         display:inline-table;
         width:32%;
         height:400px;
     }
 
-    .help-two {
+    #how-can-you-help .help-two {
         margin-left:1%;
         margin-right:1%;
     }
 
-    .help-box img {
+    #how-can-you-help .help-box img {
         width:75%;
         margin-bottom:15px;
         margin-left:12.5%;
         margin-right:12.5%;
     }
 
-    .help-box p {
+    #how-can-you-help .help-box p {
         max-width:22vw;
         height:135px;
     }
@@ -628,13 +637,15 @@ body {
 }
 
 @media only screen and (max-width:1300px) {
-    #how-can-you-help.help-box {
+    #how-can-you-help .help-box {
         display:block;
         margin-left:auto;
         margin-right:auto;
         margin-bottom:1%;
-        margin-top:1%;
-        width:76%;
+        border-bottom-width:3px;
+        border-top-width:3px;
+        border-color:#55BBC6;
+        width:65%;
     }
 
     #how-can-you-help .help-box img {
@@ -644,12 +655,11 @@ body {
     }
 
     #how-can-you-help .help-box p {
-        max-width:50vw;
+        max-width:38vw;
         height:155px;
     }
 
     #how-can-you-help .help-box:hover{
-        width:80%;
         background-color:#F8F87E;
         transition-duration:0.5s;
     }
@@ -1163,20 +1173,39 @@ body {
 
 /* fundraiser */
 .mini-box {
-    white-space:pre-wrap;
-    vertical-align:top;
-    height:450px;
     display:inline-block;
+    white-space:pre-wrap;
+    height:450px;
     width:31%;
     background-color:lightgray;
     border-radius:5px;
     margin:0.75%;
+    vertical-align:top;
 }
 
 .mini-box p {
+    font-size:1.3vw;
     padding:5px;
-    color:#455055;
     text-align:center;
+    color:rgb(25,25,25);
+}
+
+#figure1 {
+    background-image:url(media/figure_1.png);
+    background-size:cover;
+    background-position:center;
+}
+
+#figure2 {
+    background-image:url(media/figure_2.png);
+    background-size:cover;
+    background-position:center;
+}
+
+#figure3 {
+    background-image:url(media/figure_3.png);
+    background-size:cover;
+    background-position:center;
 }
 
 .big-what-box .mini-box {
@@ -1199,7 +1228,6 @@ body {
 
 .mini-what-box {
     white-space:nowrap;
-    vertical-align:top;
     height:450px;
     display:inline-block;
     width:41%;
@@ -1211,6 +1239,15 @@ body {
 
 .mini-what-box h1 {
     color:white;
+    font-size:2.8vw;
+}
+
+.mini-what-box p {
+    font-size:1.5vw;
+    margin-left:8%;
+    margin-right:8%;
+    line-height:1.5;
+    white-space:pre-wrap;
 }
 
 .big-what-box {
@@ -1234,7 +1271,7 @@ body {
     vertical-align:top;
     display:inline-block;
     background-color:lightblue;
-    width:33.5%;
+    width:33%;
     height:100%;
     background-image:url(media/testimony.png);
     background-repeat: no-repeat;
@@ -1246,9 +1283,14 @@ body {
     vertical-align:top;
     display:inline-block;
     width:64%;
-    background-color:lightblue;
     margin:0.75%;
     margin-left:1.5%;
+}
+
+.biggest-box .text-area p{
+    margin-bottom:80px;
+    font-size:1.7vw;
+    color:#455055;
 }
 
 #fundraiser-intro {
@@ -1279,6 +1321,20 @@ body {
     width:100%;
 }
 
+#fundraiser-help .help-box {
+        transition-duration:0.5s;
+        display:inline-table;
+        width:32%;
+        height:400px;
+    }
+
+#fundraiser-help .help-box img {
+    width:75%;
+    margin-bottom:15px;
+    margin-left:12.5%;
+    margin-right:12.5%;
+}
+
 #fundraiser-help {
     margin-top:0.75%;
     margin-left:1.75%;
@@ -1300,14 +1356,20 @@ body {
 }
 
 #fundraiser-help .help-box {
-    margin-left:0.75%;
     vertical-align:top;
+    display:table;
+    margin-left:0.375%;
+    margin-right:0.375%;
     transition-duration:0.1s;
     display:inline-table;
     background-color:rgba(230,230,230,0.75);
-    width:32%;
-    height:400px;
+    width:48.9%;
     border-radius:12px;
+}
+
+#fundraiser-help .help-box .inner {
+    display:table-cell;
+    vertical-align:middle;
 }
 
 #fundraiser-help .help-box h2 {
@@ -1315,8 +1377,11 @@ body {
 }
 
 #fundraiser-help .help-box p {
+    font-family: Georgia, Calibri, Arial, Helvetica, sans-serif;;
+    margin-left:8%;
+    margin-right:8%;
     color:rgb(25,25,25);
-    font-size:20px;
+    font-size:1.4vw;
     text-align:center;
 }
 
@@ -1326,7 +1391,7 @@ body {
 }
 
 #fundraiser-help .help-box .line {
-    background-color:white;
+    background-color:#55BBC6;
 }
 
 #fundraiser {
@@ -1339,8 +1404,8 @@ body {
 }
 
 .scoo {
-    width:15%;
-    min-width:145px;
+    width:20%;
+    min-width:125px;
 }
 
 #fundrasier-faq {
