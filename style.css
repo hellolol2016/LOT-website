@@ -430,6 +430,10 @@ body {
     width:49.5%;
 }
 
+.half-image img {
+    width:100%;
+}
+
 #index {
     margin-left: 12%;
     margin-right: 12%;
