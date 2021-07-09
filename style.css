@@ -1061,6 +1061,10 @@ body {
     background-color:lightgray;
 }
 
+#newsletter .form-link {
+    margin-bottom:0;
+}
+
 #newsletter p {
     color:#627177;
 }
