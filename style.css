@@ -115,7 +115,7 @@ a:hover{
 }
 
 p{
-    font-family: Georgia, Calibri, Arial, Helvetica, sans-serif;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
     font-size:18px;
 }
 
@@ -125,7 +125,7 @@ p{
 }
 
 .turquoise-text{
-    color:#55BBC6;
+    color:#7D9CD6;
 }
 
 .blue-text{
@@ -153,7 +153,7 @@ p{
 }
 
 .turquoise-background{
-    background-color:#55BBC6;
+    background-color:#7D9CD6;
 }
 
 .bold-text{
@@ -169,7 +169,7 @@ p{
     padding-top:15px;
     margin-top:4vh;
     margin-bottom:4vh;
-    background-color:#55BBC6;
+    background-color:#7D9CD6;
     transition-duration:0.5s;
 }
 
@@ -189,7 +189,7 @@ p{
 
 /*---HEADER---*/
 header{
-    background-color:#55BBC6;
+    background-color:#7D9CD6;
     height:50vh;
     background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(media/header_background.jpg);
     background-size:cover;
@@ -211,7 +211,7 @@ header{
 .event-content {
     display:none;
     position:absolute;
-    background-color:#55BBC6;
+    background-color:#7D9CD6;
     min-width:160px;
 }
 
@@ -269,7 +269,7 @@ header{
 
 .navbar .navlink:hover{
     background-color:transparent;
-    color:#55BBC6;
+    color:#7D9CD6;
     font-weight:bold;
     transition-duration:0.3s;
 }
@@ -295,12 +295,11 @@ header{
 }
 
 #not-main-header{
-    background-color:#55BBC6;
+    background-color:#7D9CD6;
     height:200px;
     background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(media/header_background.jpg);
     background-size:cover;
     background-attachment:fixed;
-    background-position:center;
     background-repeat:no-repeat;
 }
 
@@ -349,7 +348,7 @@ header{
 
 /*---FOOTER---*/
 footer{
-    background-color:#cfc9a8;           
+    background-color:#24407F;           
     display:inline-block;
     width:100vw;
     
@@ -371,7 +370,7 @@ footer p{
 }
 
 footer h3{
-    color:#3d4b52;
+    color:#84DBFF;
     margin-top:20px;
     padding-top:20px;
     margin-right:10px;
@@ -389,7 +388,7 @@ footer .text-margin{
 footer a{
     font-family:Bahnschrift, helvetica, arial, sans-serif;
     font-size:18px;
-    color:#3d4b52;
+    color:#84DBFF;
     padding-left:15px;
     padding-right:15px;
 }
@@ -405,7 +404,7 @@ footer a{
 footer .copyright{
     margin-bottom:16px;
     font-size:12px;
-    color:#3d4b52;
+    color:#84DBFF;
 }
 
 /* global */
@@ -415,6 +414,16 @@ body {
 
 
 /* index */
+.different-thing
+{
+    display:inline-block;
+    width:45%;
+}
+
+.different-thing img {
+    width:100%;
+}
+
 .row {
     width:100%;
     display:block;
@@ -450,11 +459,11 @@ body {
     font-size:37px;
     margin-bottom:5px;
     text-align:center;
-    color:#455055;
+    color:#3E4560;
 }
 
 .introduction p {
-    font-color:#455055;
+    color:#455055;
     font-size:1.4vw;
     margin-left:7%;
     margin-right:7%;    
@@ -501,7 +510,7 @@ body {
     margin-right:14%;
     margin-bottom:3%;
     padding:3%;
-    background-color:#55BBC6;
+    background-color:#7D9CD6;
     color:lightcyan;
 }
 
@@ -517,7 +526,7 @@ body {
     border-radius:8px;
     border:solid;
     border-width:10px;
-    border-color:#55BBC6;
+    border-color:#7D9CD6;
     padding-bottom:1%;
 }
 
@@ -648,7 +657,7 @@ body {
         margin-bottom:1%;
         border-bottom-width:3px;
         border-top-width:3px;
-        border-color:#55BBC6;
+        border-color:#7D9CD6;
         width:65%;
     }
 
@@ -676,7 +685,7 @@ body {
     padding-bottom:12px;
     width:95%;
     transition-duration:0.5s;
-    background-color:#55BBC6;
+    background-color:#7D9CD6;
 }
 
 #more-info {
@@ -725,7 +734,7 @@ body {
 } 
 
 #intro-text .line {
-    background-color:#55BBC6;
+    background-color:#7D9CD6;
 }
 
 #intro-text p {
@@ -739,7 +748,7 @@ body {
 }
 
 #intro-text .miniheader {
-    color:#455055;
+    color:#3E4560;
 }
 
 #intro img {
@@ -834,7 +843,7 @@ body {
     padding-top:8vh;
     display:block;
     width:100%;
-    background-color:#55BBC6;
+    background-color:#7D9CD6;
     padding-bottom:50px;
 }
 
@@ -921,7 +930,7 @@ body {
     margin-right:auto;
     margin-left:auto;
     margin-bottom:15px;
-    color:#55BBC6;
+    color:#7D9CD6;
 }
 
 #donate-container {
@@ -984,7 +993,7 @@ body {
 
 .banner-block {
     color:lightcyan;
-    background-color:#55bbc6;
+    background-color:#7D9CD6;
     padding:30px;
 }
 
@@ -1368,7 +1377,7 @@ body {
     margin-right:0.375%;
     transition-duration:0.1s;
     display:inline-table;
-    background-color:rgba(230,230,230,0.75);
+    background-color:rgba(132,219,255,0.75);
     width:48.9%;
     border-radius:12px;
 }
@@ -1397,7 +1406,7 @@ body {
 }
 
 #fundraiser-help .help-box .line {
-    background-color:#55BBC6;
+    background-color:#7D9CD6;
 }
 
 #fundraiser {
