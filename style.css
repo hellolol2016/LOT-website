@@ -125,7 +125,7 @@ p{
 }
 
 .turquoise-text{
-    color:#7D9CD6;
+    color:#7391c8;
 }
 
 .blue-text{
@@ -153,7 +153,7 @@ p{
 }
 
 .turquoise-background{
-    background-color:#7D9CD6;
+    background-color:#7391c8;
 }
 
 .bold-text{
@@ -169,14 +169,14 @@ p{
     padding-top:15px;
     margin-top:4vh;
     margin-bottom:4vh;
-    background-color:#7D9CD6;
+    background-color:#7391c8;
     transition-duration:0.5s;
 }
 
 .form-link:hover {
     border-radius:10px;
     width:95%;
-    background-color:lightblue;    
+    background-color:#e3e7f1;    
     transition-duration:0.5s;
 }
 
@@ -189,12 +189,13 @@ p{
 
 /*---HEADER---*/
 header{
-    background-color:#7D9CD6;
+    background-color:#7391c8;
     height:50vh;
     background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(media/header_background.jpg);
     background-size:cover;
     background-attachment:fixed;
-    background-position:center;
+    background-position-x:center;
+    background-position-y: bottom;
     background-repeat:no-repeat;
 }
 
@@ -211,7 +212,7 @@ header{
 .event-content {
     display:none;
     position:absolute;
-    background-color:#7D9CD6;
+    background-color:#7391c8;
     min-width:160px;
 }
 
@@ -225,6 +226,11 @@ header{
 
 }
 
+.past-events {
+    background-color:#8fdafa;
+}
+
+
 
 .navdock a:hover{                
     background-color:transparent;
@@ -232,11 +238,10 @@ header{
 }
 
 .navdock .logo {
-    max-height:50vh;
-    min-width:200px;
-    width:30%;
+    min-width:100px;
+    width:5%;
     margin-top:20px;
-    margin-left:10px;
+    margin-left:20px;
     position: relative;
     left:0;
     top:0;
@@ -244,7 +249,7 @@ header{
 }
 
 .navdock .logo:hover {
-    width:29%;
+    width:6.5%;
     transition:0.5s;
 }
 
@@ -269,7 +274,7 @@ header{
 
 .navbar .navlink:hover{
     background-color:transparent;
-    color:#7D9CD6;
+    color:#7391c8;
     font-weight:bold;
     transition-duration:0.3s;
 }
@@ -295,26 +300,29 @@ header{
 }
 
 #not-main-header{
-    background-color:#7D9CD6;
+    background-color:#7391c8;
     height:200px;
-    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(media/header_background.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url(media/header_background.jpg);
     background-size:cover;
     background-attachment:fixed;
+    background-position-x:center;
+    background-position-y: bottom;
     background-repeat:no-repeat;
 }
 
 #not-main-header .navdock .logo {
-    min-width:200px;
-    max-width:500px;
-    width:30%;
+    min-width:100px;
+    width:5%;
     margin-top:20px;
-    margin-left:10px;
+    margin-left:20px;
+    position: relative;
+    left:0;
+    top:0;
     transition:0.5s;
 }
 
 #not-main-header .navdock .logo:hover {
-    max-width:480px;
-    width:29%;
+    width:6.5%;
     transition:0.5s;
 }
 
@@ -330,6 +338,20 @@ header{
     clear:both;
     width:100%;
     height:8.5vh;
+}
+
+.special-block {
+    background-color:#8fdafa;
+    clear:both;
+    width:100%;
+    height:12.5vh;
+}
+
+.special-break {
+    background-color:#8fdafa;
+    min-height:50px;
+    max-height:200px;
+    height:5vh;
 }
 
 .lightcyan-block{
@@ -459,7 +481,7 @@ body {
     font-size:37px;
     margin-bottom:5px;
     text-align:center;
-    color:#3E4560;
+    color:#455055;
 }
 
 .introduction p {
@@ -510,7 +532,7 @@ body {
     margin-right:14%;
     margin-bottom:3%;
     padding:3%;
-    background-color:#7D9CD6;
+    background-color:#7391c8;
     color:lightcyan;
 }
 
@@ -526,7 +548,7 @@ body {
     border-radius:8px;
     border:solid;
     border-width:10px;
-    border-color:#7D9CD6;
+    border-color:#7391c8;
     padding-bottom:1%;
 }
 
@@ -614,7 +636,7 @@ body {
     padding-top:35px;
     padding-bottom:35px;
     transition-duration:0.2s;
-    background-color:#C0F1FF;
+    background-color:#b3e8ff;
 }
 
 
@@ -657,7 +679,7 @@ body {
         margin-bottom:1%;
         border-bottom-width:3px;
         border-top-width:3px;
-        border-color:#7D9CD6;
+        border-color:#7391c8;
         width:65%;
     }
 
@@ -685,7 +707,7 @@ body {
     padding-bottom:12px;
     width:95%;
     transition-duration:0.5s;
-    background-color:#7D9CD6;
+    background-color:#7391c8;
 }
 
 #more-info {
@@ -734,7 +756,7 @@ body {
 } 
 
 #intro-text .line {
-    background-color:#7D9CD6;
+    background-color:#7391c8;
 }
 
 #intro-text p {
@@ -748,7 +770,7 @@ body {
 }
 
 #intro-text .miniheader {
-    color:#3E4560;
+    color:#455055;
 }
 
 #intro img {
@@ -818,7 +840,6 @@ body {
 
 @media only screen and (max-width:1452px){
     #intro-text {
-        height:;
         padding-bottom:30px;
     }
 
@@ -843,7 +864,7 @@ body {
     padding-top:8vh;
     display:block;
     width:100%;
-    background-color:#7D9CD6;
+    background-color:#7391c8;
     padding-bottom:50px;
 }
 
@@ -930,30 +951,31 @@ body {
     margin-right:auto;
     margin-left:auto;
     margin-bottom:15px;
-    color:#7D9CD6;
+    color:#000000;
 }
 
-#donate-container {
+.donate-container {
     width:100%;
+    background-color: #8fdafa;
 }
 
-#donate-container .subheader {
+.donate-container .paragraph {
     padding:45px;
 }
 
-#donate-logo {
+.donate-logo {
     width:25%;
     margin-left:37.5%;
     margin-right:37.5%;
 }
 
-#double-buttons {
+.double-buttons {
     margin-top:5vh;
     margin-bottom:5vh;
     width:100%;
 }
 
-#donate-buttons {
+.donate-buttons {
     display:inline-block;
     margin-left:14.8%;
     margin-right:14.8%;
@@ -993,7 +1015,7 @@ body {
 
 .banner-block {
     color:lightcyan;
-    background-color:#7D9CD6;
+    background-color:#7391c8;
     padding:30px;
 }
 
@@ -1285,7 +1307,7 @@ body {
 .biggest-box .img-box {
     vertical-align:top;
     display:inline-block;
-    background-color:lightblue;
+    background-color:#e3e7f1;
     width:33%;
     height:100%;
     background-image:url(media/testimony.png);
@@ -1377,7 +1399,7 @@ body {
     margin-right:0.375%;
     transition-duration:0.1s;
     display:inline-table;
-    background-color:rgba(132,219,255,0.75);
+    background-color:rgba(230,230,230, 0.8);
     width:48.9%;
     border-radius:12px;
 }
@@ -1406,7 +1428,7 @@ body {
 }
 
 #fundraiser-help .help-box .line {
-    background-color:#7D9CD6;
+    background-color:#7391c8;
 }
 
 #fundraiser {
