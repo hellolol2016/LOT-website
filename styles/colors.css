@@ -1,0 +1,86 @@
+/* for color stuff*/
+:root{
+    --dark-blue: #1a535c;
+    --light-blue:#4ecdc4;
+    --white-blue:#f7fff7;
+    --red:#ff6b6b;
+    --yellow:#ffe66d;
+    --black:#2b2d42;
+}
+
+*{
+    
+}
+
+.darker-background{
+    background:linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        );
+}
+
+nav a{
+    padding:10px 5px 10px 5px;
+    border-radius:5px;
+    color:var(--red);
+    
+}
+
+nav a:hover{
+    background:linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+        );
+}
+
+a:hover{
+    background:transparent;
+}
+
+.about:hover{
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      );
+}
+
+.white-font{
+    color:var(--white-blue);
+}
+
+.black-font{
+    color:var(--black)
+}
+
+.white-background{
+    background-color:var(--white-blue);
+}
+
+.red-background{
+    background-color:var(--red);
+}
+
+.red-font{
+    color:var(--red);
+}
+
+.dropbtn {
+    background-color:transparent;
+    color: var(--red);
+    font-size:20px;
+    border: none;
+    cursor: pointer;
+  }
+
+.dropdown-content a {
+    color: var(--red);
+}
+
+.projects img:hover{
+    background:linear-gradient(
+        rgb(255, 255, 255, 0.3), 
+        rgba(255, 255, 255, 0.3)
+      );
+      padding:10px;
+      border-radius:10px;
+}
