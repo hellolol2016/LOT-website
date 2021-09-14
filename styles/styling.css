@@ -1,6 +1,12 @@
 *{
     font-family:rubik;
 }
+
+div{
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+
 ul{
     list-style: none;
 }
@@ -84,6 +90,17 @@ a {
 .quotes h2{
     font-size:40px;
 }
+
+
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 
 
 /* PAYPAL PAYMENT FORM CODE */
