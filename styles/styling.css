@@ -2,10 +2,25 @@
     font-family:rubik;
 }
 
-div{
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+p{
+    animation:slideInFromLeft 1s;
+    animation-timing-function:cubic-bezier(.04,.81,.77,1.01);
 }
 
+h2{
+    animation:slideInFromLeft 1.5s;
+    animation-timing-function:cubic-bezier(.04,.81,.77,1.01);
+}
+
+h1{
+    animation:slideInFromLeft 1s;
+    animation-timing-function:cubic-bezier(.04,.81,.77,1.01);
+}
+
+img{
+    animation:slideInFromLeft 2s;
+    animation-timing-function:cubic-bezier(.04,.81,.77,1.01);
+}
 
 ul{
     list-style: none;
