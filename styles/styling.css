@@ -95,10 +95,12 @@ a {
 
 @keyframes slideInFromLeft {
     0% {
-      transform: translateY(30%);
+        opacity:0.5;
+      transform: translateX(-10%);
     }
     100% {
-      transform: translateY(0);
+        opacity:1;
+      transform: translateX(0);
     }
   }
 
