@@ -1,0 +1,166 @@
+*{
+    font-family:rubik;
+}
+ul{
+    list-style: none;
+}
+
+h1{
+    text-align:center;
+    font-family:rubik;
+    font-weight:100;
+    font-size:44px;
+    padding:20px;
+}
+
+h2{
+    font-family:rubik;
+    font-weight:100;
+    padding:15px 0 0 0;
+}
+
+a {
+    text-decoration: none; /* no underline */
+    font-size:20px;
+    font-weight:400;
+    font-family:montserrat;
+}
+
+.thick-header{
+    font-weight:400;
+    font-size:50px;
+    text-align:center;
+}
+
+.thin-header{
+    font-size:35px;
+}
+
+.slightly-transparent{
+    opacity:0.9;
+}
+
+.body1 p{
+    font-family:rubik;
+    text-align:center;
+    padding:0 5% 0 5%;
+}
+
+.small-p{
+    font-size:20px;
+}
+
+.medium-p{
+    font-size:20px;
+}
+
+.big-p{
+    font-size:35px;
+}
+
+.small-line{
+    height:2px;
+    width:200px;
+    left:50%;
+    position:relative;
+    transform:translate(-50%,0);
+    background-color:#2b2d42;
+    margin:0;
+}
+
+.team .row p{
+    font-size:20px;
+    font-weight:600;
+}
+
+.team .row .subtitle{
+    font-weight:400;
+    font-size:16px;
+}
+
+.gallery .thick-header{
+    margin-bottom:10px;
+}
+
+.quotes h2{
+    font-size:40px;
+}
+
+
+/* PAYPAL PAYMENT FORM CODE */
+
+.pp-form	{ margin: 0px; }
+
+.pp-input	{ width: 130px; margin: 3px 0px 3px 0px; }
+
+.pp-textarea	{ width: 130px; margin: 3px 0px 3px 0px; }
+
+.pp-button 	{ width: 134px; margin: 3px 0px 3px 0px; }
+
+.body1 .pp-badge	{
+    width:unset;
+    margin:unset;
+		float: left;
+		margin: 20px auto 0px 0px;
+		}
+
+.pp-canvasarea	{
+		background-color: #F0F0F0;
+		border: #D4D4D4 1px solid;
+		display: inline-block;
+		*display: inline; zoom: 1; /* FOR IE7-8 */
+		padding: 6px;
+		}
+
+.pp-formbox	{
+		font: normal 13px arial, sans-serif;
+		float: left;
+		padding: 0px 10px 0px 0px;
+		}
+
+.pp-clear-float	{ height: 1px; clear: both; }
+/* 
+DROPDOWN CODE */
+/* Style The Dropdown Button */
+
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    padding: 10px 12px;
+    text-decoration: none;
+    border-radius:0;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropbtn{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: montserrat;
+  }
+
+

@@ -3,13 +3,59 @@ import lottechIcon from "../media/projects/lottech_icon.png";
 import esportsIcon from "../media/projects/lotesportlogo.png";
 import schoologyIcon from "../media/projects/scoo_logo_black.png"
 
-import emailIcon from "../media/socials/email.png"
-import igIcon from "../media/socials/insta.png"
-import ytIcon from "../media/socials/youtube.png";
-import tIcon from "../media/socials/twitch.png";
-import twIcon from "../media/socials/twitter.png";
+import {
+  AiOutlineMail,
+  AiFillYoutube,
+  AiOutlineInstagram,
+  AiOutlineTwitter,
+} from "react-icons/ai";
+
+import { ImTwitch } from "react-icons/im";
+
+import { Link } from "react-router-dom";
+
 
 // eslint-disable-next-line import/no-anonymous-default-export
+const header = [
+  {
+    links: [
+      {
+        link: <Link to="/">Home</Link>,
+      },
+      {
+        link: <Link to="/about">About Us</Link>,
+      },
+      {
+        link: <Link to="/donate">Donate</Link>,
+      },
+      {
+        link: <Link to="/involve">Get Involved</Link>,
+      },
+      {
+        link: <Link to="/gallery">Gallery</Link>,
+        sublinks: [
+          {
+            name: "Project Schoology",
+            link: <Link to="/gallery/id:schoology">Project Schoology</Link>,
+          },
+          {
+            name: "Esports Tournament",
+            link: <Link to="/gallery/id:esports">Esports Tournament</Link>,
+          },
+          {
+            name: "Mental LOTLine",
+            link: <Link to="/gallery/id:lotline">Mental LOTLine</Link>,
+          },
+          {
+            name: "Workshop Tutorial",
+            link: <Link to="/gallery/id:schoology">Workshop Tutorial</Link>,
+          },
+        ],
+      },
+    ],
+  },
+];
+
 const gallery = [
   {
     page: "gallery",
@@ -60,37 +106,39 @@ const home = [
 ]
 
 const socials = [
-    {
+  {
     page: "footer",
     links: [
       {
         name: "email",
-        icon: emailIcon,
+        icon: <AiOutlineMail size={50} />,
         url: "https://mail.google.com/mail/?view=cm&fs=1&to=LaughOutTogether@gmail.com",
       },
       {
         name: "instagram",
-        icon: igIcon,
+        icon: <AiOutlineInstagram size={50} />,
         url: "https://www.instagram.com/LOT_Foundation/",
       },
       {
         name: "youtube",
-        icon: ytIcon,
+        icon: <AiFillYoutube size={50} />,
         url: "https://tinyurl.com/LOTyoutube",
       },
       {
         name: "twitch",
-        icon: tIcon,
+        icon: <ImTwitch size={50} />,
         url: "https://www.twitch.tv/lot_foundation",
       },
       {
         name: "twitter",
-        icon: twIcon,
+        icon: <AiOutlineTwitter size={50} />,
         url: "https://twitter.com/LOT_Foundation/",
       },
     ],
-  }
-]
+  },
+];
 
-const exp = { socials, home, gallery }
+
+
+const exp = { socials, home, gallery, header }
 export default exp

@@ -6,8 +6,9 @@ import About from "./pages/About"
 import Donate from "./pages/Donate"
 import Involve from "./pages/Involve"
 import Error from "./pages/Error"
-import Project from "./pages/Project"
+import Project from "./pages/Project.js"
 import Gallery from "./pages/Gallery"
+
 
 
 import Navbar from "./components/Navbar"
@@ -33,7 +34,7 @@ function App() {
         <Route path="/gallery">
           <Gallery />
         </Route>
-        <Route path="/gallery/:id">
+        <Route path="/project/:id">
           <Project />
         </Route>
         <Route path="*">
