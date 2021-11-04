@@ -20,18 +20,7 @@ const header = [
   {
     links: [
       {
-        link: <Link to="/">Home</Link>,
-      },
-      {
-        link: <Link to="/about">About Us</Link>,
-      },
-      {
-        link: <Link to="/donate">Donate</Link>,
-      },
-      {
-        link: <Link to="/involve">Get Involved</Link>,
-      },
-      {
+        name: "gallery",
         link: <Link to="/gallery">Gallery</Link>,
         sublinks: [
           {
@@ -51,6 +40,22 @@ const header = [
             link: <Link to="/gallery/id:schoology">Workshop Tutorial</Link>,
           },
         ],
+      },
+      {
+        name: "involve",
+        link: <Link to="/involve">Get Involved</Link>,
+      },
+      {
+        name: "donate",
+        link: <Link to="/donate">Donate</Link>,
+      },
+      {
+        name: "about",
+        link: <Link to="/about">About Us</Link>,
+      },
+      {
+        name: "home",
+        link: <Link to="/">Home</Link>,
       },
     ],
   },

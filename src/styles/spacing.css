@@ -12,6 +12,8 @@ body{
 nav ul{
     display:flex;
     flex-direction:row-reverse;
+    margin-right:60px;
+    
 }
 nav li{
     flex-direction:row;

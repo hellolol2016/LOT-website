@@ -18,9 +18,25 @@ function Navbar() {
             <nav>
                 <ul>
                     {links.map((link) => {
-                        if (link.name !== "gallery") {
-                            
-                        }
+                        if (link.name == "gallery") {
+                            return (
+                              <li>
+                                <div className="dropdown">
+                                  {link.link}
+                                  <div className="dropdown-content">
+                                    {link.sublinks.map((sublink) => {
+                                      return sublink.link;
+                                    })}
+                                  </div>
+                                </div>
+                              </li>
+                            );
+                        }    
+                        return (
+                            <li>
+                                {link.link}
+                            </li>
+                        )
                     })}
                 </ul>
             </nav>
