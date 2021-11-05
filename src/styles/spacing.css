@@ -12,12 +12,12 @@ body{
 nav ul{
     display:flex;
     flex-direction:row-reverse;
-    margin-right:60px;
+    margin-right:10px;
     
 }
 nav li{
     flex-direction:row;
-    margin:0 10px 15px 15px;
+    margin:10px 5px;
 }
 
 footer ul{
