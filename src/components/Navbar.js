@@ -87,10 +87,10 @@ function Navbar() {
             </h1>
             <nav>
                 <ul>
-                    {links.map((link) => {
+                    {links.map((link, index) => {
                         if (link.name === "gallery") {
                             return (
-                              <li>
+                              <li key={index}>
                                 <div className="dropdown">
                                   {link.link}
                                   <div className="dropdown-content">
