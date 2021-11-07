@@ -1,90 +1,24 @@
-import {React, useEffect, useRef} from 'react'
+import {React} from 'react'
 import { Link } from "react-router-dom"
 import WhiteLogo from "../media/white_logo.png";
 import data from "../pages/data"
-import anime from "animejs/lib/anime.es.js";
-
-
 function Navbar() {
     const links = data.header[0].links;
-  console.log(links)
-  
-  const animationRef = useRef(null)
-  useEffect(() => {
-    let animation = anime({
-      targets:".lot",
-      opacity: 0.8,
-      direction: "alternate",
-      loop: true,
-      easing: "easeInOutSine",
-    })
-
-    let lift = anime({
-      targets: "li",
-      translateY: -10,
-      delay: anime.stagger(50, {start:200}),
-    });
-    animationRef.current = lift.play();
-
-    animationRef.current = animation.play();
-
-
-    var buttonEl = document.querySelectorAll("li, img");
-
-    function animateButton(el, scale, duration, elasticity) {
-      anime.remove(el);
-      anime({
-        targets: el,
-        scale: scale,
-        duration: duration,
-        elasticity: elasticity,
-      });
-    }
-
-    function enterButton(el) {
-      animateButton(el, 1.2, 800, 400);
-    }
-
-    function leaveButton(el) {
-      animateButton(el, 1.0, 600, 300);
-    }
-
-    for (var i = 0; i < buttonEl.length; i++) {
-      buttonEl[i].addEventListener(
-        "mouseenter",
-        function (e) {
-          enterButton(e.target);
-        },
-        false
-      );
-
-      buttonEl[i].addEventListener(
-        "mouseleave",
-        function (e) {
-          leaveButton(e.target);
-        },
-        false
-      );
-    }
-
-
-
-  }, [])
-  
-  return (
+    console.log(links)
     
+    return (
       <header>
         <div className="banner darker-background">
             <Link to="/">
                 <img src={WhiteLogo} className="header_logo" alt="LOT"></img>
             </Link>
             <h1 className="white-font">
-                A little from you, a <i className="lot">LOT</i> for the world!
+                A little from you, a <i>LOT</i> for the world!
             </h1>
             <nav>
                 <ul>
                     {links.map((link) => {
-                        if (link.name === "gallery") {
+                        if (link.name == "gallery") {
                             return (
                               <li key={Date.now()}>
                                 <div className="dropdown">

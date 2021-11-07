@@ -21,7 +21,7 @@ const header = [
     links: [
       {
         name: "gallery",
-        link: <Link to="/gallery">Project Gallery</Link>,
+        link: <Link to="/gallery">Gallery</Link>,
         sublinks: [
           {
             name: "Project Schoology",
