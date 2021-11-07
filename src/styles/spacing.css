@@ -1,23 +1,26 @@
 /* for spacing stuff*/
 #root{
     width:100%;
-}
-body{
     margin:0;
     display:flex;
     flex-direction:column;
     align-items:center;
 }
 
+body{
+    margin:0;
+    
+}
+
 nav ul{
     display:flex;
     flex-direction:row-reverse;
-    margin-right:10px;
+    margin-right:20px;
     
 }
 nav li{
     flex-direction:row;
-    margin:10px 5px;
+    margin:10px;
 }
 
 footer ul{
@@ -129,4 +132,8 @@ ul{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
+}
+
+header img{
+    margin:10px;
 }

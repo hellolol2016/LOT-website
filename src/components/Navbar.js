@@ -11,20 +11,6 @@ function Navbar() {
   
   const animationRef = useRef(null)
   useEffect(() => {
-    let tl = anime.timeline({
-      easing: "easeOutExpo",
-      duration: 1000
-    });
-
-    tl.add({
-      targets: "li",
-      translateY: -10,
-      delay: anime.stagger(50, { start: 500 }),
-      direction:"alternate"
-    })
-    
-    animationRef.current = tl;
-
     let animation = anime({
       targets:".lot",
       opacity: 0.8,
@@ -33,14 +19,21 @@ function Navbar() {
       easing: "easeInOutSine",
     })
 
+    let lift = anime({
+      targets: "li",
+      translateY: -10,
+      delay: anime.stagger(50, {start:200}),
+    });
+    animationRef.current = lift.play();
+
     animationRef.current = animation.play();
 
-    
-    var buttonEl = document.querySelectorAll("li");
+
+    var buttonEl = document.querySelectorAll("li, img");
 
     function animateButton(el, scale, duration, elasticity) {
       anime.remove(el);
-      animationRef.current = anime({
+      anime({
         targets: el,
         scale: scale,
         duration: duration,
@@ -49,7 +42,7 @@ function Navbar() {
     }
 
     function enterButton(el) {
-      animateButton(el, 1.1, 800, 400);
+      animateButton(el, 1.2, 800, 400);
     }
 
     function leaveButton(el) {
@@ -73,6 +66,9 @@ function Navbar() {
         false
       );
     }
+
+
+
   }, [])
   
   return (
@@ -90,7 +86,7 @@ function Navbar() {
                     {links.map((link) => {
                         if (link.name === "gallery") {
                             return (
-                              <li>
+                              <li key={Date.now()}>
                                 <div className="dropdown">
                                   {link.link}
                                   <div className="dropdown-content">

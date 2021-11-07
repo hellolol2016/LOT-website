@@ -6,7 +6,7 @@ function Footer() {
     console.log(socials);
     return (
       <footer className="darker-background">
-        <h2 class="white-font">
+        <h2 className="white-font">
           Feel free to contact us, we'd love to hear from you!
         </h2>
         <ul>
@@ -14,7 +14,12 @@ function Footer() {
             const { icon, url } = social;
             return (
               <li key={social.name}>
-                <a className="social-link" rel="noreferrer" target="_blank" href={url}>
+                <a
+                  className="social-link"
+                  rel="noreferrer"
+                  target="_blank"
+                  href={url}
+                >
                   {icon}
                 </a>
               </li>
