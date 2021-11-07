@@ -1,4 +1,4 @@
-import {React, useRef, useEffect} from "react"
+import React from "react"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
 import Home from "./pages/Home"
@@ -14,13 +14,7 @@ import Gallery from "./pages/Gallery"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 
-
-import anime from "animejs/lib/anime.es.js";
-
 function App() {
-
-
-
   return (
     <Router>
       <Navbar />

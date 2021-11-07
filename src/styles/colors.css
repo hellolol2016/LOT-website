@@ -90,3 +90,8 @@ a:hover{
     width:20px;
     margin:0;
 }
+
+header{
+    background-image:url("../media/banners/navheader.png");
+    background-size:cover;
+}
