@@ -138,7 +138,7 @@ function Home() {
         <h2 className="thick-header black-font">We can use your help!</h2>
         <div className="row">
           <div className="one-half">
-            <img src={dn} alt="donate!"></img>
+          <Link to="/donate"><img src={dn} alt="donate!"></img></Link>
             <h2 className="thin-header">Donate</h2>
             <p className="medium-p">
               Support our organization by donating to us! Your funds will go
@@ -148,7 +148,7 @@ function Home() {
             </p>
           </div>
           <div className="one-half">
-            <img src={jn} alt="join us!"></img>
+            <a href="https://bit.ly/2XWXX58" target="_blank"><img src={jn} alt="join us!"></img></a>
             <h2 className="thin-header">Join</h2>
             <p className="medium-p">
               If you’re interested in supporting our cause, consider joining us!
