@@ -3,6 +3,14 @@ import lottechIcon from "../media/projects/lottech_icon.png";
 import esportsIcon from "../media/projects/lotesportlogo.png";
 import schoologyIcon from "../media/projects/scoo_logo_black.png"
 
+import jc from "../media/team/jack-chen.jpg";
+import bc from "../media/team/brian-cheng.jpeg";
+import ac from "../media/team/andrew-chen.jpg";
+import dw from "../media/team/dennis-wang.png";
+import bx from "../media/team/brandon-xu.jpg";
+import dv from "../media/team/darsh-verma.png";
+import co from "../media/team/charles-ou-yang.png";
+
 import {
   AiOutlineMail,
   AiFillYoutube,
@@ -143,7 +151,43 @@ const socials = [
   },
 ];
 
+const team = [
+  {
+    name: "Jack Chen",
+    role: "President",
+    img: jc
+  },
+  {
+    name: "Brian Cheng",
+    role: "Vice President",
+    img: bc,
+  },
+  {
+    name: "Andrew Chen",
+    role: "Chief Operating Officer",
+    img: ac,
+  },
+  {
+    name: "Dennis Wang",
+    role: "Chief Financial Officer",
+    img: dw,
+  },
+  {
+    name: "Brandon Xu",
+    role: "Secretary",
+    img: bx
+  },
+  {
+    name: "Darsh Verma",
+    role: "Public Relations Director",
+    img: dv,
+  },
+  {
+    name: "Charles Ou-Yang",
+    role: "Advisor",
+    img: co,
+  },
+];
 
-
-const exp = { socials, home, gallery, header }
+const exp = { socials, home, gallery, header, team }
 export default exp

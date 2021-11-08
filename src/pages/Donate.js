@@ -1,9 +1,14 @@
-import React from 'react'
+import { React, useEffect } from 'react'
 
 function Donate() {
     return (
-        <h2>Donate</h2>
-    )
+      <>
+        <div class="background5 parallax"></div>
+        <div class="body1 white-background">
+            
+        </div>
+      </>
+    );
 }
 
 export default Donate

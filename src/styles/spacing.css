@@ -114,6 +114,11 @@ footer li{
 
 .team .row{
     padding:0;
+    flex-wrap:wrap;
+}
+
+.team .row .one-fourth{
+    margin:20px;
 }
 
 .full-width{
@@ -137,3 +142,4 @@ ul{
 header img{
     margin:10px;
 }
+
