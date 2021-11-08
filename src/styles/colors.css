@@ -34,7 +34,11 @@ nav a:hover{
 }
 
 a:hover{
-    background:transparent;
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      );
+    color:var(--black);
 }
 
 .about:hover{
@@ -94,4 +98,17 @@ a:hover{
 header{
     background-image:url("../media/banners/navheader.png");
     background-size:cover;
+}
+
+.button{
+    background-color:var(--red);
+    padding:10px;
+    text-align:center;
+}
+
+a .button:hover{
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+      );
 }

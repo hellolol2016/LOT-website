@@ -143,3 +143,13 @@ header img{
     margin:10px;
 }
 
+.involve{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.involve p{
+    width:80%;
+}

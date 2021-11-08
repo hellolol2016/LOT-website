@@ -79,14 +79,15 @@ function Home() {
 
   let createHoverListener = () => {
     let galleryButton = document.querySelector("li");
+    let white_background = document.querySelector(".white-background");
     galleryButton.addEventListener("mouseenter", () => {
       console.log("enter");
-      document.querySelector(".white-background").style.zIndex = -1;
+      white_background.style.zIndex = -1;
     });
 
     galleryButton.addEventListener("mouseleave", () => {
       console.log("exit");
-      document.querySelector(".white-background").style.zIndex = 11;
+      white_background.style.zIndex = 11;
     });
   };
 
