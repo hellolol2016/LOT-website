@@ -33,13 +33,6 @@ nav a:hover{
         );
 }
 
-a:hover{
-    background:linear-gradient(
-        rgba(0, 0, 0, 0.3), 
-        rgba(0, 0, 0, 0.3)
-      );
-    color:var(--black);
-}
 
 .about:hover{
     background:linear-gradient(
@@ -106,7 +99,7 @@ header{
     text-align:center;
 }
 
-a .button:hover{
+.button:hover{
     background:linear-gradient(
         rgba(0, 0, 0, 0.6), 
         rgba(0, 0, 0, 0.6)

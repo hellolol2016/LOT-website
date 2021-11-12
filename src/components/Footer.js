@@ -2,7 +2,6 @@ import { React } from "react";
 import data from "../pages/data";
 function Footer() {
   let socials = data.socials[0].links;
-  console.log(socials);
   return (
     <footer className="darker-background">
       <h2 className="white-font">

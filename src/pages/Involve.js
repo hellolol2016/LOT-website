@@ -108,7 +108,7 @@ function Involve() {
             className="red-background white-font about"
             rel="noreferrer"
           >
-            <BsFillPersonCheckFill fontSize="50"/>
+            <BsFillPersonCheckFill className="icon" fontSize="50" />
           </a>
         </div>
 
@@ -124,7 +124,7 @@ function Involve() {
             target="_blank"
             rel="noreferrer"
           >
-            <BsMailbox fontSize="50" />
+            <BsMailbox className="icon" fontSize="50" />
           </a>
         </div>
       </>

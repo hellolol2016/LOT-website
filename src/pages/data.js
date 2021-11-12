@@ -11,6 +11,9 @@ import bx from "../media/team/brandon-xu.jpg";
 import dv from "../media/team/darsh-verma.png";
 import co from "../media/team/charles-ou-yang.png";
 
+import schoologyPhoto from "../media/projects/orangewood.png"
+
+
 import {
   AiOutlineMail,
   AiFillYoutube,
@@ -33,19 +36,19 @@ const header = [
         sublinks: [
           {
             name: "Project Schoology",
-            link: <Link to="/gallery/id:schoology">Project Schoology</Link>,
+            link: <Link to="/project/schoology">Project Schoology</Link>,
           },
           {
             name: "Esports Tournament",
-            link: <Link to="/gallery/id:esports">Esports Tournament</Link>,
+            link: <Link to="/project/esports">Esports Tournament</Link>,
           },
           {
             name: "Mental LOTLine",
-            link: <Link to="/gallery/id:lotline">Mental LOTLine</Link>,
+            link: <Link to="/project/lotline">Mental LOTLine</Link>,
           },
           {
             name: "Workshop Tutorial",
-            link: <Link to="/gallery/id:schoology">Workshop Tutorial</Link>,
+            link: <Link to="/project/wkspttrl">Workshop Tutorial</Link>,
           },
         ],
       },
@@ -189,5 +192,45 @@ const team = [
   },
 ];
 
-const exp = { socials, home, gallery, header, team }
+const projects = [
+  {
+    type: "img-art",
+    pid: "schoology",
+    title: "Project Schoology",
+    text: "Quite possibly our most ambitious endeavor yet, our Project Schoology was a major fundraising project for school supplies that we donated to the Orangewood Family and Children Center in Orange city. <br></br>Through constant park visits to parks around Irvine and Tustin, we were able to raise over <b>$1,040</b> and we later bought supplies and delivered them to Orangewood! Along the way, we also had much fun with each other and were able to get out our message of community benefiting everyone around us.",
+    image: { schoologyPhoto },
+    subtitle:
+      "A handful of our members on drop-off day at Orangewood, August 17th, 2021",
+    yt: "#",
+  },
+  {
+    type: "vid-art",
+    pid: "esports",
+    title: "Esports Tournament",
+    text: "We’re not going to lie, many of us at LOT are gamers. In fact, many games hold a close place to our hearts. In order to show our love for video games, have some fun, and publicize ourselves as well, we’ve made it our objective to hold an annual LOT eSports Tournament and inviting teams from all over to compete. <br></br>We recently held our second annual tournament, and we’ve had so much fun all around playing Valorant, League of Legends, and chess! Look out for the signup for next year's!",
+    image: "#",
+    subtitle: "",
+    yt: "https://www.youtube.com/embed/sokcAmxoiTE",
+  },
+  {
+    type: "vid-art",
+    pid: "podcast",
+    title: "Mental Health Podcast",
+    text: "As young adults, students, teenagers, and other nouns, we here at the LOT Foundation are critically aware of the struggles and issues that people like us face on a normal basis. Join us on this ongoing effort as we interview different guests on a variety of topics relating to mental health and wellbeing!<br></br>We’ve covered how to deal with pressure in sports, how to live life with a positive mindset, dealing with stress, and much, MUCH more!",
+    image: "#",
+    subtitle: "",
+    yt: "https://www.youtube.com/embed/vxCNCmHlaSI",
+  },
+  {
+    type: "vid-art",
+    pid: "wkspttrl",
+    title: "Workshop Tutorial",
+    text: "Some people’s talents may not fit in with our other projects, which is why we created the Workshop Tutorial. This project allows anyone to express their talents in an educational way. We handpick people that have proved themselves to be truly passionate about their skills, to ensure the quality of the workshop tutorials.<br></br>This project will, in the future, evolve into LOT Tech, where we go to children’s centers and retirement homes to teach others the in’s and out’s of modern technology.",
+    image: "#",
+    subtitle: "",
+    yt: "https://www.youtube.com/embed/95HjV7rIrOU",
+  },
+];
+
+const exp = { socials, home, gallery, header, team, projects }
 export default exp
