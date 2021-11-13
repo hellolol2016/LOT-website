@@ -38,7 +38,7 @@ function Navbar() {
     
     var buttonEl = document.querySelectorAll("li");
 
-    function animateButton(el, scale, duration, elasticity) {
+    async function animateButton(el, scale, duration, elasticity) {
       anime.remove(el);
       animationRef.current = anime({
         targets: el,
@@ -48,18 +48,18 @@ function Navbar() {
       });
     }
 
-    function enterButton(el) {
+    async function enterButton(el) {
       animateButton(el, 1.1, 800, 400);
     }
 
-    function leaveButton(el) {
+    async function leaveButton(el) {
       animateButton(el, 1.0, 600, 300);
     }
 
     for (var i = 0; i < buttonEl.length; i++) {
       buttonEl[i].addEventListener(
         "mouseenter",
-        function (e) {
+        async function (e) {
           enterButton(e.target);
         },
         false
@@ -67,7 +67,7 @@ function Navbar() {
 
       buttonEl[i].addEventListener(
         "mouseleave",
-        function (e) {
+        async function (e) {
           leaveButton(e.target);
         },
         false
