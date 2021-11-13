@@ -2,6 +2,7 @@ import {React, useRef, useEffect} from "react";
 import { useParams, Link } from "react-router-dom";
 import data from "./data";
 import anime from 'animejs'
+import { Helmet } from "react-helmet";
 function Project() {
 
   const animationRef = useRef(null)
@@ -92,40 +93,49 @@ function Project() {
     });
     if(type == "vid-art"){
       console.log("vid-art")
-      return(
+      return (
         <>
+          <Helmet>
+            <title>{title}</title>
+          </Helmet>
           <div class="body1">
-              <h2 class="thick-header">{title}</h2>
-              <div class="row">
-                  <div class="one-half">
-                      {text}
-                  </div>
-                  <div class="one-half">
-                      <iframe width="560" height="315" src={yt} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
+            <h2 class="thick-header">{title}</h2>
+            <div class="row">
+              <div class="one-half">{text}</div>
+              <div class="one-half">
+                <iframe
+                  width="560"
+                  height="315"
+                  src={yt}
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
+            </div>
           </div>
         </>
-      )
+      );
       } else {
         console.log("img art")
         return (
           <>
+            <Helmet>
+              <title>{title}</title>
+            </Helmet>
             <div class="body1">
-                <h2 class="thick-header">{title}</h2>
-                <div class="row">
-                    <div class="one-half">
-                        <img src={image}></img>
-                        <p>{subtitle}</p>
-                    </div>
-                    <div class="one-half">
-                        {text}
-                    </div>
+              <h2 class="thick-header">{title}</h2>
+              <div class="row">
+                <div class="one-half">
+                  <img src={image}></img>
+                  <p>{subtitle}</p>
                 </div>
-                
+                <div class="one-half">{text}</div>
+              </div>
             </div>
           </>
-        )
+        );
       }
       console.log(type, pid, title, text, subtitle, yt, image)
   if(selected == null){
