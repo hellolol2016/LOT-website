@@ -26,6 +26,10 @@ a {
     font-family:montserrat;
 }
 
+.bold{
+    font-weight:400;
+}
+
 .thick-header{
     font-weight:400;
     font-size:50px;
@@ -86,39 +90,16 @@ a {
     font-size:40px;
 }
 
+.span-link{
+    display:inline !important; 
+    font-weight: 500;
+    padding:0;
+    margin:0;
+    color:#ff6b6b;
+    font-size:inherit;
+    font-style: underline;
+}
 
-/* PAYPAL PAYMENT FORM CODE */
-
-.pp-form	{ margin: 0px; }
-
-.pp-input	{ width: 130px; margin: 3px 0px 3px 0px; }
-
-.pp-textarea	{ width: 130px; margin: 3px 0px 3px 0px; }
-
-.pp-button 	{ width: 134px; margin: 3px 0px 3px 0px; }
-
-.body1 .pp-badge	{
-    width:unset;
-    margin:unset;
-		float: left;
-		margin: 20px auto 0px 0px;
-		}
-
-.pp-canvasarea	{
-		background-color: #F0F0F0;
-		border: #D4D4D4 1px solid;
-		display: inline-block;
-		*display: inline; zoom: 1; /* FOR IE7-8 */
-		padding: 6px;
-		}
-
-.pp-formbox	{
-		font: normal 13px arial, sans-serif;
-		float: left;
-		padding: 0px 10px 0px 0px;
-		}
-
-.pp-clear-float	{ height: 1px; clear: both; }
 /* 
 DROPDOWN CODE */
 /* Style The Dropdown Button */
@@ -167,4 +148,27 @@ DROPDOWN CODE */
 
 footer{
     z-index:-1;
+}
+
+.donate-button{
+    color:#ff6b6b;
+    background-color:#2b2d42;
+    width:400px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 1px #2b2d42;
+    margin:10px 20px 100px 20px;
+
+}
+
+.donate{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    line-height:1.5;
+    padding-bottom:30px;
+}
+
+.donation-list{
+    display:flex;
+    flex-direction:row;
 }

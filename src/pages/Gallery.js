@@ -9,70 +9,70 @@ import hands from "../media/teamwork.png";
 
 function Gallery() {
     let galleryData = data.gallery[0];
-      const animationRef = useRef(null);
-      useEffect(() => {
-        let tl = anime.timeline({
-          easing: "easeOutExpo",
-          duration: 1000,
+    const animationRef = useRef(null);
+    useEffect(() => {
+      let tl = anime.timeline({
+        easing: "easeOutExpo",
+        duration: 1000,
+      });
+
+      tl.add({
+        targets: "li",
+        translateY: -10,
+        delay: anime.stagger(50, { start: 500 }),
+        direction: "alternate",
+      });
+
+      animationRef.current = tl;
+
+      let animation = anime({
+        targets: ".lot",
+        opacity: 0.8,
+        direction: "alternate",
+        loop: true,
+        easing: "easeInOutSine",
+      });
+
+      animationRef.current = animation.play();
+
+      var buttonEl = document.querySelectorAll("li, img, a");
+
+      function animateButton(el, scale, duration, elasticity) {
+        anime.remove(el);
+        animationRef.current = anime({
+          targets: el,
+          scale: scale,
+          duration: duration,
+          elasticity: elasticity,
         });
+      }
 
-        tl.add({
-          targets: "li",
-          translateY: -10,
-          delay: anime.stagger(50, { start: 500 }),
-          direction: "alternate",
-        });
+      function enterButton(el) {
+        animateButton(el, 1.05, 800, 400);
+      }
 
-        animationRef.current = tl;
+      function leaveButton(el) {
+        animateButton(el, 1.0, 600, 300);
+      }
 
-        let animation = anime({
-          targets: ".lot",
-          opacity: 0.8,
-          direction: "alternate",
-          loop: true,
-          easing: "easeInOutSine",
-        });
+      for (var i = 0; i < buttonEl.length; i++) {
+        buttonEl[i].addEventListener(
+          "mouseenter",
+          function (e) {
+            enterButton(e.target);
+          },
+          false
+        );
 
-        animationRef.current = animation.play();
-
-        var buttonEl = document.querySelectorAll("li, img, a");
-
-        function animateButton(el, scale, duration, elasticity) {
-          anime.remove(el);
-          animationRef.current = anime({
-            targets: el,
-            scale: scale,
-            duration: duration,
-            elasticity: elasticity,
-          });
-        }
-
-        function enterButton(el) {
-          animateButton(el, 1.05, 800, 400);
-        }
-
-        function leaveButton(el) {
-          animateButton(el, 1.0, 600, 300);
-        }
-
-        for (var i = 0; i < buttonEl.length; i++) {
-          buttonEl[i].addEventListener(
-            "mouseenter",
-            function (e) {
-              enterButton(e.target);
-            },
-            false
-          );
-
-          buttonEl[i].addEventListener(
-            "mouseleave",
-            function (e) {
-              leaveButton(e.target);
-            },
-            false
-          );
-        }
-      }, []);
+        buttonEl[i].addEventListener(
+          "mouseleave",
+          function (e) {
+            leaveButton(e.target);
+          },
+          false
+        );
+      }
+    }, []);
     return (
       <>
         <div class="background6 parallax"></div>

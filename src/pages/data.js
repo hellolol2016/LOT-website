@@ -50,6 +50,10 @@ const header = [
             name: "Workshop Tutorial",
             link: <Link to="/project/wkspttrl">Workshop Tutorial</Link>,
           },
+          {
+            name: "LOT Tech",
+            link: <Link to="/project/wkspttrl">LOT Tech</Link>,
+          },
         ],
       },
       {
@@ -232,5 +236,28 @@ const projects = [
   },
 ];
 
-const exp = { socials, home, gallery, header, team, projects }
+const donations = [
+  {
+    sub: false,
+    name: "$19.99 Donation",
+    link: "https://buy.stripe.com/00g7trg7m0Rb2v6cMM",
+  },
+  {
+    sub: false,
+    name: "$39.99 Donation",
+    link: "https://buy.stripe.com/cN24hf2gwarL4De001",
+  },
+  {
+    sub: true,
+    name: "$4.99 Monthly Donation",
+    link: "https://buy.stripe.com/dR63db6wM57r3zabIK",
+  },
+  {
+    sub: true,
+    name: "$9.99 Monthly Donation",
+    link: "https://buy.stripe.com/7sIaFD2gw8jDglWaEH",
+  },
+];
+
+const exp = { socials, home, gallery, header, team, projects, donations }
 export default exp
