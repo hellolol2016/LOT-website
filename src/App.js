@@ -36,6 +36,7 @@ function App() {
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         />
+        <title>LOT Foundation</title>
       </Helmet>
       <Navbar />
       <Switch>
