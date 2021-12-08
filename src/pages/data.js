@@ -50,10 +50,6 @@ const header = [
             name: "Workshop Tutorial",
             link: <Link to="/project/wkspttrl">Workshop Tutorial</Link>,
           },
-          {
-            name: "LOT Tech",
-            link: <Link to="/project/wkspttrl">LOT Tech</Link>,
-          },
         ],
       },
       {

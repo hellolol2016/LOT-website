@@ -24,22 +24,22 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/about">
+        <Route exact path="/about">
           <About />
         </Route>
-        <Route path="/donate">
+        <Route exact path="/donate">
           <Donate />
         </Route>
-        <Route path="/involve">
+        <Route exact path="/involve">
           <Involve />
         </Route>
-        <Route path="/gallery">
+        <Route exact path="/gallery">
           <Gallery />
         </Route>
-        <Route path="/project/:id">
+        <Route exact path="/project/:id">
           <Project />
         </Route>
-        <Route path="*">
+        <Route exact path="*">
           <Error />
         </Route>
       </Switch>
