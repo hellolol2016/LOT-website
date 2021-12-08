@@ -23,6 +23,14 @@ function App() {
         <meta charset="UTF-8"></meta>
         <meta name="description" content="The LOT Foundation website"></meta>
         <meta name="keywords" content="HTML, CSS, JavaScript"></meta>
+        <meta property="og:title" content="Laugh Out Together" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://laughouttogether.org" />
+        <meta property="og:image" content={lotIcon} />
+        <meta property="og:description" content="The LOT Foundation website" />
+        <meta name="theme-color" content="#ff6b6b" />
+
+        <meta name="twitter:card" content="summary_large_image"></meta>
         <link rel="icon" href={lotIcon} type="image/x-icon" />
         <meta
           name="viewport"
