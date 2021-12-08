@@ -2,6 +2,7 @@ import { React, useEffect, useRef } from 'react'
 import { PayPalButton } from 'react-paypal-button-v2';
 import anime from 'animejs';
 import data from './data'
+import donatebtn  from "../media/donate-btn.png";
 import { Link } from 'react-router-dom';
 function Donate() {
   console.log(data.donations)
@@ -86,7 +87,35 @@ function Donate() {
             <span>more for the community</span>.
           </p>
           <div class="donation-list">
-            <ul className="one-time">
+            <form
+              action="https://www.paypal.com/donate"
+              method="post"
+              target="_blank"
+            >
+              <input
+                type="hidden"
+                name="hosted_button_id"
+                value="UMHGP4HKLHN4L"
+              />
+              <input
+                type="image"
+                src={donatebtn}
+                border="0"
+                name="submit"
+                title="PayPal - The safer, easier way to pay online!"
+                alt="Donate with PayPal button"
+                className="donate-btn"
+              />
+              <img
+                alt=""
+                border="0"
+                src="https://www.paypal.com/en_US/i/scr/pixel.gif"
+                width="1"
+                height="1"
+              />
+            </form>
+
+            {/* <ul className="one-time">
               <h2 className="bold">One-time Donations</h2>
               {data.donations.map((donation) => {
                 if (donation.sub == false) {
@@ -109,7 +138,7 @@ function Donate() {
                   );
                 }
               })}
-            </ul>
+            </ul> */}
           </div>
         </div>
       </>
