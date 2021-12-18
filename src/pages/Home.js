@@ -109,9 +109,9 @@ function Home() {
           others to use their talents for a positive change within the Orange
           County community.
         </p>
-        <a href="about.html" className="red-background white-font about">
+        <Link to="about.html" className="red-background white-font about">
           About Us
-        </a>
+        </Link>
       </div>
 
       <div className="body2 white-background">
