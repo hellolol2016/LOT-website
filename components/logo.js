@@ -1,18 +1,26 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import { Text } from '@chakra-ui/react';
-import { styled} from '@emotion/styled'
-const LogoContainer = ()kjkjkj 
+import Link from "next/link";
+import Image from "next/image";
+import { Text, useColorModeValue } from "@chakra-ui/react";
+import styled from "@emotion/styled";
+const LogoContainer = styled.span`
+  display: inline-flex;
+  align-items: center;
+  padding: 20px;
+`;
 const Logo = () => {
-  const lotLogo = '/media/white_logo.png';
-
+  const lotLogo = "/media/white_logo.png";
   return (
-    <Link href='/' >
+    <LogoContainer>
+      <Link href="/">
+        <Image
+          src={"/media/white_logo.png"}
+          height={100}
+          width={400}
+          alt="logo"
+        />
+      </Link>
+    </LogoContainer>
+  );
+};
 
-      <Image src={'/media/white_logo.png'} height={100} width={400} alt="logo"/>
-
-    </Link>
-  )
-}
-
-export default Logo
+export default Logo;

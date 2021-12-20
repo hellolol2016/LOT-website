@@ -4,9 +4,10 @@ import '../styles/globals.css'
 
 const theme = extendTheme({
   textStyles: {
+    
     h1: {
-      fontSize: ['48px', '72px'],
-      fontWeight: 'bold',
+      fontSize: ['48px', '65px'],
+      fontWeight: 'thin',
       letterSpacing: "-2%",
       padding:["20px", "10px"],
     }
