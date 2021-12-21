@@ -10,10 +10,10 @@ export default function Navbar({ }) {
 
 
   return (<>
-    <Stack direction="row-reverse" spacing="20px">
+    <Stack direction="row-reverse" spacing="20px" className="navlinks" display={{ base: 'none', md:"flex"}}>
       {navlinks.map((navlink) => {
         console.log(navlink.name);
-        return (<Box padding="5px" marginRight="10px" textStyle="navlink" displayStyle="navlinks"> 
+        return (<Box padding="5px" marginRight="10px" textStyle="navlink" > 
           {navlink.link}
         </Box>)
       

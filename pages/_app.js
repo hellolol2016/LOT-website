@@ -17,11 +17,18 @@ const theme = extendTheme({ //TODO : move  the siLLY STYLES IN A DIFFERNT FILE L
       fontWeight:'300'
     } 
   },
-  displayStyles: {
-    navlinks: {
-      display:["none","inherit"],
+  styles: {
+    global: {
+      '.navlinks': {
+        display:["none","inherit"],
+      }
     }
   }
+
+
+
+
+
 })
 
 
