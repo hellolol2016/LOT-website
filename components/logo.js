@@ -20,6 +20,7 @@ const Logo = () => {
           width={400}
           layout="responsive"
           alt="logo"
+          loading="eager" 
         />
       </Link>
     </LogoContainer>
