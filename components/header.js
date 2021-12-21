@@ -19,7 +19,7 @@ export default function Header({ }) {
     <Box
       w="100vw"
       top="0"      
-      bg="tomato"
+      bg="gray.400"
       as="nav"
       position="fixed"
     >

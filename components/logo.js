@@ -3,7 +3,9 @@ import Image from "next/image";
 import { Text, useColorModeValue } from "@chakra-ui/react";
 import styled from "@emotion/styled";
 const LogoContainer = styled.span`
-  display: inline-flex;
+  display:block;
+  width:30%;
+  min-width:200px;
   align-items: center;
   padding: 20px;
 `;
@@ -16,6 +18,7 @@ const Logo = () => {
           src={"/media/white_logo.png"}
           height={100}
           width={400}
+          layout="responsive"
           alt="logo"
         />
       </Link>

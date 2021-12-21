@@ -32,41 +32,41 @@ const header = [
     links: [
       {
         name: "gallery",
-        link: <Link to="/gallery">Project Gallery</Link>,
+        link: <Link href="/gallery">Project Gallery</Link>,
         sublinks: [
           {
             name: "Project Schoology",
-            link: <Link to="/project/schoology">Project Schoology</Link>,
+            link: <Link href="/project/schoology">Project Schoology</Link>,
           },
           {
             name: "Esports Tournament",
-            link: <Link to="/project/esports">Esports Tournament</Link>,
+            link: <Link href="/project/esports">Esports Tournament</Link>,
           },
           {
             name: "Mental LOTLine",
-            link: <Link to="/project/lotline">Mental LOTLine</Link>,
+            link: <Link href="/project/lotline">Mental LOTLine</Link>,
           },
           {
             name: "Workshop Tutorial",
-            link: <Link to="/project/wkspttrl">Workshop Tutorial</Link>,
+            link: <Link href="/project/wkspttrl">Workshop Tutorial</Link>,
           },
         ],
       },
       {
         name: "involve",
-        link: <Link to="/involve">Get Involved</Link>,
+        link: <Link href="/involve">Get Involved</Link>
       },
       {
         name: "donate",
-        link: <Link to="/donate">Donate</Link>,
+        link: <Link href="/donate">Donate</Link>,
       },
       {
         name: "about",
-        link: <Link to="/about">About Us</Link>,
+        link: <Link href="/about">About Us</Link>,
       },
       {
         name: "home",
-        link: <Link to="/">Home</Link>,
+        link: <Link href="/" >Home</Link>,
       },
     ],
   },
