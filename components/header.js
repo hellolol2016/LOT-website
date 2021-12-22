@@ -1,4 +1,5 @@
-import { Box, Text, Center} from "@chakra-ui/react";
+import Link from "next/link";
+import { Box, Text, Center } from "@chakra-ui/react";
 import data from "./data.js";
 import Navbar from './navbar';
 import Logo from'./logo';
@@ -24,7 +25,7 @@ export default function Header({ }) {
       position="fixed"
     >
       
-      <Logo css={css`padding:32px;`} />
+      <Link href="/" ><Logo css={css`padding:32px;`} /></Link>
       <Title />
 
       <Navbar />

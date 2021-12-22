@@ -14,15 +14,18 @@ const theme = extendTheme({ //TODO : move  the siLLY STYLES IN A DIFFERNT FILE L
 
     navlink: {
       fontSize: ["10px", "16px", "25px"],
-      fontWeight:'300'
+      fontWeight: '300',
+      padding: "10px",
     } 
   },
   styles: {
     global: {
       '.navlinks': {
-        display:["none","inherit"],
+        display: ["none", "inherit"],
+        borderRadius:"5px",
+      
       }
-    }
+    },
   }
 
 

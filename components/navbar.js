@@ -10,9 +10,11 @@ import {
   MenuButton,
   MenuList,
   Center,
+  background,
 } from "@chakra-ui/react";
 import { BsChevronDoubleDown } from "react-icons/bs";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function Navbar({}) {
   const navlinks = data.header[0].links;
@@ -26,10 +28,10 @@ export default function Navbar({}) {
         display={{ base: "none", md: "flex" }}
       >
         {navlinks.map((navlink) => {
-          return (
-            <Box padding="5px" marginRight="10px" textStyle="navlink">
+          return (<motion.button whileHover={{scale:1.1 ,backgroundColor:'rgba(0,0,0,0.5)' , color:'#bccac9'}}>
+            <Box padding="5px" marginRight="10px" textStyle="navlink" borderRadius="5px">
               {navlink.link}
-            </Box>
+            </Box></motion.button>
           );
         })}
       </Stack>
@@ -45,7 +47,7 @@ export default function Navbar({}) {
           <MenuList>
             {navlinks.slice(0).reverse().map((navlink) => {
               return <MenuItem as="a" w="100vw">{navlink.link}</MenuItem>;
-            })}{" "}
+            })}
           </MenuList>
         </Menu>
       </Center>
