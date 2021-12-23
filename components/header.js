@@ -22,7 +22,8 @@ export default function Header({ }) {
       top="0"      
       bg="gray.400"
       as="nav"
-      position="fixed"
+      left="0"
+      position="relative"
     >
       
       <Link href="/" ><Logo css={css`padding:32px;`} /></Link>

@@ -1,7 +1,9 @@
 import { ChakraProvider } from '@chakra-ui/provider';
 import { ThemeProvider, CSSReset, extendTheme} from '@chakra-ui/react';
 import '../styles/globals.css'
-import Header from '../components/header'; 
+
+import Layout from '../components/layouts/page';
+
 const theme = extendTheme({ //TODO : move  the siLLY STYLES IN A DIFFERNT FILE LATER FREAKING BAkA
   textStyles: {
     
@@ -24,6 +26,11 @@ const theme = extendTheme({ //TODO : move  the siLLY STYLES IN A DIFFERNT FILE L
         display: ["none", "inherit"],
         borderRadius:"5px",
       
+      },
+      '.chakra': {
+        "a": {
+          width:"100vw"
+        }
       }
     },
   }
@@ -39,8 +46,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme}>
       <CSSReset />
-      <Header />
-      <Component {...pageProps} />
+      <Layout>
+
+        <Component {...pageProps} />
+      </Layout>
     </ChakraProvider>
   )
 }

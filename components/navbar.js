@@ -30,7 +30,10 @@ export default function Navbar({}) {
         {navlinks.map((navlink) => {
           return (<motion.button whileHover={{scale:1.1 ,backgroundColor:'rgba(0,0,0,0.5)' , color:'#bccac9'}}>
             <Box padding="5px" marginRight="10px" textStyle="navlink" borderRadius="5px">
-              {navlink.link}
+            
+              <Link href={navlink.link}>{navlink.name}</Link>
+            
+            
             </Box></motion.button>
           );
         })}
@@ -46,7 +49,7 @@ export default function Navbar({}) {
           </MenuButton>
           <MenuList>
             {navlinks.slice(0).reverse().map((navlink) => {
-              return <MenuItem as="a" w="100vw">{navlink.link}</MenuItem>;
+              return <Link style={{width:"100vw", display:'inline-block'} }href={navlink.link}><MenuItem as="div" w="100vw" className="chakra">{navlink.name}</MenuItem></Link>;
             })}
           </MenuList>
         </Menu>
