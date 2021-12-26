@@ -6,7 +6,7 @@ import schoologyIcon from "../media/projects/scoo_logo_black.png"
 import jc from "../media/team/jack-chen.jpg";
 import bc from "../media/team/brian-cheng.jpeg";
 import ac from "../media/team/andrew-chen.jpg";
-import dw from "../media/team/dennis-wang.png";
+import dw from "../media/team/dennis-wang.PNG";
 import bx from "../media/team/brandon-xu.jpg";
 import dv from "../media/team/darsh-verma.png";
 import co from "../media/team/charles-ou-yang.png";
