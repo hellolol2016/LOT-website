@@ -7,7 +7,7 @@ import jc from "../media/team/jack-chen.jpg";
 import bc from "../media/team/brian-cheng.jpeg";
 import ac from "../media/team/andrew-chen.jpg";
 import dw from "../media/team/dennis-wang.PNG";
-import bx from "../media/team/brandon-xu.jpg";
+import bx from "../media/team/brandon-xu.PNG";
 import dv from "../media/team/darsh-verma.png";
 import co from "../media/team/charles-ou-yang.png";
 
