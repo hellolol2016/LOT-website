@@ -31,6 +31,9 @@ const theme = extendTheme({ //TODO : move  the siLLY STYLES IN A DIFFERNT FILE L
         "a": {
           width:"100vw"
         }
+      },
+      'body': {
+        color:"#2b2d42"
       }
     },
   }

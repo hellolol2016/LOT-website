@@ -42,7 +42,6 @@ export default function Navbar({}) {
         <Menu
           as={Button}
           rightIcon={<BsChevronDoubleDown />}
-          w="100vw"
         >
           <MenuButton as={Button} rightIcon={<BsChevronDoubleDown />} w= '80vw'>
             Navigation

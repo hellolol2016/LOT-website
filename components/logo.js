@@ -16,8 +16,8 @@ const Logo = () => {
       <Link href="/">
         <Image
           src={"/media/white_logo.png"}
-          height={100}
-          width={400}
+          height={75}
+          width={300}
           layout="responsive"
           alt="logo"
           loading="eager"

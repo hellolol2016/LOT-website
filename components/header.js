@@ -18,7 +18,6 @@ const Title = () => {
 export default function Header({ }) {
   return (
     <Box
-      w="100vw"
       top="0"      
       bg="gray.400"
       as="nav"

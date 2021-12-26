@@ -5,7 +5,7 @@ import Title from "./title";
 
 export default function Page({ }) {
   return (
-    <Center>
+    <Center bg="gray.600">
 <Title>We'd love to hear from you!</Title>
 
 
