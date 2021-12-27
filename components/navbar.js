@@ -26,10 +26,11 @@ export default function Navbar({}) {
         spacing="20px"
         className="navlinks"
         display={{ base: "none", md: "flex" }}
+        mr={5}
       >
         {navlinks.map((navlink) => {
-          return (<motion.button whileHover={{scale:1.1 ,backgroundColor:'rgba(0,0,0,0.5)' , color:'#bccac9'}}>
-            <Box padding="5px" marginRight="10px" textStyle="navlink" borderRadius="5px">
+          return (<motion.button whileHover={{scale:1.1 ,backgroundColor:'rgba(0,0,0,0.5)' , color:'#bccac9'}} marginRight="20px">
+            <Box padding="5px"  textStyle="navlink" borderRadius="5px">
             
               <Link href={navlink.link}>{navlink.name}</Link>
             
@@ -38,15 +39,16 @@ export default function Navbar({}) {
           );
         })}
       </Stack>
-      <Center m={2} w="100%" display={["flex" ,"flex", "none"]}>
+      <Center m={5}  display={["flex" ,"flex", "none"]}>
         <Menu
           as={Button}
           rightIcon={<BsChevronDoubleDown />}
+          mr={5}
         >
-          <MenuButton as={Button} rightIcon={<BsChevronDoubleDown />} w= '80vw'>
+          <MenuButton as={Button} rightIcon={<BsChevronDoubleDown />} w= '80vw' m={3}>
             Navigation
-          </MenuButton>
-          <MenuList>
+            </MenuButton>
+          <MenuList mt={-1}>
             {navlinks.slice(0).reverse().map((navlink) => {
               return <Link style={{width:"100vw", display:'inline-block'} }href={navlink.link}><MenuItem as="div" w="100vw" className="chakra">{navlink.name}</MenuItem></Link>;
             })}

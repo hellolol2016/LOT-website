@@ -1,9 +1,11 @@
+
+
 import { Box, Center, VStack } from "@chakra-ui/react";
 import Title from "./title";
 
-export default function Page({ children, title, ...rest }) {
+export default function bigsec({ children, title, ...rest }) {
   return (
-    <VStack backgroundColor={"gray.100"} w={"70%"} mt={"20px"}{...rest}>
+    <VStack backgroundColor={"gray.200"} w={"100%"} mt={"20px"} p={"0 10%"}  {...rest} >
       <Title fontWeight={"500"} mt={3}>{title}</Title>
        
       <Box >
