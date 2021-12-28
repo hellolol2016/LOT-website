@@ -50,7 +50,7 @@ export default function Navbar({}) {
             </MenuButton>
           <MenuList mt={-1}>
             {navlinks.slice(0).reverse().map((navlink) => {
-              return <Link style={{width:"100vw", display:'inline-block'} }href={navlink.link}><MenuItem as="div" w="100vw" className="chakra">{navlink.name}</MenuItem></Link>;
+              return <Link style={{ display:'inline-block'} }href={navlink.link}><MenuItem as="div" w="80vw" className="chakra">{navlink.name}</MenuItem></Link>;
             })}
           </MenuList>
         </Menu>

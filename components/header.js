@@ -9,6 +9,7 @@ const Title = () => {
     <Center>
       <Text
         textStyle="h1"
+       align={"center"} 
       >A little from you, a <span>LOT</span> for the world!</Text>
     </Center>
   )
