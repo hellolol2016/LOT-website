@@ -80,7 +80,7 @@ export default function Home() {
           </Full>
         </VStack>
 
-        <VStack opacity={"90%"}>
+        <VStack opacity={"90%"} mb={20}>
           <Section title={"We can use your help!"} width={"80%"}>
             <SimpleGrid columns={{ base: 1, md: 2 }} padding={10} spacing={10}>
               <VStack width={"100%"} justify={"center"} align={"center"}>
@@ -89,7 +89,7 @@ export default function Home() {
                     <Image src={donate}></Image>
                   </Imglink>
                 </Link>
-                <Text textAlign={"center"} fontSize={"24px"}>
+                <Text textAlign={"center"} fontSize={"24px"} pt={10}>
                   Support our organization by donating to us! Your funds will go
                   directly to the projects that we're running. This can range
                   from tech support for people in retirement homes to teaching
@@ -103,7 +103,7 @@ export default function Home() {
                     <Image src={join}></Image>
                   </Imglink>
                 </Link>
-                <Text textAlign={"center"} fontSize={"24px"}>
+                <Text textAlign={"center"} fontSize={"24px"} pt={10}>
                   If you’re interested in supporting our cause, consider joining
                   us! We welcome anyone that believes they can make a positive
                   impact. Open the form in a new tab by clicking here!

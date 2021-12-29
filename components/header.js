@@ -26,7 +26,7 @@ export default function Header({ }) {
       position="relative"
     >
       
-      <Link href="/" ><Logo css={css`padding:32px;`} /></Link>
+      <Link href="/" ><Logo css={`padding:42px`} /></Link>
       <Title />
 
       <Navbar />
