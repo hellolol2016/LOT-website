@@ -22,6 +22,7 @@ const Logo = () => {
           alt="logo"
           loading="eager"
           priority={true}
+          as={"img"}
         />
       </Link>
     </LogoContainer>

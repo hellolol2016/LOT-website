@@ -30,7 +30,7 @@ export default function Home() {
           name="description"
           content="The official website of the Laugh Out Together Foundation!"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/media/whitecirclelot.png" />
       </Head>
 
       <Background
@@ -65,7 +65,7 @@ export default function Home() {
           <Full title={"What makes us different?"}>
             <Flex align={"center"}>
               <Box flex="1">
-                <Image src={fP} w={5} h={400} pb={10}/>
+                <Image src={fP} w={350} h={400} pb={10}/>
               </Box>
               <Text textAlign={"center"} flex="2" m={3} className="small-font">
                 There are a TON of nonprofits committed to a similar mission as
