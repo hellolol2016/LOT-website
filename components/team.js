@@ -8,7 +8,7 @@ export default function Team({}) {
       {data.team.map((person) => {
         return (
           <Box width={{ base:"60%", md:"90%" }} display={"block"} textAlign={"center"} alignContent={"center"}>
-            <Image src={person.img} width={"90%"} height={"120%"} layout="responsive" ></Image>
+            <Image src={person.img} width={"90%"} height={"120%"} layout="responsive" placeholder="blur"></Image>
             <Text fontSize={"20px"}fontWeight={500}>{person.name} </Text>
             <Text fontSize={"16px"}>{person.role}</Text>
           </Box>

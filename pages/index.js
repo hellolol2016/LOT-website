@@ -16,7 +16,8 @@ import Section from "../components/section";
 import Background from "../components/background";
 import Full from "../components/bigsec";
 import Link from "next/link";
-import Image from "../components/image";
+
+import Image from "next/image";
 import fP from "../public/media/fingerprint.png";
 import donate from "../public/media/donate.png";
 import join from "../public/media/join.png";
@@ -86,7 +87,9 @@ export default function Home() {
               <VStack width={"100%"} justify={"center"} align={"center"}>
                 <Link href="/donate">
                   <Imglink padding={2}>
-                    <Image src={donate}></Image>
+                    <Box width={{ base: "30vw", md: "15vw" }} height={{ base: "30vw", md: "15vw" }}>
+                      <Image src={'/media/donate.png'} width="100" height="100" layout="responsive"></Image>
+</Box>
                   </Imglink>
                 </Link>
                 <Text textAlign={"center"} fontSize={"24px"} pt={10}>
@@ -98,9 +101,11 @@ export default function Home() {
               </VStack>
 
               <VStack width={"100%"} justify={"center"} align={"center"}>
-                <Link href="/donate">
+                <Link href="/join" height>
                   <Imglink padding={2}>
-                    <Image src={join}></Image>
+                    <Box width={{ base: "30vw", md: "15vw" }} height={{ base: "30vw", md: "15vw" }}>
+                      <Image src={'/media/join.png'} width="100" height="100" layout="responsive"></Image>
+</Box>
                   </Imglink>
                 </Link>
                 <Text textAlign={"center"} fontSize={"24px"} pt={10}>
