@@ -1,32 +1,15 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Header from "../components/header.js";
 import Body from "../components/body";
 import {
   Box,
-  Button,
-  Center,
-  Flex,
-  HStack,
   SimpleGrid,
-  Spacer,
   Text,
   VStack,
 } from "@chakra-ui/react";
-import Section from "../components/section";
 import Background from "../components/background";
-import Full from "../components/bigsec";
-import Link from "next/link";
-import Image from "next/image";
-
-import fP from "../public/media/fingerprint.png";
-import donate from "../public/media/donate.png";
-import join from "../public/media/join.png";
-import Imglink from "../components/imglink";
-import Title from "../components/title";
-import Img from "../components/image";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-
+import Title from '../components/title';
 import "react-lazy-load-image-component/src/effects/blur.css";
 import Team from "../components/team";
 export default function AboutPage({}) {
@@ -41,7 +24,7 @@ export default function AboutPage({}) {
       </Head>
 
       <Background
-        img={"/media/banners/header_background.jpg"}
+        img={"/media/banners/background3.png"}
         pos={0}
         backgroundPosition={"center 50%"}
       />
