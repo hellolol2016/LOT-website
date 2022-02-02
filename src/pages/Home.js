@@ -105,10 +105,7 @@ function Home() {
       <div className="body1 white-background slightly-transparent">
         <h2 className="thick-header black-font">Who are we?</h2>
         <p className="black-font big-p">
-          We're a student run non-profit foundation dedicated to inspiring
-          others to use their talents for a positive change within the Orange
-          County community.
-        </p>
+          We're a student run non-profit foundation dedicated to providing educational resources to level the playing field        </p>
         <Link to="about.html" className="red-background white-font about">
           About Us
         </Link>
