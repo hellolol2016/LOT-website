@@ -39,5 +39,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "I love LOT <3\r https://www.laughouttogether.org",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellolol2016/lot-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellolol2016/lot-website/issues"
+  },
+  "homepage": "https://github.com/hellolol2016/lot-website#readme"
 }
