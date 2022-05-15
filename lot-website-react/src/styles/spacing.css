@@ -1,0 +1,156 @@
+/* for spacing stuff*/
+#root{
+    width:100%;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+body{
+    margin:0;
+    
+}
+
+nav ul{
+    display:flex;
+    flex-direction:row-reverse;
+    margin-right:20px;
+    
+}
+nav li{
+    flex-direction:row;
+    margin:10px;
+}
+
+footer ul{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+footer{
+    /* footer only goes to bottom of BODY */
+    text-align:center;
+    position:relative;
+    width:100%;
+    bottom:0;
+}
+
+footer li{
+    padding:5px 20px; 
+}
+
+.body1{
+    width:90%;
+    text-align:center;
+    margin:20px;
+}
+
+.body1 a{
+    display:block;
+    margin-bottom:10px;
+    padding:10px;
+}
+
+.body2{
+    padding-bottom:30px;
+}
+
+.body3{
+    margin: 30px 0;
+    width:90%;
+}
+
+.row{
+    display:flex;
+    flex-direction:row;
+    padding:0 10% 0 10%;
+    align-items:center;
+    justify-content:space-around;
+    flex-flow:row;
+}
+
+.column{
+    flex-direction:column;
+    padding:0 5% 0 5%;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.image-container{
+    flex:1;
+    flex-grow:1;
+    max-width:300px;
+}
+
+.text-container{
+    height:100%;
+    flex:1;
+    flex-grow:2;
+    padding: 0 100px 0 100px;
+}
+
+.one-third{
+    flex:1;
+    padding:0 50px;
+    text-align:center;
+}
+
+.one-half{
+    text-align:center;
+    flex:1;
+    flex-grow:1;
+    min-width:400px;
+    padding:20px;
+}
+
+.one-fourth{
+    flex:1;
+    align-items:center;
+    text-align:center;
+    width:100%;
+}
+
+.team .row{
+    padding:0;
+    flex-wrap:wrap;
+}
+
+.team .row .one-fourth{
+    margin:20px;
+}
+
+.full-width{
+    width:100% ;
+}
+
+.cur-projects .one-fourth{
+    max-width:30%;
+    padding:20px;
+}
+
+
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+header img{
+    margin:10px;
+}
+
+.involve{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.involve p{
+    width:80%;
+}
+
