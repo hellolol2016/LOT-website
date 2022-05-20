@@ -1,0 +1,75 @@
+@media screen and (max-width: 850px) {
+    .root{
+        width:100%;
+    }
+    .background-image{
+        height:150%;
+    }
+    .one-half{
+        min-width: 0 !important;
+    }
+    .text-container{
+        padding:0 20px !important;
+    }
+    nav li{
+        margin:0px !important;
+        padding:0px !important;
+        text-align:center;
+        
+    }
+    nav a{
+        font-size:10px;
+        
+    }
+
+    footer li{
+        margin:2px;
+        padding:2px !important;
+    }
+
+    footer ul{
+        padding:0;
+    }
+
+    .one-fourth{
+        width:200px !important;
+    }
+
+    .donate-button{
+        width:100px !important;
+        font-size: 10px;
+    }
+
+    .donation-list ul{
+        padding-left:0;
+    }
+
+    .dropdown-content{
+        min-width: 0 !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .big-p{
+        font-size:20px !important;
+    }
+
+    .smaller-p{
+        font-size:14px !important;
+    }
+
+    .thick-header{
+        font-size:30px !important;
+    }
+
+    .row{
+        flex-direction:column !important;
+    }
+
+    .team .row img{
+        height:unset;
+        width: 40%;
+    }
+}
+
+
