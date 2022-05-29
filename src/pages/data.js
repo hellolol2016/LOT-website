@@ -10,9 +10,8 @@ import dw from "../media/team/dennis-wang.png";
 import bx from "../media/team/brandon-xu.png";
 import dv from "../media/team/darsh-verma.png";
 import co from "../media/team/charles-ou-yang.png";
-
 import schoologyPhoto from "../media/projects/orangewood.png"
-
+import cat from "../media/team/CUTE_CAT.gif"
 
 import {
   AiOutlineMail,
@@ -190,18 +189,44 @@ const team = [
     role: "Advisor",
     img: co,
   },
-];
+  {
+    name: "Amanda Nguyen",
+    role: "idk lmao things",
+    img: cat,
+  },
+  {
+    name: "Matthew Lin",
+    role: "money i think",
+    img: cat,
+  },
+  {
+    name: "yours truly",
+    role: "webmaster",
+    img: cat,
+  },
+  {
+    name: "Madison Lee",
+    role: "does things as well",
+    img: cat,
+  },
+  {
+    name: "Alex Kimm",
+    role: "person of the things that are done",
+    img: cat,
+  },
 
+];
+//
 const projects = [
   {
-    type: "img-art",
+    type: "misc",
     pid: "schoology",
     title: "Project Schoology",
     text: <p class="medium-p">Quite possibly our most ambitious endeavor yet, our Project Schoology was a major fundraising project for school supplies that we donated to the Orangewood Family and Children Center in Orange city.<br></br><br></br>Through constant park visits to parks around Irvine and Tustin, we were able to raise over <b class="red-font">$1,040</b> and we later bought supplies and delivered them to Orangewood! Along the way, we also had much fun with each other and were able to get out our message of community benefiting everyone around us.</p>,
     image: schoologyPhoto,
     subtitle:
       "A handful of our members on drop-off day at Orangewood, August 17th, 2021",
-    yt: "#",
+    yt: "",
   },
   {
     type: "vid-art",
@@ -213,7 +238,7 @@ const projects = [
     yt: "https://www.youtube.com/embed/sokcAmxoiTE",
   },
   {
-    type: "vid-art",
+    type: "misc",
     pid: "lotline",
     title: "Mental Health Podcast",
     text: <p class="medium-p">As young adults, students, teenagers, and other nouns, we here at the LOT Foundation are critically aware of the struggles and issues that people like us face on a normal basis. Join us on this ongoing effort as we interview different guests on a variety of topics relating to mental health and wellbeing!<br></br>We’ve covered how to deal with pressure in sports, how to live life with a positive mindset, dealing with stress, and much, MUCH more!</p>,

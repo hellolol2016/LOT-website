@@ -1,7 +1,7 @@
 import {React, useEffect, useRef} from 'react'
 import Helmet from "react-helmet";
 import anime from 'animejs';
-import { BsMailbox, BsFillPersonCheckFill } from "react-icons/bs";
+import { BsFillPersonCheckFill, BsMailbox } from "react-icons/bs";
 
 
 function Involve() {

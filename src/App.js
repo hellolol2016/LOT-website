@@ -1,5 +1,5 @@
 import {React, useEffect, useRef} from "react"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 
 import Home from "./pages/Home"
 import About from "./pages/About"
@@ -39,29 +39,22 @@ function App() {
         <title>LOT Foundation</title>
       </Helmet>
       <Navbar />
-      <Switch>
-        <Route exact path="/">
-          <Home />
+      <Routes>
+        <Route exact path="/" element={<Home />}>
         </Route>
-        <Route exact path="/about">
-          <About />
+        <Route exact path="/about" element={<About/>}>
         </Route>
-        <Route exact path="/donate">
-          <Donate />
+        <Route exact path="/donate" element={<Donate/>}>
         </Route>
-        <Route exact path="/involve">
-          <Involve />
+        <Route exact path="/involve" element={<Involve/>}>
         </Route>
-        <Route exact path="/gallery">
-          <Gallery />
+        <Route exact path="/gallery" element={<Gallery/>}>
         </Route>
-        <Route exact path="/project/:id">
-          <Project />
+        <Route exact path="/project/:id" element={<Project/>}>
         </Route>
-        <Route exact path="*">
-          <Error />
+        <Route exact path="*" element={<Error/>}>
         </Route>
-      </Switch>
+      </Routes>
       <Footer />
     </Router>
   );

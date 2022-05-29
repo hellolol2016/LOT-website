@@ -1,5 +1,4 @@
 import { React, useEffect, useRef } from 'react'
-import { PayPalButton } from 'react-paypal-button-v2';
 import anime from 'animejs';
 import data from './data'
 import donatebtn  from "../media/donate-btn.png";
