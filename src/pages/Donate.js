@@ -139,13 +139,6 @@ function Donate() {
               })}
             </ul> */}
           </div>
-          <h3>Or</h3>
-          <a
-            href="https://buy.stripe.com/7sIaFD2gw8jDglWaEH"
-            className="donate-button"
-          >
-            <div>Quick Donate (9.99/month)</div>
-          </a>
         </div>
       </>
     );
