@@ -105,14 +105,22 @@ function Home() {
       <div className="body1 white-background slightly-transparent">
         <h2 className="thick-header black-font">Who are we?</h2>
         <p className="black-font big-p">
-          We're a student run non-profit foundation dedicated to providing educational resources to level the playing field        </p>
+        We’re a student-run 501(c)(3) non-profit organization dedicated to raising money and awareness to benefit the greater OC community.</p>
         <Link to="about" className="red-background white-font about">
           About Us
         </Link>
       </div>
 
-      <div className="body2 white-background">
+      <div className="body1 white-background">
         <h2 className="thick-header black-font">What makes us different?</h2>
+        <div className="text-container">
+            <p className="black-font small-p">
+            There are countless nonprofit organizations committed to similar missions as us, which may lead you to ask: what makes LOT different?
+            <br></br><br></br>
+            Well, let’s just say...a LOT.
+
+            </p>
+          </div>
         <div className="row">
           <div className="image-container">
             <img className="fingerprint" src={fP}></img>
@@ -122,11 +130,11 @@ function Home() {
             <p className="black-font small-p">
               There are a TON of nonprofits committed to a similar mission as
               us, so the inevitable question comes up: what makes us different?
-              <br></br>
-              We only approve of and execute projects that strongly appeal to
-              our youth community. For example, one of our consistent projects
-              is a monthly mental podcast, in which our hosts are dedicated to
-              the betterment of mental health in our society.
+              <br></br><br></br>
+              We only approve of and execute projects that strongly appeal to our youth community. For example, one of our consistent projects is a monthly mental podcast, in which our hosts are dedicated to the betterment of mental health in our society. Not only that, but each of these projects are devised, organized, and executed ENTIRELY by our members. 
+              <br></br><br></br>           
+              Each of our members have a passion, and we work to find a union between their talents and events that will benefit the rest of us. Another example is this very website that you’re on right now. It's entirely made by our members that are passionate about web design. 
+
             </p>
           </div>
         </div>
