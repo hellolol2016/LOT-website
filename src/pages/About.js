@@ -93,9 +93,10 @@ function About() {
 The Laugh Out Together foundation is here to change this status quo. We believe that everyone, no matter their age or status, has a unique set of skills that education can uncover. Through unconventional volunteer projects, we hope to create a platform that showcases the unique skills and help others also achieve success through education. With the platform we create, we strive to create resources to empower individuals in combating their physical, economic, and mental challenges one step at a time.
 
             </p>
-            <h1 class="cursive-h2"> A little from you... a LOT for the World.</h1>
+            
           </div>
         </div>
+        <h1 class="cursive-h2" >A little from you, a LOT for the World!</h1>
       </div>
       <div class="background4 parallax"></div>
 

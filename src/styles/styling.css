@@ -52,8 +52,13 @@ a {
 
 .cursive-h2 {
     font-family: "Regular";
+    clear: both;
+   
+    overflow: hidden;
+    white-space: nowrap;
+    transform: translateY(-20%);
+    font-size:80px;
 }
-
 .small-p{
     font-size:20px;
 }
