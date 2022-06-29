@@ -3,14 +3,18 @@ import lottechIcon from "../media/projects/lottech_icon.png";
 import esportsIcon from "../media/projects/lotesportlogo.png";
 import schoologyIcon from "../media/projects/scoo_logo_black.png"
 
-import jc from "../media/team/jack-chen.jpg";
+import jc from "../media/team/jack-chen-new.jpeg";
 import bc from "../media/team/brian-cheng.jpeg";
 import ac from "../media/team/andrew-chen.jpg";
 import dw from "../media/team/dennis-wang.png";
 import bx from "../media/team/brandon-xu.png";
+import md from "../media/team/madison.png"
 import dv from "../media/team/darsh-verma.png";
 import co from "../media/team/charles-ou-yang.png";
+import ak from "../media/team/alex_kimm.JPG"
 import an from "../media/team/amanda.png"; 
+import pr from "../media/team/preethi_rao.png"
+import ml from "../media/team/matthewlin.jpg"
 import schoologyPhoto from "../media/projects/orangewood.png"
 import cat from "../media/team/CUTE_CAT.gif"
 
@@ -185,7 +189,11 @@ const team = [
     role: "Public Relations Director",
     img: dv,
   },
-
+  // { REST IN PEACE
+  //   name: "Charles Ou-Yang",
+  //   role: "Advisor",
+  //   img: co,
+  // },
   {
     name: "Amanda Nguyen",
     role: "Director Of Social Media",
@@ -193,23 +201,28 @@ const team = [
   },
   {
     name: "Matthew Lin",
-    role: "money i think",
-    img: cat,
+    role: "Director of Fundraising",
+    img: ml,
   },
   {
-    name: "yours truly",
-    role: "webmaster",
-    img: cat,
+    name: "Arda Tasci",
+    role: "Director of Technology",
+    img: null,
   },
   {
     name: "Madison Lee",
-    role: "does things as well",
-    img: cat,
+    role: "Director of Campus Operations",
+    img: md,
   },
   {
     name: "Alex Kimm",
-    role: "person of the things that are done",
-    img: cat,
+    role: "Director of Members Relations",
+    img: ak,
+  },
+  {
+    name: "Preethi Rao",
+    role: "Director of Project Development",
+    img: pr,
   },
 
 ];

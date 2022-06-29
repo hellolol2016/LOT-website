@@ -1,6 +1,6 @@
 import {React, useEffect, useRef} from "react"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-
+import "./App.css";
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Donate from "./pages/Donate"
@@ -10,7 +10,7 @@ import Project from "./pages/Project.js"
 import Gallery from "./pages/Gallery"
 import lotIcon from '../src/media/whitecirclelot.png'
 import { Helmet } from "react-helmet"
-
+import "./media/fonts/CedarvilleCursive-Regular.ttf";
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 
