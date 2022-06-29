@@ -10,6 +10,7 @@ import dw from "../media/team/dennis-wang.png";
 import bx from "../media/team/brandon-xu.png";
 import dv from "../media/team/darsh-verma.png";
 import co from "../media/team/charles-ou-yang.png";
+import an from "../media/team/amanda.png"; 
 import schoologyPhoto from "../media/projects/orangewood.png"
 import cat from "../media/team/CUTE_CAT.gif"
 
@@ -184,15 +185,11 @@ const team = [
     role: "Public Relations Director",
     img: dv,
   },
-  {
-    name: "Charles Ou-Yang",
-    role: "Advisor",
-    img: co,
-  },
+
   {
     name: "Amanda Nguyen",
-    role: "idk lmao things",
-    img: cat,
+    role: "Director Of Social Media",
+    img: an,
   },
   {
     name: "Matthew Lin",
