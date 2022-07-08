@@ -1,22 +1,22 @@
 import podcastIcon from "../media/projects/podcast_icon.png";
 import lottechIcon from "../media/projects/lottech_icon.png";
 import esportsIcon from "../media/projects/lotesportlogo.png";
-import schoologyIcon from "../media/projects/scoo_logo_black.png"
+import schoologyIcon from "../media/projects/scoo_logo_black.png";
 
 import jc from "../media/team/jack-chen-new.jpeg";
 import bc from "../media/team/brian-cheng.jpeg";
 import ac from "../media/team/andrew-chen.jpg";
 import dw from "../media/team/dennis-wang.png";
 import bx from "../media/team/brandon-xu.png";
-import md from "../media/team/madison.png"
+import md from "../media/team/madison.png";
 import dv from "../media/team/darsh-verma.png";
 import co from "../media/team/charles-ou-yang.png";
-import ak from "../media/team/alex_kimm.JPG"
-import an from "../media/team/amanda.png"; 
-import pr from "../media/team/preethi_rao.png"
-import ml from "../media/team/matthewlin.jpg"
-import schoologyPhoto from "../media/projects/orangewood.png"
-import cat from "../media/team/CUTE_CAT.gif"
+import ak from "../media/team/alex_kimm.JPG";
+import an from "../media/team/amanda.png";
+import pr from "../media/team/preethi_rao.png";
+import ml from "../media/team/matthewlin.jpg";
+import schoologyPhoto from "../media/projects/orangewood.png";
+import cat from "../media/team/CUTE_CAT.gif";
 
 import {
   AiOutlineMail,
@@ -28,7 +28,6 @@ import {
 import { ImTwitch } from "react-icons/im";
 
 import { Link } from "react-router-dom";
-
 
 // eslint-disable-next-line import/no-anonymous-default-export
 const header = [
@@ -113,7 +112,7 @@ const gallery = [
         img: schoologyIcon,
       },
     ],
-  }
+  },
 ];
 
 const home = [
@@ -122,8 +121,8 @@ const home = [
     header: "Who are we?",
     text: "We're a student run non-profit foundation dedicated to inspiring others to use their talents for a positive change within the Orange County community.",
     url: "/about",
-  }
-]
+  },
+];
 
 const socials = [
   {
@@ -162,7 +161,7 @@ const team = [
   {
     name: "Jack Chen",
     role: "President",
-    img: jc
+    img: jc,
   },
   {
     name: "Brian Cheng",
@@ -182,7 +181,7 @@ const team = [
   {
     name: "Brandon Xu",
     role: "Secretary",
-    img: bx
+    img: bx,
   },
   {
     name: "Darsh Verma",
@@ -224,7 +223,6 @@ const team = [
     role: "Director of Project Development",
     img: pr,
   },
-
 ];
 //
 const projects = [
@@ -232,7 +230,18 @@ const projects = [
     type: "misc",
     pid: "schoology",
     title: "Project Schoology",
-    text: <p class="medium-p">Quite possibly our most ambitious endeavor yet, our Project Schoology was a major fundraising project for school supplies that we donated to the Orangewood Family and Children Center in Orange city.<br></br><br></br>Through constant park visits to parks around Irvine and Tustin, we were able to raise over <b class="red-font">$1,040</b> and we later bought supplies and delivered them to Orangewood! Along the way, we also had much fun with each other and were able to get out our message of community benefiting everyone around us.</p>,
+    text: (
+      <p class="medium-p">
+        Quite possibly our most ambitious endeavor yet, our Project Schoology
+        was a major fundraising project for school supplies that we donated to
+        the Orangewood Family and Children Center in Orange city.<br></br>
+        <br></br>Through constant park visits to parks around Irvine and Tustin,
+        we were able to raise over <b class="red-font">$1,040</b> and we later
+        bought supplies and delivered them to Orangewood! Along the way, we also
+        had much fun with each other and were able to get out our message of
+        community benefiting everyone around us.
+      </p>
+    ),
     image: schoologyPhoto,
     subtitle:
       "A handful of our members on drop-off day at Orangewood, August 17th, 2021",
@@ -242,7 +251,18 @@ const projects = [
     type: "vid-art",
     pid: "esports",
     title: "Esports Tournament",
-    text: <p class="medium-p">We’re not going to lie, many of us at LOT are gamers. In fact, many games hold a close place to our hearts. In order to show our love for video games, have some fun, and publicize ourselves as well, we’ve made it our objective to hold an annual LOT eSports Tournament and inviting teams from all over to compete. <br></br>We recently held our second annual tournament, and we’ve had so much fun all around playing Valorant, League of Legends, and chess! Look out for the signup for next year's!</p>,
+    text: (
+      <p class="medium-p">
+        We’re not going to lie, many of us at LOT are gamers. In fact, many
+        games hold a close place to our hearts. In order to show our love for
+        video games, have some fun, and publicize ourselves as well, we’ve made
+        it our objective to hold an annual LOT eSports Tournament and inviting
+        teams from all over to compete. <br></br>We recently held our second
+        annual tournament, and we’ve had so much fun all around playing
+        Valorant, League of Legends, and chess! Look out for the signup for next
+        year's!
+      </p>
+    ),
     image: "#",
     subtitle: "",
     yt: "https://www.youtube.com/embed/sokcAmxoiTE",
@@ -251,16 +271,30 @@ const projects = [
     type: "misc",
     pid: "lotline",
     title: "Mental Health Podcast",
-    text: <p class="medium-p">As young adults, students, teenagers, and other nouns, we here at the LOT Foundation are critically aware of the struggles and issues that people like us face on a normal basis. Join us on this ongoing effort as we interview different guests on a variety of topics relating to mental health and wellbeing!<br></br>We’ve covered how to deal with pressure in sports, how to live life with a positive mindset, dealing with stress, and much, MUCH more!</p>,
+    text: (
+      <p class="medium-p">
+        As young adults, students, teenagers, and other nouns, we here at the
+        LOT Foundation are critically aware of the struggles and issues that
+        people like us face on a normal basis. Join us on this ongoing effort as
+        we interview different guests on a variety of topics relating to mental
+        health and wellbeing!<br></br>We’ve covered how to deal with pressure in
+        sports, how to live life with a positive mindset, dealing with stress,
+        and much, MUCH more!
+      </p>
+    ),
     image: "#",
     subtitle: "",
     yt: "https://www.youtube.com/embed/vxCNCmHlaSI",
   },
   {
     type: "vid-art",
-    pid: "wkspttrl",
-    title: "Workshop Tutorial",
-    text: <p class="medium-p">Some people’s talents may not fit in with our other projects, which is why we created the Workshop Tutorial. This project allows anyone to express their talents in an educational way. We handpick people that have proved themselves to be truly passionate about their skills, to ensure the quality of the workshop tutorials.<br></br>This project will, in the future, evolve into LOT Tech, where we go to children’s centers and retirement homes to teach others the in’s and out’s of modern technology.</p>,
+    pid: "wksp",
+    title: "Career Workshop",
+    text: (
+      <p class="medium-p">
+        
+      </p>
+    ),
     image: "#",
     subtitle: "",
     yt: "https://www.youtube.com/embed/95HjV7rIrOU",
@@ -290,5 +324,5 @@ const donations = [
   },
 ];
 
-const exp = { socials, home, gallery, header, team, projects, donations }
-export default exp
+const exp = { socials, home, gallery, header, team, projects, donations };
+export default exp;
