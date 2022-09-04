@@ -1,6 +1,7 @@
 import {React, useEffect, useRef} from 'react'
 import data from "./data"
-
+import dropoff from "../media/projects/dropoff.jpg"
+import idek from "../media/projects/idek.JPG"
 import { Link } from 'react-router-dom';
 
 import anime from 'animejs';
@@ -78,7 +79,7 @@ function Gallery() {
         <div class="background6 parallax"></div>
 
         <div class="body1 darker-background">
-          <h2 class="thick-header white-font">Project Gallery</h2>
+          <h2 class="thick-header white-font">Upcoming Projects</h2>
           <div class="column projects">
             <div class="row">
               {/* <div class="one-fourth">
@@ -101,28 +102,35 @@ function Gallery() {
           </div>
         </div>
 
-        <div class="body2 white-background full-width">
-          <h2 class="thick-header black-font">Our Projects are...</h2>
-          <div class="row">
-            <div class="one-half">
-              <img src={hands}></img>
-            </div>
-            <div class="one-half">
-              <div class="column quotes">
-                <h2 class="red-font">"Exceptional"</h2>
-                <p>-Dillon (dillonp) P.</p>
-
-                <br></br>
-                <h2 class="red-font">"Funsies"</h2>
-                <p>-Andres (Ravdrew) G.</p>
-              </div>
+        <div class="body1 darker-background">
+          <h2 class="thick-header white-font">Current Projects Gallery</h2>
+          <div class="column projects">
+            <div class="row">
+              {/* <div class="one-fourth">
+                        <a href="gallery/mentallotline.html"><img src="../media/projects/podcast_icon.png"></img></a>
+                    </div>
+                    <div class="one-fourth">
+                        <a href="gallery/wkspttrl.html"><img src="../media/projects/workshop icon.png"></img></a>
+                    </div> */}
+              {galleryData.ongoing.map((project) => {
+                const { name, id, img } = project;
+                return (
+                  <div class="one-fourth">
+                    <Link to={`/project/${id}`}>
+                        <img src={img} alt={name}></img>
+                    </Link>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
 
+
+
         <div class="background7 parallax"></div>
 
-        <div class="body3 past-projects darker-background">
+        <div class="body3 past-projects lighter-background">
           <h2 class="thick-header white-font">Completed Projects</h2>
           <div class="column projects">
             <div class="row">
@@ -142,6 +150,30 @@ function Gallery() {
                   </div>
                 );
               })}
+            </div>
+          </div>
+        </div>
+        <div class="body2 darker-background full-width">
+          <h2 class="thick-header white-font">Our Projects are...</h2>
+          <div class="row">
+            <div class="one-half">
+              <img src={idek}></img>
+              <p class='white-font'>Summer Fundraiser</p>
+            </div>
+
+            <div class="one-half">
+              <div class="column quotes">
+                <h2 class="red-font">"Exceptional"</h2>
+                <p class="white-font">-Dillon (dillonp) P.</p>
+
+                <br></br>
+                <h2 class="red-font">"Funsies"</h2>
+                <p class="white-font">-Andres (Ravdrew) G.</p>
+              </div>
+            </div>
+            <div class="one-half">
+              <img src={dropoff}></img>
+              <p class="white-font"> Project Schoology Drop-Off Day</p>
             </div>
           </div>
         </div>

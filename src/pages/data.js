@@ -1,4 +1,5 @@
 import podcastIcon from "../media/projects/podcast_icon.png";
+import lotshowIcon from "../media/projects/lotshow_icon.jpg"
 import lottechIcon from "../media/projects/lottech_icon.png";
 import esportsIcon from "../media/projects/lotesportlogo.png";
 import schoologyIcon from "../media/projects/scoo_logo_black.png";
@@ -53,6 +54,14 @@ const header = [
             name: "Workshop Tutorial",
             link: <Link to="/project/wkspttrl">Workshop Tutorial</Link>,
           },
+          {
+            name: "The LOT Show",
+            link: <Link to="/project/lotshow">The LOT Show</Link>,
+          },
+          {
+            name: "LOTTech",
+            link: <Link to="/project/lottech  ">LOTTech</Link>
+          },
         ],
       },
       {
@@ -80,15 +89,16 @@ const gallery = [
     page: "gallery",
     ongoing: [
       {
-        name: "The Mental LOTLine",
-        id: "lotline",
-        img: podcastIcon,
+        name: "The LOT Show",
+        id: "lotshow",
+        img: lotshowIcon,
       },
       {
         name: "LOT Tech",
         id: "lottech",
         img: lottechIcon,
       },
+      
     ],
     quotes: [
       {
@@ -102,6 +112,11 @@ const gallery = [
     ],
     completed: [
       {
+        name: "The Mental LOTLine",
+        id: "lotline",
+        img: podcastIcon,
+      },
+      {
         name: "Esports Tournament",
         id: "esports",
         img: esportsIcon,
@@ -112,6 +127,18 @@ const gallery = [
         img: schoologyIcon,
       },
     ],
+    upcoming: [
+      {
+        name: "LOT Tech",
+        id: "lottech",
+        img: lottechIcon,
+      },
+      {
+        name: "Tutoring Project",
+        id: "tutoring",
+        img: undefined,
+      },
+    ]
   },
 ];
 
@@ -141,18 +168,8 @@ const socials = [
       {
         name: "youtube",
         icon: <AiFillYoutube size={50} />,
-        url: "https://tinyurl.com/LOTyoutube",
-      },
-      {
-        name: "twitch",
-        icon: <ImTwitch size={50} />,
-        url: "https://www.twitch.tv/lot_foundation",
-      },
-      {
-        name: "twitter",
-        icon: <AiOutlineTwitter size={50} />,
-        url: "https://twitter.com/LOT_Foundation/",
-      },
+        url: "https://www.youtube.com/channel/UC5mPknkbUlmVXcvPJm7Ofwg",
+      }
     ],
   },
 ];
@@ -285,6 +302,16 @@ const projects = [
     image: "#",
     subtitle: "",
     yt: "https://www.youtube.com/embed/vxCNCmHlaSI",
+  },
+  {
+    type: "misc",
+    pid: "lotshow",
+    title: "The LOT Show",
+    text: (
+      <p class="medium-p">
+        The spiritual Successor to the Mental LOTline (Rest In Peace), the LOT Show covers a variety of topics and issues young adults face in today's society. #BreakTheStigma
+      </p>
+    )
   },
   {
     type: "vid-art",
