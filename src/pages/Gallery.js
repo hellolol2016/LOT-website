@@ -180,5 +180,5 @@ function Gallery() {
       </>
     );
 }
-
+// THIS IS MY COMMENT. THERE ARE OTHER COMMENTS LIKE IT, BUT THIS COMMENT IS MINE. MY COMMENT IS MY LIFE. WITHOUT MY COMMENT I AM USELESS. 
 export default Gallery
