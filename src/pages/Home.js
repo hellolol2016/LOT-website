@@ -38,8 +38,8 @@ function Home() {
 
     animationRef.current = animation.play();
 
-    var buttonEl = document.querySelectorAll("li, img, a");
-
+    var buttonEl = document.querySelectorAll("li, img, a, Link");
+    console.log(buttonEl)
     function animateButton(el, scale, duration, elasticity) {
       anime.remove(el);
       animationRef.current = anime({
@@ -55,12 +55,13 @@ function Home() {
     }
 
     function leaveButton(el) {
-      animateButton(el, 1.0, 600, 300);
+      animateButton(el, 1.00, 600, 300);
     }
 
     for (var i = 0; i < buttonEl.length; i++) {
+      if(i !== 25){
       buttonEl[i].addEventListener(
-        "mouseenter",
+       "mouseenter",
         function (e) {
           enterButton(e.target);
         },
@@ -74,6 +75,7 @@ function Home() {
         },
         false
       );
+    }
     }
   }, []);
 
