@@ -32,7 +32,7 @@ function Involve() {
         animationRef.current = animation.play();
 
         var buttonEl = document.querySelectorAll("li, img, a");
-
+        console.log(buttonEl)
         function animateButton(el, scale, duration, elasticity) {
         anime.remove(el);
         animationRef.current = anime({
@@ -52,6 +52,7 @@ function Involve() {
         }
 
         for (var i = 0; i < buttonEl.length; i++) {
+        if(i !== 18){
         buttonEl[i].addEventListener(
             "mouseenter",
             function (e) {
@@ -67,7 +68,7 @@ function Involve() {
             },
             false
         );
-        }
+        }}
     }, []);
     
       let createHoverListener = () => {
