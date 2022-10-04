@@ -38,6 +38,10 @@ function About() {
       });
     }
 
+    function toggleModal() {
+      setModalIsOpen(modalIsOpen)
+    }
+
     function enterButton(el) {
       animateButton(el, 1.05, 800, 400);
     }
@@ -149,15 +153,11 @@ The Laugh Out Together foundation is here to change this status quo. We believe 
             
         </div>
       </div>
-
-          <div isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} style={{position:"fixed",height:"200px",width:"300px",background:"purple"}}>
-                  <h1>{modalData?.name}</h1>
-                  <p>{modalData?.role}</p> 
-                  <div>
-                    <button onClick={() => setModalIsOpen(false)}>X</button>
-                  </div>
-                  </div>  
+          
+      <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false) [modalData]=modalData}/>
+                
     </>
+    
   );
   
 }
