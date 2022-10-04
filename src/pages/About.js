@@ -1,4 +1,4 @@
-import { React, useEffect, useRef } from "react";
+import { React, useEffect, useRef, useState } from "react";
 import Helmet from "react-helmet";
 
 import cn from "../media/connect.png";
@@ -8,7 +8,22 @@ import data from "./data";
 
 import anime from "animejs";
 
+import Modal from '../components/modal'
 function About() {
+
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [modalData, setModalData] = useState(null);
+  const customStyles = {
+    content: {
+      top: '35%',
+      left: '50%',
+      right: 'auto',
+      bottom: 'auto',
+      marginRight: '-50%',
+      width: '60%',
+      transform: 'translate(-40%, -10%)',
+    },
+  }
   const animationRef = useRef(null);
   useEffect(() => {
     var buttonEl = document.querySelectorAll("li, img, a");
@@ -107,18 +122,42 @@ The Laugh Out Together foundation is here to change this status quo. We believe 
             {/* <div class="one-fourth"><img src="../media/team/jack-chen.jpg"><p>Jack Chen<br> <span class="subtitle">President</span></p></div> */}
             {data.team.map((member) => {
               return (
+                
                 <div className="one-fourth">
-                  <img src={member.img} alt={member.name}></img>
+                 
+                  <img 
+                  src={member.img} 
+                  alt={member.name} 
+                  onClick={()=> { 
+                    setModalData(member); 
+                    setModalIsOpen(true);
+                    }
+                    }></img>
+                  
                   <p>{member.name}</p>
                   <span className="subtitle">{member.role}</span>
+               
+        
                 </div>
-              );
+                
+                );
             })}
           </div>
+          
+          
+            
+          <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} style={customStyles}>
+                  <h1>{modalData.name}</h1>
+                  <p>{modalData.role}</p> 
+                  <div>
+                    <button onClick={() => setModalIsOpen(false)}>X</button>
+                  </div>
+                  </Modal>  
         </div>
       </div>
     </>
   );
+  
 }
 
 export default About;
