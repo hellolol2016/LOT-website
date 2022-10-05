@@ -8,7 +8,10 @@ import data from "./data";
 
 import anime from "animejs";
 
-import Modal from '../components/modal'
+import Modal from "react-modal";
+
+Modal.setAppElement(document.getElementById('root'));
+
 function About() {
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -153,9 +156,21 @@ The Laugh Out Together foundation is here to change this status quo. We believe 
             
         </div>
       </div>
-          
-      <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false) [modalData]=modalData}/>
-                
+      
+
+      <Modal isOpen={true}>
+      
+      <div className="modalBackground" style={{position:"fixed",height:"200px",width:"300px",background:"purple", display:"block"}}>
+      <div className="modalInner">
+      <h1>{modalData?.name}</h1>
+      <p>{modalData?.role}</p> 
+                  <div>
+                    <button onClick={() => setModalIsOpen(false)}>X</button>
+                  </div>
+      </div>
+    </div>
+      </Modal>
+      
     </>
     
   );
