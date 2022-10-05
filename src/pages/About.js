@@ -11,6 +11,9 @@ import anime from "animejs";
 import Modal from "react-modal";
 Modal.setAppElement(document.getElementById('root'));
 
+function startScrolling() {
+  document.body.style.overflow = "unset";
+}
 function About() {
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -40,9 +43,8 @@ function About() {
       });
     }
 
-    function toggleModal() {
-      setModalIsOpen(modalIsOpen)
-    }
+
+
 
     function enterButton(el) {
       animateButton(el, 1.05, 800, 400);
@@ -137,6 +139,7 @@ The Laugh Out Together foundation is here to change this status quo. We believe 
                   onClick={()=> { 
                     setModalData(member); 
                     setModalIsOpen(true);
+                    document.body.style.overflow = "hidden";
                     }
                     }></img>
                   
@@ -156,15 +159,33 @@ The Laugh Out Together foundation is here to change this status quo. We believe 
         </div>
       </div>
       
-
       
-      {modalIsOpen && <div className="modalBackground" style={{position:"fixed",height:"200px",width:"300px",background:"purple", display:"block"}}>
-      <div className="modalInner">
-      <h1>{modalData?.name}</h1>
-      <p>{modalData?.role}</p> 
-                  <div>
-                    <button onClick={() => setModalIsOpen(false)}>X</button>
-                  </div>
+      
+      {modalIsOpen && <div className="modalBackground">
+      
+      <div className="darkBG">
+        <div className="modalContainer">
+            <div className="title">
+              <h1>{modalData?.name}</h1>
+              <h2>{modalData?.role}</h2>
+            </div>
+            <div>
+              <button onClick={() => {setModalIsOpen(false); document.body.style.overflow = 'unset';}}>X</button>
+            </div> 
+        <div className="row">
+          <div className="modalImgContainer">
+            <img 
+              className="modalIMG"
+              src={modalData?.img}
+              alt={modalData?.name}
+            />
+          </div>
+        <div className="body">
+          <p>{modalData?.bio}</p> 
+        </div>
+        </div>
+          
+        </div>
       </div>
     </div>}
       

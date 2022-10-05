@@ -1,4 +1,5 @@
-*{
+*
+{
     font-family:rubik;
 }
 ul{
@@ -181,3 +182,144 @@ footer{
     display:flex;
     flex-direction:row;
 }
+
+/* .modalInner{
+
+} */
+
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.2);
+    z-index:0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .modalContainer {
+    position:center;
+    width: 900px;
+    height: 900px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    overflow-y: auto;
+  }
+.modalImgContainer{
+    top:    0%;
+    /* position: left;
+    width: 200px;
+    height: auto; */
+    flex: 1;
+}
+.modalImg{
+    height: auto;
+    width: 400px;
+    object-fit: scale-down;
+    margin-left: -100px;
+    padding-right: 30px;
+}
+
+.modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+    padding-left: 20px;
+    line-height: 1.6;
+    overflow-y: auto;
+    
+  }
+.modalContainer button {
+    top: 7.5%;
+    right: 30%;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+/* .darkBG {
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .modal {
+    width: 250px;
+    height: 170px;
+    background: white;
+    color: white;
+    z-index: 10;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+  }
+  
+  .modalHeader {
+    height: 50px;
+    background: white;
+    overflow: hidden;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+  
+  .heading {
+    margin: 0;
+    padding: 10px;
+    color: #2c3e50;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .modalContent {
+    padding: 10px;
+    font-size: 14px;
+    color: #2c3e50;
+    text-align: center;
+  }
+  
+  .modalActions {
+    position: absolute;
+    bottom: 2px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .actionsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  } */

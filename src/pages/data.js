@@ -179,31 +179,37 @@ const team = [
     name: "Jack Chen",
     role: "President",
     img: jc,
+    bio: "Hello world! I am Jack and I am the co-founder and President at LOT. I am currently a sophomore at NYU majoring in computer science. I founded LOT with the hope to create educational opportunities for anyone in our local community regardless of their socioeconomic background, because education matters and education inspires. One fun fact about me, I like to prove people wrong, such as those who have doubted the legitimacy and mission of this foundation. Go LOT!",
   },
   {
     name: "Brian Cheng",
     role: "Vice President",
     img: bc,
+    bio: "Hi! I'm Brian Cheng, Vice President of LOT. I've been with LOT for about 2 years now since the summer of 2020. I'm currently a senior at Pitzer College in Claremont, CA where I'm a Psychology major on the pre-med track. My main passion is mental health. When I'm not working on LOT related matters I like to play with my cats, watch anime, and play tennis! I've been able to meet lots of new people since joining LOT, and being able to directly impact the community I live in has been a true blessing. Being given a chance to help those who are under-served is a privilege and that's why I jumped on this opportunity as soon as I was given it!",
   },
   {
     name: "Andrew Chen",
     role: "Chief Operating Officer",
     img: ac,
+    bio: "Heyooo!! My name is Zitong (zee-tawn) and I go by andrew when I feel like it. I helped co-found LOT during the covid quarantine with my bro jack. Currently, I am the head of operations, which is a fancy way of saying I do nothing and yell at other ppl. I am MIT 2027 bound, 4.0 unweighted and 1600 sat cus im just better like that lol (joke). In my off time, one of my burning passions is to energetically left click at pixels on my screen (currently trying to turn purple pixels green). One fun fact about me is that I think mini bios written by the people themselves for the sake of “introduction” are rly rly cringe. Make sure to laugh out TOGETHER and byeeee!!!",
   },
   {
     name: "Dennis Wang",
     role: "Chief Financial Officer",
     img: dw,
+    bio: null,
   },
   {
     name: "Brandon Xu",
     role: "Secretary",
     img: bx,
+    bio: "Hey, I’m Brandon, the Secretary of LOT. I’ve been with LOT for about 2 years now, and I’m currently a senior at Arnold O. Beckman Highschool. I’m looking to be a computer science major in college, and LOT gives me an opportunity to give back to the community which has let me reach these opportunities.",
   },
   {
     name: "Darsh Verma",
     role: "Public Relations Director",
     img: dv,
+    bio: "Guten Tag! I'm Darsh, Chief Publicity here at LOT. I've been with LOT for 2 years now. Born and raised in Germany, I've grown up liking sausages (die Wurst) a lot, it's one of my favorite foods! I'm a senior at University High School in Irvine right now, and am looking to pursue a history major when in college. I like to play ping pong in my free time, and I was also the local city champion, back in my hometown in Berlin. Being with LOT has taught me a LOT of essential life skills that I use in my everyday life.",
   },
   // { REST IN PEACE
   //   name: "Charles Ou-Yang",
@@ -214,31 +220,37 @@ const team = [
     name: "Amanda Nguyen",
     role: "Director Of Social Media",
     img: an,
+    bio: "Hiya! I’m Amanda, Director of Social Media at LOT and high school senior at University High School in Irvine, California. I love pandas, my favorite classes in school were AP Psychology and Chemistry, and I want to be premed in college. Over summer, however, I’ve done a lot of exploring: I’ve tried out web development through Girls Who Code’s Summer Immersion Program and started to bike more with my dad around Irvine. I also became more passionate about feminism and used my beginner skills in web development to start a feminist activist website. Web development makes me feel like an omnipotent creator! And feminism empowers me and broadens my perspective. So, combining both, I get to learn more and share my knowledge. In my free time, I play Valorant, read, and watch anime. At LOT, I design graphics and thumbnails, post to our social media platforms, and run the social media team. I’ve stuck with LOT for almost two years because I believe in its inspiring mission and have so much faith in the people I get to make an impact with.",
   },
   {
     name: "Matthew Lin",
     role: "Director of Fundraising",
     img: ml,
+    bio: "I'm a Junior attending Northwood High School in Irvine, California. In my free time I like to paint/draw. I believe in LOT's mission because I've personally seen a lot of students struggle with their education due to factors outside of their control, and feel that LOT would improve many lives. I applied for Director of Fundraising because of my background in Business/Finance and hope to use fundraising as a tool for LOT to grow as an organization.",
   },
   {
     name: "Arda Tasci",
     role: "Director of Technology",
     img: null,
+    bio: null,
   },
   {
     name: "Madison Lee",
     role: "Director of Campus Operations",
     img: md,
+    bio: "Hello! I’m Madison, the Director of Campus Operations of LOT. I’m a third-year at UCLA, majoring in sociology and minoring in mathematics for teaching and education studies. Being with LOT gives me an opportunity to use my passion for education to help others and leave an impact on the community. In my free time, I enjoy swimming, crocheting, and other crafty activities.",
   },
   {
     name: "Alex Kimm",
     role: "Director of Members Relations",
     img: ak,
+    bio: null,
   },
   {
     name: "Preethi Rao",
     role: "Director of Project Development",
     img: pr,
+    bio: null,
   },
 ];
 //
