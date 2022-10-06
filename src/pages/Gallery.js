@@ -78,29 +78,7 @@ function Gallery() {
       <>
         <div class="background6 parallax"></div>
 
-        <div class="body1 darker-background">
-          <h2 class="thick-header white-font">Upcoming Projects</h2>
-          <div class="column projects">
-            <div class="row">
-              {/* <div class="one-fourth">
-                        <a href="gallery/mentallotline.html"><img src="../media/projects/podcast_icon.png"></img></a>
-                    </div>
-                    <div class="one-fourth">
-                        <a href="gallery/wkspttrl.html"><img src="../media/projects/workshop icon.png"></img></a>
-                    </div> */}
-              {galleryData.ongoing.map((project) => {
-                const { name, id, img } = project;
-                return (
-                  <div class="one-fourth">
-                    <Link to={`/project/${id}`}>
-                        <img src={img} alt={name}></img>
-                    </Link>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        </div>
+        
 
         <div class="body1 darker-background">
           <h2 class="thick-header white-font">Current Projects Gallery</h2>

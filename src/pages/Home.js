@@ -113,7 +113,7 @@ function Home() {
         </Link>
       </div>
 
-      <div className="body1 white-background">
+      <div className="body2 white-background">
         <h2 className="thick-header black-font">What makes us different?</h2>
         <div className="text-container">
             <p className="black-font small-p">
