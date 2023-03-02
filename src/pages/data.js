@@ -39,29 +39,32 @@ const header = [
         link: <Link to="/gallery">Project Gallery</Link>,
         sublinks: [
           {
-            name: "Project Schoology",
-            link: <Link to="/project/schoology">Project Schoology</Link>,
+            name: "The LOT Show",
+            link: <Link to="/project/lotshow">The LOT Show</Link>,
           },
+          
           {
             name: "Esports Tournament",
             link: <Link to="/project/esports">Esports Tournament</Link>,
           },
+
           {
-            name: "Mental LOTLine",
-            link: <Link to="/project/lotline">Mental LOTLine</Link>,
+            name: "Project Schoology",
+            link: <Link to="/project/schoology">Project Schoology</Link>,
           },
-          {
-            name: "Workshop Tutorial",
-            link: <Link to="/project/wkspttrl">Workshop Tutorial</Link>,
-          },
-          {
-            name: "The LOT Show",
-            link: <Link to="/project/lotshow">The LOT Show</Link>,
-          },
-          {
-            name: "LOTTech",
-            link: <Link to="/project/lottech  ">LOTTech</Link>
-          },
+          // {
+          //   name: "Mental LOTLine",
+          //   link: <Link to="/project/lotline">Mental LOTLine</Link>,             Boss wants it off the navbar if im not wrong
+          // },
+          // {
+          //   name: "Workshop Tutorial",
+          //   link: <Link to="/project/wkspttrl">Workshop Tutorial</Link>,
+          // },
+          
+          // {
+          //   name: "LOTTech",
+          //   link: <Link to="/project/lottech  ">LOTTech</Link>
+          // },
         ],
       },
       {

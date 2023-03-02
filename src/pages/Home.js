@@ -116,7 +116,7 @@ function Home() {
       <div className="body2 white-background">
         <h2 className="thick-header black-font">What makes us different?</h2>
         <div className="text-container">
-            <p className="black-font small-p">
+            <p className="black-font small-p"style={{textAlign: "center"}}>
             There are countless nonprofit organizations committed to similar missions as us, which may lead you to ask: what makes LOT different?
             <br></br><br></br>
             Well, let’s just say...a LOT.
