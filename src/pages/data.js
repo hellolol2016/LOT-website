@@ -52,6 +52,10 @@ const header = [
             name: "Project Schoology",
             link: <Link to="/project/schoology">Project Schoology</Link>,
           },
+          {
+            name: "The LOT Blog",
+            link: <Link to="/project/blog">The LOT Blog</Link>,
+          },
           // {
           //   name: "Mental LOTLine",
           //   link: <Link to="/project/lotline">Mental LOTLine</Link>,             Boss wants it off the navbar if im not wrong
@@ -97,9 +101,9 @@ const gallery = [
         img: lotshowIcon,
       },
       {
-        name: "LOT Tech",
-        id: "lottech",
-        img: lottechIcon,
+        name: null,
+        id: null,
+        img: null,
       },
       
     ],
@@ -278,6 +282,12 @@ const projects = [
     subtitle:
       "A handful of our members on drop-off day at Orangewood, August 17th, 2021",
     yt: "",
+  },
+  {
+    type:"misc",
+    pid: "blog",
+    title: "The LOT Blog",
+    text: null,
   },
   {
     type: "vid-art",
